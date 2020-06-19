@@ -15,17 +15,38 @@
 所以，更稳妥的做法是
 ```bash
 mid = left + (right - left) / 2;
+mid = left + ((right - left) >> 1);
 ```
 
 ### 2.2 边界错误
 > 二分法查找法的边界一般来说分为两种情况：左闭右开，即`[left, right)`；左闭右闭，即`[left, right]`。    
 
-> 需要注意的是，循环体外的初始化条件，与循环体内的迭代条件，都必须遵守一致的区间规则。
+> 需要注意的是，循环体外的初始化条件，与循环体内的迭代条件，都必须遵守**一致的区间规则**。
 也就是说，如果循环体初始化时，是以左闭右开区间为边界的，那么循环体内部的迭代也应该如此。如果两者不一致, 会造成程序的错误。
 
-#### 2.2.1
+#### 2.2.1 Wrong Example
+下面是个错误的例子：      
+Wrong Example: 
+```python
+def binarySearch(arr, target):
+    l = 0
+    r = len(arr)
+    while l < r:
+        mid = (l + r) // 2
+        if arr[mid] == target:
+            return mid
+        if target > arr[mid]:
+            l = mid + 1
+        else:
+            r = mid - 1
+    return -1
+```
+算法初始化的时候，搜索范围是左闭右开 `[l, r)`，
+当满足 `target > arr[mid]` 的时候，更新 `l = mid + 1;`，因为 `arr[mid]` 不可能是 `target`，所以继续在 `[mid+1, r)` 中搜索是正确的；
+当满足 `target < arr[mid]` 的时候，更新 `r = mid - 1;`，所所范围就变成了 `[l, mid - 1)`，然而从判断条件可以得出 `arr[mid] != target`，但是不能确定 `arr[mid-1]` 是否为 `target`，而新的搜索范围就会跳过 `arr[mid-1]`，这将导致错误。
 
 #### 2.2.2 左闭右闭: [l, r], end inclusive
+正确的左闭右闭 `[l, r]` 写法：
 ```python
 def binarySearch(arr, target):
     """
@@ -46,7 +67,8 @@ def binarySearch(arr, target):
             r = mid - 1     # 明确区间的要求，只要使用过的，一律绕过。
     return -1
 ```
-* 外循环的条件是在 `[l, r]` 范围内寻找，也就是包括 `r`，所以循环条件应该为 `while l <= r`
+* 外循环的条件是在 `[l, r]` 范围内寻找，也就是包括 `r`，所以循环条件应该为 `while l <= r`；
+* 考虑一个最极端的情况 `[l, r]`, where `l == r`, 此时两个 index 都指向同一个元素，该元素也是需要比较的，因此外循环的条件应该包括 `l == r`；
 * 内循环的条件是 `l = mid + 1` 和 `r = mid - 1`，此时 `mid` 不是要找的元素，所以下一轮循环要找的范围不包括 `mid`，但是应该包括 `mid` 旁边的元素，也就是 `[mid+1, r]` and [l, mid-1]。
 
 #### 2.2.3 左闭右开: [l, r), end exclusive
@@ -73,6 +95,7 @@ def binarySearch(arr, target):
     return -1
 ```
 * 外循环的条件是在 `[l, r)` 范围内寻找，也就是不包括 `r`，所以循环条件应该为 `while l < r`；
+* 极端情况比如 `[l, l+1)`，此时搜索范围只有一个 element，进入循环内部后 `arr[mid] == arr[l]`，如果此时 `arr[mid] != target`，更新完搜索范围后会有两种情况：`[l+1, l+1)` or `[l, l)`，此时都会终止循环；
 * 内循环的条件是 `l = mid` 和 `r = mid`，此时 `mid` 不是要找的元素，所以下一轮循环要找的范围不包括 `mid`，但是应该index 为 `mid` 的元素不在循环范围内，也就是 `[mid+1, r)` and [l, mid-1]。
 
 ### 2.3 死循环
@@ -97,10 +120,12 @@ def binarySearch(arr, target):
             r = mid
     return -1
 ```
-外循环 `while-loop` 的条件，采用的是左闭右闭的区间，但是
+外循环 `while-loop` 的条件，采用的是左闭右闭 `[l, r]` 的区间，但是
 * 当 `target < arr[mid]` 的时候，那么下一次查找的区间应该为 `[l, mid-1]`，而上述代码中却是 `[l, mid]`；
-* 当 `target > arr[mid]` 的时候，那么下一次查找的区间应该为 `[mid+1, r]`，而上述代码中却是 `[mid, r]`.
+* 当 `target > arr[mid]` 的时候，那么下一次查找的区间应该为 `[mid+1, r]`，而上述代码中却是 `[mid, r]`;
+* 如果 `l == r`，并且 `arr[l] == arr[r] == arr[mid] != target`, 此时无论更新左边界或右边界，搜索范围都不会改变，因而出现 Dead Loop。
 因此，有可能出现某次查找时始终在这两个范围中轮换，造成了程序的死循环。
+
 
 ## 3. Templates
 模板尽量符合一致性的观点；并且要有自己熟悉的模板。
@@ -127,8 +152,9 @@ def binarySearch4(arr, target):
             r = mid - 1
     return -1
 ```
+* 此时采用的是 `[l, r]`，左右边界都在搜索范围内，因此当 `arr[mid] != target` 的时候，可以直接跳过 `mid`，采用 `l = mid + 1` or `r = mid - 1`。
 
-### 3.2 备用模板 ???
+### 3.2 备用模板
 针对第一个模板的短板
 ```python
 def binarySearch(arr, target):
@@ -157,6 +183,8 @@ def binarySearch(arr, target):
     return -1
 ```
 第二个模板专门针对的是第一个模板的短板：当要 access 数组边界的数，如果边界的数在运行中出现更改，可能越界。虽然这种情况也可以用 `Edge Case` 来写，但太过麻烦。
+* 搜索范围是 `[l, r]`, 终止条件是 `[l, l+1]`；
+* 可以用于模糊搜索，如大于 target 的最小的数是多少，小于 target 的最大的数是多少等。
 
 
 ## 4. Binary Search 题型
