@@ -31,7 +31,7 @@ class BinarySearch {
 * 返回值： `mid / -1`
 
 几点需要注意：
-1. 我们的循环条件中包含了 `left == right` 的情况，则我们必须在每次循环中改变 `left` 和 `right` 的指向，以防止进入死循环。
+1. **我们的循环条件中包含了 `left == right` 的情况，则我们必须在每次循环中改变 `left` 和 `right` 的指向，以防止进入死循环。**
 如果是 `left = mid` or `right = mid`，当 `left == right` 成立进入循环的时候，`mid = left + ((right - left) >> 1) = left`，那么下次更新的时候还是 `left = right`，最终就是进入死循环。
 2. 循环终止的条件包括：
     * 找到了目标值， i.e. `nums[mid] == target`
@@ -68,7 +68,7 @@ class BinarySearch {
 > 既然要寻找**左边界**，搜索范围就需要从右边开始，不断往左边收缩，
 > 1. 当 `nums[mid] < target`，`left = mid + 1`。因为 `nums[mid] < target`，所以 `left = mid + 1` 而不是 `left = mid`。
 > 2. 当 `nums[mid] == target`，此时 `mid` 也不一定是最左侧的边界，还需要继续收缩，`right = mid`。
-> 3. 当 `nums[mid] > target`，此时 `right = mid`。
+> 3. 当 `nums[mid] > target`，此时 `right = mid`。[按理来说应该设置 `right=mid-1`]
 > 此时可以将 case 2 & 3 合并，即当 `nums[mid] >= target` 时的更新规则为 `right = mid`。
 ```java 
 class Solution {
@@ -102,6 +102,14 @@ class Solution {
 事实上，我们只需要遍历到 `left` 和 `right` 相邻的情况就行了，因为这一轮循环后，无论怎样，`left,mid,right` 都会指向同一个位置，
 而如果这个位置的值等于目标值，则它就一定是最左侧的目标值；如果不等于目标值，则说明没有找到目标值，这也就是为什么返回值是 `nums[left] == target ? left : -1`。
 
+* 当 `left` and `right` 相邻的时候：`mid = left + (right - left) / 2 = left`
+如果 `nums[mid] < target`，则有 `left = mid + 1 = right`;
+如果 `nums[mid] >= target`，则有 `right = mid = left`.
+所以当 `left` 和 `right` 相邻的时候，经过下一轮循环的时候，`left, mid, right` 总会指向同一个位置，不会进入死循环。
+
+如果最后的位置 `left=mid=right` 指向的元素等于 target，则一定是最左侧的目标，否则就没有找到。
+`return nums[left] == target ? left : -1`
+
 
 ### 2.2 左边界查找类型2
 > 左边界查找的第二种类型用于数组**部分有序**且包含**重复元素**的情况，这种条件下在我们向左收缩的时候，不能简单的令 `right = mid`，因为有重复元素的存在，这会导致我们有可能遗漏掉一部分区域，**此时向左收缩只能采用比较保守的方式**。
@@ -126,6 +134,7 @@ class Solution {
 }
 ```
 * 它与**类型1**的唯一区别就在于对右侧值的收缩更加保守。这种收缩方式可以有效地防止我们一下子跳过了目标边界从而导致了搜索区域的遗漏。
+![images](../images/154_axis.png)
 
 
 ## 3. 二分查找右边界
@@ -172,6 +181,41 @@ class Solution {
 ### 实战
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 
+```java 
+class Solution {
+    public int findPeakElement(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            int mid = left + ((right - left) >> 1);
+            if (nums[mid] < nums[mid + 1]) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        return left;
+    }
+}
+```
 
 
+## 总结
+| 查找方式 | 循环条件 | 左侧更新 | 右侧更新 | 中间点位置 | 返回值 |
+|:----------:|:---------------:|:----------------:|:-------------------:|:-------------------------:|:-------------:|
+| 标准二分查找 | `left <= right` | `left = mid - 1` | `right = mid + 1`   | `left + (right - left) / 2`      | `-1/mid`      |
+| 二分找左边界 | `left < right`  | `left = mid - 1` | `right = mid`       | `left + (right - left) / 2`      | `-1/left`     |
+| 二分找右边界 | `left < right`  | `left = mid`     | `right = mid - 1`   | `left + (right - left + 1) / 2`  | `-1/right`    |
 
+* 标准的二分查找：标准的二分查找是找一个确定的 target，因此所有的可能的位置都要进行比较。在循环条件中包含 `left == right`，则说明当搜索范围仅仅剩下一个 element 的时候，也要对最后一个 element 进行比较。
+* 找左边界的时候，就排除不可能的左边界，比如说 `mid` 不可能为左边界，则更新 `left = mid + 1`，此时 `mid+1` 有可能是左边界，但 `mid` 不可能是左边界。
+* 找右边界的时候，就排除不可能的右边界，比如说 `mid` 不可能为右边界，则更新 `right = mid - 1`，此时 `mid-1` 有可能是右边界，但 `mid` 不可能是右边界。
+* `mid = left + (right - left) / 2`:
+    * 当数组的长度为 odd 的时候，`mid` 就指向数组的中间
+    * 当数组的长度为 even 的时候，`mid` 就指向数组的中间偏左，比如 `[1, 2, 3, 4]`, `mid = 0 + (3 - 0) / 2 = 1`，此时指向 2。
+* `mid = left + (right - left + 1) / 2`:
+    * 当数组的长度为 odd 的时候，`mid` 就指向数组的中间
+    * 当数组的长度为 even 的时候，`mid` 就指向数组的中间偏右，比如 `[1, 2, 3, 4]`, `mid = 0 + (3 - 0 + 1) / 2 = 2`，此时指向 3。
+* 当 `(right - left) % 2 == 0` 的时候，没有影响；让而当 `(right - left) % 2 == 1` 的时候，`(right - left) / 2` 就会自动向 0 靠近，因此偏左；
+如果是 `(right - left + 1) / 2` 的话，当 `right - left == 0` 的时候，此时有没有 `+1` 并没有影响；
+当 `right - left == 1` 的时候，此时有 `+1`，就自动向右靠近。
