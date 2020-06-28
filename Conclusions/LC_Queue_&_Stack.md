@@ -142,3 +142,23 @@ There are some cases where one does not need to keep the `visited` hash set:
 1. You are absolutely sure there is no cycle, for example, in tree traversal;
 2. You do want to add the node to the queue multiple times.
 
+
+## 3. Stack: Last-in-first-out Data Structure
+
+### 3.1 LIFO structure
+> In a LIFO data structure, **the newest element added to the queue will be processed first**.
+> Operation:
+> * push()
+> * pop()
+
+### 3.2 Stack usage
+> Most popular languages provide built-in stack library so you don't have to reinvent the wheel.
+
+[Min Stack]()
+[Valid Parentheses]()
+[Daily Temperatures]()
+[Evaluate Reverse Polish Notation]()
+
+
+
+
