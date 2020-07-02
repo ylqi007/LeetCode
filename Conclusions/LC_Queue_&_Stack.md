@@ -160,5 +160,83 @@ There are some cases where one does not need to keep the `visited` hash set:
 [Evaluate Reverse Polish Notation]()
 
 
+## 4. Stack and DFS
+### 4.1 Stack and DFS
+> Similar to BFS, `Depth-First Search(DFS)` can also be used to find the path from the root node to the target node.
+>
+> Insights:
+> 1. What is the processing order of the nodes? Overall, we **only** track-back and try another path after we reach the **deepest** node.
+> 2. What is the push and pop order of the stack? The processing order of the nodes is the **exact opposite order** as how they were **added* to the stack, 
+> which is **Last-In-First-Out(LIFO)**. That's why we use a stack in DFS.
 
+### 4.2 DFS - Template 1 (Recursion)
+> In most cases, we can also use `DFS` when using `BFS`. But there is an important difference: `the traversal order`.
+> 
+> Different from `BFS`, **the nodes you visit earlier might not be the nodes which are closer to the root node**.
+> As a result, the first path you found in `DFS` might not be the shortest path.
 
+* Template - Recursion
+```java 
+/*
+ * Return true if there is a path from cur to target.
+ */
+boolean DFS(Node cur, Node target, Set<Node> visited) {
+    return true if cur is target;
+    for (next : each neighbor of cur) {
+        if (next is not in visited) {
+            add next to visted;
+            return true if DFS(next, target, visited) == true;
+        }
+    }
+    return false;
+}
+```
+> It seems like we don't have to use any stacks when we implement `DFS` recursively.
+> But actually, we are using the **implicit stack** provided by the system, also known as teh [Call Stack](https://en.wikipedia.org/wiki/Call_stack).
+>
+> **Each element costs constant space. And the size of the stack is exactly the depth of the DFS**.
+> So in the worst case, it costs `O(h)` to maintain the system stack, where `h` is the maximum depth of DFS.
+> You should never forget to take the system stack into consideration when calculating the space complexity.        
+> 1. 每个 element node 所占的空间是一定的，则 stack 的大小取决于 DFS 的深度，所以需要 `O(h)` 的空间去维持 `system stack`，`h` 是 DFS 的最大深度。
+> 2. 考虑 Space Complexity 的时候，要记得将 **system stack** 考虑在内。
+>
+> In the template above, we stop when we find the `first` path.     
+> What if you want to find the `shortest` path? **Hint:** Add one more parameter to indicate the shortest path you have already found.
+
+[200. Number of Islands]()
+[Clone Graph]()
+[Target Sum]()
+
+### 4.3 DFS - Template 2 (Using an explicit stack)
+> The advantage of the recursion solution is that it is easier to implement.
+> However, there is a huge disadvantage: if the depth of recursion is too high, you will suffer from `stack overflow`.
+> In that case, you might want to use BFS instead or implement DFS using an explicit stack.
+
+* Template - Explicit stack
+```java 
+/*
+ * Return true if there is a path from cur to target.
+ */
+boolean DFS(int root, int target) {
+    Set<Node> visited;
+    Stack<Node> stack;
+    add root to stack;
+    while (s is not empty) {
+        Node cur = the top element in stack;
+        remove the cur from the stack;
+        return true if cur is target;
+        for (Node next : the neighbors of cur) {
+            if (next is not in visited) {
+                add next to visited;
+                add next to stack;
+            }
+        }
+    }
+    return false;
+}
+```
+> The logic is exactly the same with the recursion solution.
+> But we use `while-loop` and `stack` to simulate the `system call stack` during recursion.
+> Running through several examples manully will definitely help you understand it better.  
+
+[Binary Tree Inorder Traversal]()
