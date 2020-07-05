@@ -240,3 +240,13 @@ boolean DFS(int root, int target) {
 > Running through several examples manully will definitely help you understand it better.  
 
 [Binary Tree Inorder Traversal]()
+
+
+## 5. Conclusion
+[Implementing Queue using Stacks]()
+[Implementing Stack using Queues]()
+[Decoding String]()
+[Flood Fill]()
+[01 Matrix]()
+[Keys and Rooms]()
+
