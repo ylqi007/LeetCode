@@ -16,3 +16,18 @@ Review of the following questoins:
 * 在 `1485. Clone Binary Tree with Random Pointer` 中，需要有 `HashMap` 来标记已经访问过的 Nodes。
 * 然而在 `1490. Clone N-ary Tree` 中，并不需要 `HashMap`，只要简单的 DFS 就可以。这是因为 `1490` 是普通的 Tree，没有 `random`，因此不会有循环的产生。
 
+### 20200705: Brace Expansion
+- [x] 1087.Brace Expansion
+- [x] 1096.Brace Expansion II
+
+### 20200706. Backtracking
+- [x] 78.Subsets
+- [x] 90.Subsets II
+- [x] 784.Letter Case Permutation
+
+### 2020070x. Abbreviaton
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
