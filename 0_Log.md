@@ -26,8 +26,12 @@ Review of the following questoins:
 - [x] 784.Letter Case Permutation
 
 ### 2020070x. Abbreviaton
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [x] 187.Repeated DNA Sequences    : **对 iterate range 的分析**
+- [x] 408.Valid Word Abbreviation   : Two Pointers
+- [x] 288.Unique Word Abbreviation  : HashSet + hashCode
+- [x] 320.Generalized Abbreviation  : Backtracking
+- [ ] 527.Word Abbreviation         : !!!
+- [ ] 411.Minimum Unique Word Abbreviation
+- [ ] 626.Exchange Seats
+
+- [ ] 1044.Longest Duplicate Substring 
