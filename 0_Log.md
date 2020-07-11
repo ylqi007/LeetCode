@@ -25,13 +25,29 @@ Review of the following questoins:
 - [x] 90.Subsets II
 - [x] 784.Letter Case Permutation
 
-### 2020070x. Abbreviaton
+### 20200708. Abbreviaton
 - [x] 187.Repeated DNA Sequences    : **对 iterate range 的分析**
 - [x] 408.Valid Word Abbreviation   : Two Pointers
 - [x] 288.Unique Word Abbreviation  : HashSet + hashCode
 - [x] 320.Generalized Abbreviation  : Backtracking
-- [ ] 527.Word Abbreviation         : !!!
-- [ ] 411.Minimum Unique Word Abbreviation
-- [ ] 626.Exchange Seats
+- [x] 527.Word Abbreviation         : !!!
+- [ ] 411.Minimum Unique Word Abbreviation  : Still not figure out.
 
-- [ ] 1044.Longest Duplicate Substring 
+- [ ] 1044.Longest Duplicate Substring
+- [ ] 626.Exchange Seats            : SQL
+ 
+### 20200711. DFS
+- [x] 200.Number of Islands         : DFS, BFS, Union Find
+    - [x] 130.Surrounded Regions    : DFS, BFS
+    - [x] 286.Walls and Gates       : BFS
+    - [x] 695.Max Area of Island    : DFS
+    - [x] 463.Island Perimeter      : Count
+- [ ] 1192.Critical Connections in a Network
+- [ ] 199.Binary Tree Right Side View
+- [ ] 394.Decode String
+- [ ] 124.Binary Tree Maximum Path Sum
+- [ ] 301.Remove Invalid Parentheses
+- [ ] 332.Reconstruct Itinary
+- [ ] 314.Binary Tree Vertical Order Traversal
+- [ ] 472.Concatnated Words
+- [ ] 98.Validate Binary Search Tree
