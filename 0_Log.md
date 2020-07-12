@@ -43,7 +43,10 @@ Review of the following questoins:
     - [x] 695.Max Area of Island    : DFS
     - [x] 463.Island Perimeter      : Count
 - [ ] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
-- [ ] 199.Binary Tree Right Side View
+- [x] 199.Binary Tree Right Side View   ： BFS
+    - [x] 116.Populating Next Right Pointers in Each Node
+    - [ ] 117.Populating Next Right Pointers in Each Node II
+    - [ ] 545.Boundary of Binary Tree
 - [x] 394.Decode String             : stack
     - [ ] 726.Number of Atoms       : stack
     - [ ] 736.Parse Lisp Expression : stack
