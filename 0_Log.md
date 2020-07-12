@@ -42,9 +42,11 @@ Review of the following questoins:
     - [x] 286.Walls and Gates       : BFS
     - [x] 695.Max Area of Island    : DFS
     - [x] 463.Island Perimeter      : Count
-- [ ] 1192.Critical Connections in a Network
+- [ ] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
 - [ ] 199.Binary Tree Right Side View
-- [ ] 394.Decode String
+- [x] 394.Decode String             : stack
+    - [ ] 726.Number of Atoms       : stack
+    - [ ] 736.Parse Lisp Expression : stack
 - [ ] 124.Binary Tree Maximum Path Sum
 - [ ] 301.Remove Invalid Parentheses
 - [ ] 332.Reconstruct Itinary
