@@ -51,10 +51,11 @@ Review of the following questoins:
     - [ ] 726.Number of Atoms       : stack
     - [ ] 736.Parse Lisp Expression : stack
 - [x] 124.Binary Tree Maximum Path Sum
-    - [ ] 112.Path Sum
-    - [ ] 113.Path Sum II
-    - [ ] 437.Path Sum III
-    - [ ] 666.Path Sum IV
+    - [x] 112.Path Sum      : from root-to-leaf, is there any sum equals target or not
+    - [x] 113.Path Sum II   : from root-to-leaf, all paths that have sum equals target
+    - [x] 437.Path Sum III  : the number of paths that sum to a given value, the path does not need to start or end at the root or leaf, but must go downwards
+    - [x] 666.Path Sum IV   : return the sum of all paths from the root towards the leaves
+    - [ ] 129.Sum Root to Leaf Numbers: 
 - [ ] 301.Remove Invalid Parentheses
 - [ ] 332.Reconstruct Itinary
 - [ ] 314.Binary Tree Vertical Order Traversal
