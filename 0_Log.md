@@ -51,11 +51,20 @@ Review of the following questoins:
     - [ ] 726.Number of Atoms       : stack
     - [ ] 736.Parse Lisp Expression : stack
 - [x] 124.Binary Tree Maximum Path Sum
+    * 计算路径上值的和
     - [x] 112.Path Sum      : from root-to-leaf, is there any sum equals target or not
     - [x] 113.Path Sum II   : from root-to-leaf, all paths that have sum equals target
     - [x] 437.Path Sum III  : the number of paths that sum to a given value, the path does not need to start or end at the root or leaf, but must go downwards
     - [x] 666.Path Sum IV   : return the sum of all paths from the root towards the leaves
     - [ ] 129.Sum Root to Leaf Numbers: 
+    * 计算 Tree 的路径长度
+    - [x] 687.Longest Univalue Path
+    - [x] 543.Diameter of Binary Tree
+    - [x] 1522.Diameter of N-Ary Tree
+    * Univalue tree
+    - [x] 250.Count Univalue Subtrees
+    - [x] 572.Subtree of Another Tree
+    - [x] 687.Longest Univalue Path
 - [ ] 301.Remove Invalid Parentheses
 - [ ] 332.Reconstruct Itinary
 - [ ] 314.Binary Tree Vertical Order Traversal
