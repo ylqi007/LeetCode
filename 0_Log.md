@@ -54,9 +54,9 @@ Review of the following questoins:
     * 计算路径上值的和
     - [x] 112.Path Sum      : from root-to-leaf, is there any sum equals target or not
     - [x] 113.Path Sum II   : from root-to-leaf, all paths that have sum equals target
-    - [x] 437.Path Sum III  : the number of paths that sum to a given value, the path does not need to start or end at the root or leaf, but must go downwards
+    - [x] 437.Path Sum III  : (prefix sum) the number of paths that sum to a given value, the path does not need to start or end at the root or leaf, but must go downwards
     - [x] 666.Path Sum IV   : return the sum of all paths from the root towards the leaves
-    - [ ] 129.Sum Root to Leaf Numbers: 
+    - [x] 129.Sum Root to Leaf Numbers: DFS
     * 计算 Tree 的路径长度
     - [x] 687.Longest Univalue Path
     - [x] 543.Diameter of Binary Tree
