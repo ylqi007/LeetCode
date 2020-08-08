@@ -65,7 +65,20 @@ Review of the following questoins:
     - [x] 250.Count Univalue Subtrees
     - [x] 572.Subtree of Another Tree
     - [x] 687.Longest Univalue Path
-- [ ] 301.Remove Invalid Parentheses
+- [x] 301.Remove Invalid Parentheses
+    - [x] 20.Valid Parentheses
+    - [x] 22.Generate Parentheses
+        - [x] 17.Letter Combination of a Phone Number   : Backtracking
+    - [x] 32.Longest Valid Parentheses
+    - [x] 1003.Check If Word Is Valid After Substitutions
+    - [x] 39.Combination Sum    : DP or Backtracking
+        - [x] 40.Combination Sum II : 与 39 题相比, each candidate number can only be used for one time, and need to avoid duplicate candidate numbers.
+        - [x] 216.Combination Sum III
+        - [x] 377.Combination Sum IV
+        - [ ] 17.Letter Combinations of a Phone Number
+        - [ ] 77.Combinations
+        - [ ] 46.Permutations
+        - [ ] 254.Factor Combinations
 - [ ] 332.Reconstruct Itinary
 - [ ] 314.Binary Tree Vertical Order Traversal
 - [ ] 472.Concatnated Words
