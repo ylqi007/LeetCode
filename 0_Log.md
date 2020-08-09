@@ -79,12 +79,14 @@ Review of the following questoins:
         - [x] 46.Permutations       : backtrack
         - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
         - [x] 31.Next Permutations  
-        - [ ] 17.Letter Combinations of a Phone Number
-        - [ ] 254.Factor Combinations
+        - [x] 17.Letter Combinations of a Phone Number  : Backtracking
+        - [x] 254.Factor Combinations   : Recursive
     - [x] 46.Permutations       : backtrack
         - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
         - [x] 60.Permutation Sequence   !!!
+- [x] 472.Concatnated Words
+    - [x] 139.Word Break
+    - [x] 140.Word Break II
 - [ ] 332.Reconstruct Itinary
 - [ ] 314.Binary Tree Vertical Order Traversal
-- [ ] 472.Concatnated Words
 - [ ] 98.Validate Binary Search Tree
