@@ -75,10 +75,15 @@ Review of the following questoins:
         - [x] 40.Combination Sum II : 与 39 题相比, each candidate number can only be used for one time, and need to avoid duplicate candidate numbers.
         - [x] 216.Combination Sum III
         - [x] 377.Combination Sum IV
+    - [x] 77.Combinations
+        - [x] 46.Permutations       : backtrack
+        - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
+        - [x] 31.Next Permutations  
         - [ ] 17.Letter Combinations of a Phone Number
-        - [ ] 77.Combinations
-        - [ ] 46.Permutations
         - [ ] 254.Factor Combinations
+    - [x] 46.Permutations       : backtrack
+        - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
+        - [x] 60.Permutation Sequence   !!!
 - [ ] 332.Reconstruct Itinary
 - [ ] 314.Binary Tree Vertical Order Traversal
 - [ ] 472.Concatnated Words
