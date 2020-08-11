@@ -87,6 +87,12 @@ Review of the following questoins:
 - [x] 472.Concatnated Words
     - [x] 139.Word Break
     - [x] 140.Word Break II
-- [ ] 332.Reconstruct Itinary
+- [x] 332.Reconstruct Itinerary     : DFS
+    - [x] 207.Course Schedule       : DFS, BFS, inDegree, detect cycle
+    - [x] 210.Course Schedule II    : 
+    - [x] 630.Course Schedule III   : Greedy
+    - [x] 261.Graph Valid Tree      : Detect if a cycle exists or not
+    - [x] 547.Friend Circles        : Union Find, DFS
+    - [x] 310.Minimum Height Trees  : 
 - [ ] 314.Binary Tree Vertical Order Traversal
 - [ ] 98.Validate Binary Search Tree
