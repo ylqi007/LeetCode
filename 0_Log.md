@@ -94,5 +94,15 @@ Review of the following questoins:
     - [x] 261.Graph Valid Tree      : Detect if a cycle exists or not
     - [x] 547.Friend Circles        : Union Find, DFS
     - [x] 310.Minimum Height Trees  : 
-- [ ] 314.Binary Tree Vertical Order Traversal
+- [x] 314.Binary Tree Vertical Order Traversal
+    - [x] 102.Binary Tree Level Order Traversal
+    - [x] 107.Binary Tree Level Order Traversal II
+    - [x] 103.Binary Tree Zigzag Level Order
+    - [x] 429.N-ary Tree Level Order Traversal
+    - [x] 589.N-ary Tree Preorder Traversal     : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
+    - [x] 590.N-ary Tree Postorder Traversal    : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
+    - [x] 104.Maximum Depth of Binary Tree      : BFS
+    - [x] 111.Minimum Depth of Binary Tree      : BFS
+    - [x] 637.Average of Levels in Binary Tree  :
+    - [x] 993.Cousins in Binary Tree
 - [ ] 98.Validate Binary Search Tree
