@@ -105,4 +105,20 @@ Review of the following questoins:
     - [x] 111.Minimum Depth of Binary Tree      : BFS
     - [x] 637.Average of Levels in Binary Tree  :
     - [x] 993.Cousins in Binary Tree
-- [ ] 98.Validate Binary Search Tree
+- [x] 98.Validate Binary Search Tree
+    - [x] 501.Find Mode in Binary Tree          : Follow up, no extra space
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ]
+- [x] 94.Binary Tree Inorder Traversal
+    - [x] 144.Binary Tree Preorder Traversal    : recursion + iteration, without morris
+    - [x] 145.Binary Tree Postorder Traversal   : recursion + iteration, without morris
+    - [x] 589.N-ary Tree Preorder Traversal     : recursion + iteration
+    - [x] 590.N-ary Tree Postorder Traversal    : recursion + iteration
+    - [ ] 255.Verify Preorder Sequence in Binary Search Tree    : 
