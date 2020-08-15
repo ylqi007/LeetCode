@@ -106,10 +106,26 @@ Review of the following questoins:
     - [x] 637.Average of Levels in Binary Tree  :
     - [x] 993.Cousins in Binary Tree
 - [x] 98.Validate Binary Search Tree
-    - [x] 501.Find Mode in Binary Tree          : Follow up, no extra space
-    - [ ] 
-    - [ ] 
-    - [ ] 
+    - [x] 94.Binary Tree Inorder Traversal
+        - [x] 501.Find Mode in Binary Tree          : Follow up, no extra space. Inorer traversal: 升序
+        - [x] 426.Convert Binary Search Tree to Sorted Doubly Linked List
+        - [x] 783.Minimum Distance Between BST Nodes
+    - [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
+        - [x] 285.Inorder Successor in BST
+    * Iterator
+        - [ ] Flatten 2D Vector
+        - [ ] Zigzag Iterator
+        - [ ] Peeking Iterator
+    - [x] 230.Kth Smallest Element in a BST
+        - [x] 671.Second Minimum Node in a Binary Tree
+        - [x] 450.Delete Node in a BST      : predecessor & successor
+            - [x] 776.Split BST
+        - [x] 701.Insert into a Binary Search Tree  : recursion + iteration
+            - [x] 700.Search in a Binary Search Tree
+        - [x] 617.Merge Two Binary Trees    : recursion + iteration
+        - [x] 270.Closest Binary Search Tree Value
+        - [x] 272.Closest Binary Search Tree Value II
+        - [ ] 222.Count Complete Tree Nodes         : Recursion, Binary Search 
     - [ ] 
     - [ ] 
     - [ ] 
@@ -121,4 +137,4 @@ Review of the following questoins:
     - [x] 145.Binary Tree Postorder Traversal   : recursion + iteration, without morris
     - [x] 589.N-ary Tree Preorder Traversal     : recursion + iteration
     - [x] 590.N-ary Tree Postorder Traversal    : recursion + iteration
-    - [ ] 255.Verify Preorder Sequence in Binary Search Tree    : 
+    - [x] 255.Verify Preorder Sequence in Binary Search Tree    : 
