@@ -112,10 +112,6 @@ Review of the following questoins:
         - [x] 783.Minimum Distance Between BST Nodes
     - [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
         - [x] 285.Inorder Successor in BST
-    * Iterator
-        - [ ] Flatten 2D Vector
-        - [ ] Zigzag Iterator
-        - [ ] Peeking Iterator
     - [x] 230.Kth Smallest Element in a BST
         - [x] 671.Second Minimum Node in a Binary Tree
         - [x] 450.Delete Node in a BST      : predecessor & successor
@@ -132,9 +128,18 @@ Review of the following questoins:
     - [ ] 
     - [ ] 
     - [ ]
+* Iterator
+    - [ ] Flatten 2D Vector
+    - [ ] Zigzag Iterator
+    - [ ] Peeking Iterator
+    
+    
+### 20200815. Tree
+* Traversal
 - [x] 94.Binary Tree Inorder Traversal
-    - [x] 144.Binary Tree Preorder Traversal    : recursion + iteration, without morris
-    - [x] 145.Binary Tree Postorder Traversal   : recursion + iteration, without morris
-    - [x] 589.N-ary Tree Preorder Traversal     : recursion + iteration
-    - [x] 590.N-ary Tree Postorder Traversal    : recursion + iteration
-    - [x] 255.Verify Preorder Sequence in Binary Search Tree    : 
+- [x] 144.Binary Tree Preorder Traversal    : recursion + iteration, without morris
+- [x] 145.Binary Tree Postorder Traversal   : recursion + iteration, without morris
+- [x] 589.N-ary Tree Preorder Traversal     : recursion + iteration
+- [x] 590.N-ary Tree Postorder Traversal    : recursion + iteration
+* Search
+- [x] 255.Verify Preorder Sequence in Binary Search Tree    : 
