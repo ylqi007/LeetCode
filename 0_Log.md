@@ -94,40 +94,7 @@ Review of the following questoins:
     - [x] 261.Graph Valid Tree      : Detect if a cycle exists or not
     - [x] 547.Friend Circles        : Union Find, DFS
     - [x] 310.Minimum Height Trees  : 
-- [x] 314.Binary Tree Vertical Order Traversal
-    - [x] 102.Binary Tree Level Order Traversal
-    - [x] 107.Binary Tree Level Order Traversal II
-    - [x] 103.Binary Tree Zigzag Level Order
-    - [x] 429.N-ary Tree Level Order Traversal
-    - [x] 589.N-ary Tree Preorder Traversal     : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
-    - [x] 590.N-ary Tree Postorder Traversal    : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
-    - [x] 104.Maximum Depth of Binary Tree      : BFS
-    - [x] 111.Minimum Depth of Binary Tree      : BFS
-    - [x] 637.Average of Levels in Binary Tree  :
-    - [x] 993.Cousins in Binary Tree
-- [x] 98.Validate Binary Search Tree
-    - [x] 94.Binary Tree Inorder Traversal
-        - [x] 501.Find Mode in Binary Tree          : Follow up, no extra space. Inorer traversal: 升序
-        - [x] 426.Convert Binary Search Tree to Sorted Doubly Linked List
-        - [x] 783.Minimum Distance Between BST Nodes
-    - [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
-        - [x] 285.Inorder Successor in BST
-    - [x] 230.Kth Smallest Element in a BST
-        - [x] 671.Second Minimum Node in a Binary Tree
-        - [x] 450.Delete Node in a BST      : predecessor & successor
-            - [x] 776.Split BST
-        - [x] 701.Insert into a Binary Search Tree  : recursion + iteration
-            - [x] 700.Search in a Binary Search Tree
-        - [x] 617.Merge Two Binary Trees    : recursion + iteration
-        - [x] 270.Closest Binary Search Tree Value
-        - [x] 272.Closest Binary Search Tree Value II
-        - [ ] 222.Count Complete Tree Nodes         : Recursion, Binary Search 
-    - [ ] 
-    - [ ] 
-    - [ ] 
-    - [ ] 
-    - [ ] 
-    - [ ]
+
 * Iterator
     - [ ] Flatten 2D Vector
     - [ ] Zigzag Iterator
@@ -137,9 +104,48 @@ Review of the following questoins:
 ### 20200815. Tree
 * Traversal
 - [x] 94.Binary Tree Inorder Traversal
-- [x] 144.Binary Tree Preorder Traversal    : recursion + iteration, without morris
-- [x] 145.Binary Tree Postorder Traversal   : recursion + iteration, without morris
-- [x] 589.N-ary Tree Preorder Traversal     : recursion + iteration
-- [x] 590.N-ary Tree Postorder Traversal    : recursion + iteration
+- [x] 144.Binary Tree Preorder Traversal        : recursion + iteration, without morris
+- [x] 145.Binary Tree Postorder Traversal       : recursion + iteration, without morris
+- [x] 589.N-ary Tree Preorder Traversal         : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
+- [x] 590.N-ary Tree Postorder Traversal        : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
+- [x] 314.Binary Tree Vertical Order Traversal
+- [x] 102.Binary Tree Level Order Traversal     : BFS
+- [x] 107.Binary Tree Level Order Traversal II
+- [x] 103.Binary Tree Zigzag Level Order
+- [x] 429.N-ary Tree Level Order Traversal
 * Search
-- [x] 255.Verify Preorder Sequence in Binary Search Tree    : 
+- [x] 700.Search in a Binary Search Tree        : recuresion + iteration
+- [x] 270.Closest Binary Search Tree Value      : recuresion + iteration
+- [x] 272.Closest Binary Search Tree Value II   : stack
+- [x] 230.Kth Smallest Element in a BST         : inorder traversal(recursion, iteration)
+- [x] 671.Second Minimum Node in a Binary Tree  : 
+- [x] 255.Verify Preorder Sequence in Binary Search Tree    : recuresion + iteration
+* Merge, Split, Delete and Insert
+- [x] 617.Merge Two Binary Trees    : recursion + iteration
+- [x] 776.Split BST
+- [x] 450.Delete Node in a BST      : predecessor & successor
+- [x] 701.Insert into a Binary Search Tree  : recursion + iteration
+* Depth
+- [x] 104.Maximum Depth of Binary Tree      : BFS, DFS, Recursion
+- [x] 111.Minimum Depth of Binary Tree      : BFS, Recursion
+- [x] 110.Balanced Binary Tree              : top down approach + bottom up approach
+- [x] 559.Maximum Depth of N-ary Tree       : recursion, DFS, BFS
+- [x] 637.Average of Levels in Binary Tree  :
+- [x] 993.Cousins in Binary Tree
+- [ ] 222.Count Complete Tree Nodes         : Recursion, Binary Search 
+* Others
+- [x] 98.Validate Binary Search Tree
+- [x] 501.Find Mode in Binary Tree          : Follow up, no extra space. Inorer traversal: 升序
+
+
+- [x] 426.Convert Binary Search Tree to Sorted Doubly Linked List
+- [x] 783.Minimum Distance Between BST Nodes
+- [x] 285.Inorder Successor in BST
+- [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
+     
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ]
