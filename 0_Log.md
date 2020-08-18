@@ -142,10 +142,24 @@ Review of the following questoins:
 - [x] 783.Minimum Distance Between BST Nodes
 - [x] 285.Inorder Successor in BST
 - [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
-     
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ]
+ 
+ 
+## 20200817. Graph    
+- [x] 269.Alien Dictionary                  : DFS, Topological Sort
+    - [x] 210.Course Schedule II
+- [x] 207.Course Schedule                   : DFS, 
+    - [x] 210.Course Schedule II
+    - [x] 630.Course Schedule III
+    - [x] 261.Graph Valid Tree
+    - [x] 310.Minimum Height Trees
+- [x] 332.Reconstruct Itinerary             : DFS, 
+- [x] 133.Clone Graph
+    - [x] 138.Copy List with Random Pointer
+    - [x] 1485.Clone Binary Tree with Random Pointer
+    - [x] 1490.Clone N-ary Tree
+- [ ] 399.Evaluate Division
+- [ ] 785.Is Graph Bipartie?
+- [ ] 210.Course Schedule II
+- [ ] 1153.String Transforms Into Another String
+- [ ] 886.Possible Bipartition
+- [ ] 323.Number of Connected Components in an Undirected Graph
