@@ -163,6 +163,10 @@ Review of the following questoins:
 - [x] 210.Course Schedule II
 - [x] 1153.String Transforms Into Another String
 - [x] 323.Number of Connected Components in an Undirected Graph
-    - [ ] 200.Number of Islands
-    - [ ] 261.Graph Valid Tree
-    - [ ] 547.Friend Circles
+    - [x] 200.Number of Islands             : DFS, Union Find
+    - [x] 261.Graph Valid Tree              : Union Find, DFS
+    - [x] 547.Friend Circles
+- [x] 444.Sequence Reconstruction           : BFS, Topological sort
+- [x] 743.Network Delay Time                : DFS, Dijkstra's Algorithm
+
+
