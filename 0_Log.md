@@ -158,8 +158,11 @@ Review of the following questoins:
     - [x] 1485.Clone Binary Tree with Random Pointer
     - [x] 1490.Clone N-ary Tree
 - [x] 399.Evaluate Division                 : DFS, Union Find
-- [ ] 785.Is Graph Bipartie?
-- [ ] 210.Course Schedule II
-- [ ] 1153.String Transforms Into Another String
-- [ ] 886.Possible Bipartition
-- [ ] 323.Number of Connected Components in an Undirected Graph
+- [x] 785.Is Graph Bipartie?                : DFS, BFS
+    - [x] 886.Possible Bipartition
+- [x] 210.Course Schedule II
+- [x] 1153.String Transforms Into Another String
+- [x] 323.Number of Connected Components in an Undirected Graph
+    - [ ] 200.Number of Islands
+    - [ ] 261.Graph Valid Tree
+    - [ ] 547.Friend Circles
