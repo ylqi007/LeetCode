@@ -157,7 +157,7 @@ Review of the following questoins:
     - [x] 138.Copy List with Random Pointer
     - [x] 1485.Clone Binary Tree with Random Pointer
     - [x] 1490.Clone N-ary Tree
-- [ ] 399.Evaluate Division
+- [x] 399.Evaluate Division                 : DFS, Union Find
 - [ ] 785.Is Graph Bipartie?
 - [ ] 210.Course Schedule II
 - [ ] 1153.String Transforms Into Another String
