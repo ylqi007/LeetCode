@@ -170,3 +170,9 @@ Review of the following questoins:
 - [x] 743.Network Delay Time                : DFS, Dijkstra's Algorithm
 
 
+## 20200825. Dynamic Programming, Greedy, Two Pointers
+- [x] 392.Is Subsequence                        : Two Pointers
+    - [x] 792.Number of Matching Subsequences   : Tow Pointers, Next Letter Pointer
+    - [x] 1055.Shortest Way to Form String      : Two Pointers
+
+- [ ] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
