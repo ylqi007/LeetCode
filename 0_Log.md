@@ -42,7 +42,8 @@ Review of the following questoins:
     - [x] 286.Walls and Gates       : BFS
     - [x] 695.Max Area of Island    : DFS
     - [x] 463.Island Perimeter      : Count
-- [ ] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
+- [x] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
+    - [x] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 - [x] 199.Binary Tree Right Side View   ： BFS
     - [x] 116.Populating Next Right Pointers in Each Node
     - [x] 117.Populating Next Right Pointers in Each Node II
@@ -94,6 +95,20 @@ Review of the following questoins:
     - [x] 261.Graph Valid Tree      : Detect if a cycle exists or not
     - [x] 547.Friend Circles        : Union Find, DFS
     - [x] 310.Minimum Height Trees  : 
+- [ ] 105.Construct Binary Tree from Preorder and Inorder Traversal
+- [ ] 210.Course Schedule II
+- [ ] 863.All Nodes Distance K in Binary Tree
+- [ ] 98.Valid Binary Search Tree
+529.Minesweeper
+314.Binary Tree Vertical Order Traversal
+695.Max Area of Island
+329.Longest Increasing Path in a Matrix
+207.Course Schedule
+721.Accounts Merge
+133.Clone Graph
+109.Convert Sorted List to Binary Search Tree
+
+
 
 * Iterator
     - [ ] Flatten 2D Vector
