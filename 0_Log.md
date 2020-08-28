@@ -95,7 +95,14 @@ Review of the following questoins:
     - [x] 261.Graph Valid Tree      : Detect if a cycle exists or not
     - [x] 547.Friend Circles        : Union Find, DFS
     - [x] 310.Minimum Height Trees  : 
-- [ ] 105.Construct Binary Tree from Preorder and Inorder Traversal
+- [x] 105.Construct Binary Tree from Preorder and Inorder Traversal
+    - [x] 106.Construct Binary Tree from Inorder and Postorder Traversal
+    - [x] 889.Construct Binary Tree from Preorder and Postorder Traversal
+    - [x] 1008.Construct Binary Search Tree from Preorder Traversal
+- [x] 108.Convert Sorted Array to Binary Search Tree
+    - [x] 109.Convert Sorted List to Binary Search Tree
+- [x] 114.Flatten Binary Tree to Linked List
+    - [x] 430.Flatten a Multilevel Doubly Linked List
 - [ ] 210.Course Schedule II
 - [ ] 863.All Nodes Distance K in Binary Tree
 - [ ] 98.Valid Binary Search Tree
@@ -106,7 +113,7 @@ Review of the following questoins:
 207.Course Schedule
 721.Accounts Merge
 133.Clone Graph
-109.Convert Sorted List to Binary Search Tree
+
 
 
 
