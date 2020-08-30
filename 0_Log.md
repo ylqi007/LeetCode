@@ -106,12 +106,12 @@ Review of the following questoins:
 - [x] 863.All Nodes Distance K in Binary Tree
 - [x] 98.Valid Binary Search Tree
 - [x] 529.Minesweeper
-
-
-
-
-- [ ] 314.Binary Tree Vertical Order Traversal
-- [ ] 695.Max Area of Island
+- [x] 314.Binary Tree Vertical Order Traversal
+- [x] 695.Max Area of Island
+    - [x] 200.Number of Islands
+    - [x] 463.Island Perimeter
+    - [x] 1034.Coloring A Border
+    - [x] 733.Flood Fill
 - [ ] 329.Longest Increasing Path in a Matrix
 - [ ] 721.Accounts Merge
 - [ ] 133.Clone Graph
