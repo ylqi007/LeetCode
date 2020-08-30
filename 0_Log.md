@@ -112,8 +112,11 @@ Review of the following questoins:
     - [x] 463.Island Perimeter
     - [x] 1034.Coloring A Border
     - [x] 733.Flood Fill
-- [ ] 329.Longest Increasing Path in a Matrix
-- [ ] 721.Accounts Merge
+- [x] 329.Longest Increasing Path in a Matrix
+- [x] 721.Accounts Merge
+    - [ ] Redundant Connection
+    - [ ] Sentence Similarity
+    - [ ] Sentence Similarity II
 - [ ] 133.Clone Graph
 
 
