@@ -103,16 +103,18 @@ Review of the following questoins:
     - [x] 109.Convert Sorted List to Binary Search Tree
 - [x] 114.Flatten Binary Tree to Linked List
     - [x] 430.Flatten a Multilevel Doubly Linked List
-- [ ] 210.Course Schedule II
-- [ ] 863.All Nodes Distance K in Binary Tree
-- [ ] 98.Valid Binary Search Tree
-529.Minesweeper
-314.Binary Tree Vertical Order Traversal
-695.Max Area of Island
-329.Longest Increasing Path in a Matrix
-207.Course Schedule
-721.Accounts Merge
-133.Clone Graph
+- [x] 863.All Nodes Distance K in Binary Tree
+- [x] 98.Valid Binary Search Tree
+- [x] 529.Minesweeper
+
+
+
+
+- [ ] 314.Binary Tree Vertical Order Traversal
+- [ ] 695.Max Area of Island
+- [ ] 329.Longest Increasing Path in a Matrix
+- [ ] 721.Accounts Merge
+- [ ] 133.Clone Graph
 
 
 
@@ -197,4 +199,6 @@ Review of the following questoins:
     - [x] 792.Number of Matching Subsequences   : Tow Pointers, Next Letter Pointer
     - [x] 1055.Shortest Way to Form String      : Two Pointers
 
+
 - [ ] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+- [ ] 1268.Search Suggestions System
