@@ -114,9 +114,10 @@ Review of the following questoins:
     - [x] 733.Flood Fill
 - [x] 329.Longest Increasing Path in a Matrix
 - [x] 721.Accounts Merge
-    - [ ] Redundant Connection
-    - [ ] Sentence Similarity
-    - [ ] Sentence Similarity II
+    - [x] 684.Redundant Connection      : undirected graph, Union Find
+    - [x] 685.Redundant Connection II   : directed graph, Union Find
+    - [x] 734.Sentence Similarity
+    - [x] 737.Sentence Similarity II
 - [ ] 133.Clone Graph
 
 
