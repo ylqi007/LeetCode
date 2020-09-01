@@ -17,8 +17,13 @@
     - [x] [Google | OA 2019 | Largest Subarray Length K](https://leetcode.com/playground/aqe34NQP)      
     * Similar Questions:
     - [x] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-- [ ] []()      
-- [ ] []()      
+- [x] [Google | OA 2019 | Maximum Time](https://leetcode.com/discuss/interview-question/396769/)     
+    - [x] [2019-Google-Maximum_Time](2019-Google-Maximum_Time.md) 
+    - [x] [Playground - Google | OA 2019 | Maximum Time](https://leetcode.com/playground/PKEKjSDY)   
+- [x] [Google | OA 2018 | Min Abs Difference of Server Loads](https://leetcode.com/discuss/interview-question/356433/)      
+    - [x] [Playground - Google | OA 2018 | Min Abs Difference of Server Loads](https://leetcode.com/playground/CWz5SFEd)
+    * Similar Questions:
+    - [x] [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
 - [ ] []()      
 - [ ] []()      
 - [ ] []()      
