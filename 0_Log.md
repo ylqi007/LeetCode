@@ -118,7 +118,10 @@ Review of the following questoins:
     - [x] 685.Redundant Connection II   : directed graph, Union Find
     - [x] 734.Sentence Similarity
     - [x] 737.Sentence Similarity II
-- [ ] 133.Clone Graph
+- [x] 133.Clone Graph
+    - [x] 138.Copy List with Random Pointer
+    - [x] 1485.Clone Binary Tree with Random Pointer
+    - [x] 1490.Clone N-ary Tree
 
 
 
@@ -204,5 +207,17 @@ Review of the following questoins:
     - [x] 1055.Shortest Way to Form String      : Two Pointers
 
 
+## 20200901. Queue
+- [x] 621.Task Schedule
+- [ ] 363.Max Sum of Rectangle No Larger Than K          
+- [ ] 862.Shortest Subarray with Sum at Least K       
+- [ ] 353.Design Snake Game          
+- [ ] 622.Design Circular Queue          
+- [ ] 346.Moving Average from Data Stream          
+- [ ]           
+
 - [ ] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 - [ ] 1268.Search Suggestions System
+
+
+471.Encode String...
