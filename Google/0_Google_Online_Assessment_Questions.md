@@ -24,7 +24,9 @@
     - [x] [Playground - Google | OA 2018 | Min Abs Difference of Server Loads](https://leetcode.com/playground/CWz5SFEd)
     * Similar Questions:
     - [x] [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
-- [ ] []()      
+- [x] [Google | OA 2019 | Most Booked Hotel Room](https://leetcode.com/discuss/interview-question/421787/)  
+    - [x] [2019-Google-Most_Booked_Hotel_Room](2019-Google-Most_Booked_Hotel_Room.md)    
+    - [x] [Playground - Google | OA 2019 | Most Booked Hotel Room](https://leetcode.com/playground/8oNR4w8H)
 - [ ] []()      
 - [ ] []()      
 - [ ] []()      
