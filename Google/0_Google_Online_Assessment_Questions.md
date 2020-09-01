@@ -1,0 +1,31 @@
+## [1. Google Online Assessment Questions](https://leetcode.com/discuss/interview-question/352460/Google-Online-Assessment-Questions)
+
+### US/EU
+- [x] [Google | OA 2020 | Min Amplitude](https://leetcode.com/discuss/interview-question/553399/)      
+    - [x] [2020-Google-Min_Amplitude](2020-Google-Min_Amplitude.md)
+    - [x] [Playground - Google | OA 2020 | Min Amplitude](https://leetcode.com/playground/FGZCGYpL)  
+- [x] [Google | OA 2020 | Ways to Split String](https://leetcode.com/discuss/interview-question/553399/)  
+    - [x] [2020-Google-Ways_to_Split_String](2020-Google-Ways_to_Split_String.md)  
+    - [x] [Playground - Google | OA 2020 | Ways to Split String](https://leetcode.com/playground/S2DxgRHn)
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+- [ ] []()      
+
+
+
