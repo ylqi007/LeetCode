@@ -118,9 +118,6 @@ Review of the following questoins:
     - [x] 685.Redundant Connection II   : directed graph, Union Find
     - [x] 734.Sentence Similarity
     - [x] 737.Sentence Similarity II
-- [ ] 133.Clone Graph
-
-
 
 
 * Iterator
@@ -206,3 +203,6 @@ Review of the following questoins:
 
 - [ ] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 - [ ] 1268.Search Suggestions System
+- [ ] 1049.Last Stone Weight II
+
+
