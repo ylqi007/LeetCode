@@ -217,17 +217,29 @@ Review of the following questoins:
 - [x] 363.Max Sum of Rectangle No Larger Than K
 
 * Sliding Window Problems       
+    * At Most K Distinct Elements
+        - [x] 3.Longest Substring Without Repeating Characters
+        - [x] 159.Longest Substring with At Most Two Distinct Characters
+        - [x] 340.Longest Substring with At Most K Distinct Characters
+        - [x] 992.Subarrays with K Different Integers   **hard**
+    * Consecutive Ones
+        - [x] 485.Max Consecutive Ones
+            - [x] 1446.Consecutive Characters
+        - [x] 487.Max Consecutive Ones II
+        - [x] 1004.Max Consecutive Ones III
 - [x] 209.Minimum Size Subarray Sum      
 - [x] 76.Minimum Window Substring
 - [x] 325.Maximum Size Subarray Sum Equals k
 - [x] 718.Maximum Length of Repeated Subarray 
-- [ ] 862.Shortest Subarray with Sum at Least K
-- [ ] 1234.Replace the Substring for Balanced String
-- [ ] 1004.Max Consecutive Ones III
-- [ ] 930.Binary Subarrays With Sum
-- [ ] 992.Subarrays with K Different Integers
+- [x] 862.Shortest Subarray with Sum at Least K
+- [?] 1234.Replace the Substring for Balanced String
+
+
+- [x] 930.Binary Subarrays With Sum
+    * Don't understand method 2
+
+
 - [ ] 904.Fruit Into Baskets
-- [ ] 862.Shortest Subarray with Sum at Least K
 
 * Range Sum Query
     - [x] 303.Range Sum Query - Immutable  : prefix sum
