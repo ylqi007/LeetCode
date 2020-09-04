@@ -229,12 +229,13 @@ Review of the following questoins:
         - [x] 1004.Max Consecutive Ones III         : Follow up of 487
         - [x] 892.Longest Substring with At Most K Distinct Characters
         - [x] 424.Longest Repeating Character Replacement
-- [x] 209.Minimum Size Subarray Sum      
-- [x] 76.Minimum Window Substring
-- [x] 325.Maximum Size Subarray Sum Equals k
-- [x] 718.Maximum Length of Repeated Subarray 
-- [x] 862.Shortest Subarray with Sum at Least K
-- [?] 1234.Replace the Substring for Balanced String
+    * Min or Max length -- Two Pointers + Prefix Sum
+        - [x] 209.Minimum Size Subarray Sum      
+        - [x] 76.Minimum Window Substring
+        - [x] 325.Maximum Size Subarray Sum Equals k    
+        - [x] 718.Maximum Length of Repeated Subarray           : DP, **Don't understand method 2**
+        - [x] 862.Shortest Subarray with Sum at Least K         : Queue
+        - [x] 1234.Replace the Substring for Balanced String    : Two Pointers, Outside the window
 
 
 - [x] 930.Binary Subarrays With Sum
