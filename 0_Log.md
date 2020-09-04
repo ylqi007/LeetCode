@@ -223,10 +223,12 @@ Review of the following questoins:
         - [x] 340.Longest Substring with At Most K Distinct Characters
         - [x] 992.Subarrays with K Different Integers   **hard**
     * Consecutive Ones
-        - [x] 485.Max Consecutive Ones
-            - [x] 1446.Consecutive Characters
+        - [x] 485.Max Consecutive Ones              : 485 & 1446 都是在**不连续**发生的时候，改变 counter 的状态，然后进行更新。
+        - [x] 1446.Consecutive Characters
         - [x] 487.Max Consecutive Ones II
-        - [x] 1004.Max Consecutive Ones III
+        - [x] 1004.Max Consecutive Ones III         : Follow up of 487
+        - [x] 892.Longest Substring with At Most K Distinct Characters
+        - [x] 424.Longest Repeating Character Replacement
 - [x] 209.Minimum Size Subarray Sum      
 - [x] 76.Minimum Window Substring
 - [x] 325.Maximum Size Subarray Sum Equals k
