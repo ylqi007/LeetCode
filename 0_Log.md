@@ -233,9 +233,9 @@ Review of the following questoins:
         * 485 & 1446 都是在**不连续**发生的时候，改变 counter 的状态，然后进行更新。
         - [x] 485.Max Consecutive Ones
         - [x] 1446.Consecutive Characters
+        * For 487, 1004: (a) Use a counter; (b) Use a `Queue` to store the indexes of 0s.
         - [x] 487.Max Consecutive Ones II
-        - [x] 1004.Max Consecutive Ones III         : Follow up of 487
-        - [x] 892.Longest Substring with At Most K Distinct Characters
+        - [x] 1004.Max Consecutive Ones III
         - [x] 424.Longest Repeating Character Replacement
     * Min or Max length -- Two Pointers + Prefix Sum
         - [x] 209.Minimum Size Subarray Sum      
