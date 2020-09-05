@@ -237,11 +237,12 @@ Review of the following questoins:
         - [x] 487.Max Consecutive Ones II
         - [x] 1004.Max Consecutive Ones III
         - [x] 424.Longest Repeating Character Replacement
-    * Min or Max length -- Two Pointers + Prefix Sum
-        - [x] 209.Minimum Size Subarray Sum      
-        - [x] 76.Minimum Window Substring
-        - [x] 325.Maximum Size Subarray Sum Equals k    
-        - [x] 718.Maximum Length of Repeated Subarray           : DP, **Don't understand method 2**
+    * Min or Max length -- Two Pointers + Prefix Sum/counter
+        - [x] 209.Minimum Size Subarray Sum                 --> Two Pointers + Prefix Sum: When prefix larger than S, try to update the res
+        - [x] 76.Minimum Window Substring                   --> Two Pointers + Counter  
+            - [ ] 727.Minimum Window Subsequence            --> **hard**, Two Pointers
+        - [x] 325.Maximum Size Subarray Sum Equals k        --> Prefix Sum + HashMap to store the index of prefix sum
+        - [x] 718.Maximum Length of Repeated Subarray       --> **DP**, **Don't understand method 2**
         - [x] 862.Shortest Subarray with Sum at Least K         : Queue
         - [x] 1234.Replace the Substring for Balanced String    : Two Pointers, Outside the window
         - [x] 930.Binary Subarrays With Sum                     : Two Window + Presum
