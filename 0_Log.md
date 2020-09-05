@@ -220,15 +220,18 @@ Review of the following questoins:
 ## 20200904, Sliding Window + Two Pointers
 * Sliding Window Problems       
     * At Most K Distinct Elements
+        * 对于 3, 159, 340, and 904, 都是求最长的 substring or subarray 的长度
         - [x] 3.Longest Substring Without Repeating Characters
-        - [x] 904.Fruit Into Baskets
-        - [x] 159.Longest Substring with At Most Two Distinct Characters
-        - [x] 340.Longest Substring with At Most K Distinct Characters
-        - [x] 992.Subarrays with K Different Integers   **hard**, atMost()
-        - [x] 1248.Count Number of Nice Subarrays
-        - [ ] 1358.Number of Substrings Containing All Three Characters
+        - [x] 159.Longest Substring with At Most Two Distinct Characters    
+        - [x] 340.Longest Substring with At Most K Distinct Characters      
+        - [x] 904.Fruit Into Baskets **(The same with 159)**           
+        * 对于 992, 1248, 1358, 是求满足所有要求的 substrings or subarrays 的数量, 区别是 992, 1248 是一个范围内的都可以，1358 是要求准确的 K 个
+        - [x] 992.Subarrays with K Different Integers                       --> **hard**, **atMost()**, or **prefix**
+        - [x] 1248.Count Number of Nice Subarrays                           --> **hard**, **atMost()**, or **prefix**
+        - [x] 1358.Number of Substrings Containing All Three Characters     --> **hard**, **atMost()**, or **prefix**
     * Consecutive Ones
-        - [x] 485.Max Consecutive Ones              : 485 & 1446 都是在**不连续**发生的时候，改变 counter 的状态，然后进行更新。
+        * 485 & 1446 都是在**不连续**发生的时候，改变 counter 的状态，然后进行更新。
+        - [x] 485.Max Consecutive Ones
         - [x] 1446.Consecutive Characters
         - [x] 487.Max Consecutive Ones II
         - [x] 1004.Max Consecutive Ones III         : Follow up of 487
