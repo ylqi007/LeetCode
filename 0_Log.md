@@ -216,12 +216,17 @@ Review of the following questoins:
     - [x] 767.Reorganize String
 - [x] 363.Max Sum of Rectangle No Larger Than K
 
+
+## 20200904, Sliding Window + Two Pointers
 * Sliding Window Problems       
     * At Most K Distinct Elements
         - [x] 3.Longest Substring Without Repeating Characters
+        - [x] 904.Fruit Into Baskets
         - [x] 159.Longest Substring with At Most Two Distinct Characters
         - [x] 340.Longest Substring with At Most K Distinct Characters
-        - [x] 992.Subarrays with K Different Integers   **hard**
+        - [x] 992.Subarrays with K Different Integers   **hard**, atMost()
+        - [x] 1248.Count Number of Nice Subarrays
+        - [ ] 1358.Number of Substrings Containing All Three Characters
     * Consecutive Ones
         - [x] 485.Max Consecutive Ones              : 485 & 1446 都是在**不连续**发生的时候，改变 counter 的状态，然后进行更新。
         - [x] 1446.Consecutive Characters
@@ -236,25 +241,21 @@ Review of the following questoins:
         - [x] 718.Maximum Length of Repeated Subarray           : DP, **Don't understand method 2**
         - [x] 862.Shortest Subarray with Sum at Least K         : Queue
         - [x] 1234.Replace the Substring for Balanced String    : Two Pointers, Outside the window
+        - [x] 930.Binary Subarrays With Sum                     : Two Window + Presum
 
 
-- [x] 930.Binary Subarrays With Sum
-    * Don't understand method 2
-
-
-- [ ] 904.Fruit Into Baskets
 
 * Range Sum Query
     - [x] 303.Range Sum Query - Immutable  : prefix sum
     - [x] 304.Range Sum Query 2D - Immutable
     - [?] 307.Range Sum Query - Mutable     : Segment Tree
-    - [?] 308.Range Sum Query 2D - Mutable
-      
-    
+    - [?] 308.Range Sum Query 2D - Mutable      
+  
+  
+  
 - [ ] 353.Design Snake Game          
 - [ ] 622.Design Circular Queue          
-- [ ] 346.Moving Average from Data Stream          
-- [ ]           
+- [ ] 346.Moving Average from Data Stream                 
 
 - [ ] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 - [ ] 1268.Search Suggestions System
