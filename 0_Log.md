@@ -16,14 +16,17 @@ Review of the following questoins:
 * 在 `1485. Clone Binary Tree with Random Pointer` 中，需要有 `HashMap` 来标记已经访问过的 Nodes。
 * 然而在 `1490. Clone N-ary Tree` 中，并不需要 `HashMap`，只要简单的 DFS 就可以。这是因为 `1490` 是普通的 Tree，没有 `random`，因此不会有循环的产生。
 
+
 ### 20200705: Brace Expansion
 - [x] 1087.Brace Expansion
 - [x] 1096.Brace Expansion II
+
 
 ### 20200706. Backtracking
 - [x] 78.Subsets
 - [x] 90.Subsets II
 - [x] 784.Letter Case Permutation
+
 
 ### 20200708. Abbreviaton
 - [x] 187.Repeated DNA Sequences    : **对 iterate range 的分析**
@@ -36,6 +39,7 @@ Review of the following questoins:
 - [ ] 1044.Longest Duplicate Substring
 - [ ] 626.Exchange Seats            : SQL
  
+
 ### 20200711. DFS
 - [x] 200.Number of Islands         : DFS, BFS, Union Find
     - [x] 130.Surrounded Regions    : DFS, BFS
@@ -240,7 +244,7 @@ Review of the following questoins:
     * Min or Max length -- Two Pointers + Prefix Sum/counter
         - [x] 209.Minimum Size Subarray Sum                 --> Two Pointers + Prefix Sum: When prefix larger than S, try to update the res
         - [x] 76.Minimum Window Substring                   --> Two Pointers + Counter  
-            - [ ] 727.Minimum Window Subsequence            --> **hard**, Two Pointers
+            - [x] 727.Minimum Window Subsequence            --> **hard**, Two Pointers --> From left to right, then right to left
         - [x] 325.Maximum Size Subarray Sum Equals k        --> Prefix Sum + HashMap to store the index of prefix sum
         - [x] 718.Maximum Length of Repeated Subarray       --> **DP**, **Don't understand method 2**
         - [x] 862.Shortest Subarray with Sum at Least K         : Queue
@@ -267,19 +271,20 @@ Review of the following questoins:
 - [ ] 1049.Last Stone Weight II
 
 
-=======
+## 20200906
+- [x] [1007.Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)
+- [x] [1165. Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)
+- [x] [1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 
+- [x] [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+- [x] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+- [x] [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+- [x] [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)   
+    
 
+=========================================================
 471.Encode String...
 
 
-
-Sliding window:
-
-        1248.Count Number of Nice Subarrays
-        1234.Replace the Substring for Balanced String
-        1004.Max Consecutive Ones III
-        930.Binary Subarrays With Sum
-        992.Subarrays with K Different Integers
-        904.Fruit Into Baskets
-        862.Shortest Subarray with Sum at Least K

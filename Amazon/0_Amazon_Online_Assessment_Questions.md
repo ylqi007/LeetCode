@@ -137,7 +137,7 @@
 - [x] [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)      
 - [ ] [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)      
     - [x] [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
-    - [ ] [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+    - [x] [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] []()      
 - [ ] []()
 - [ ] []()      
