@@ -287,6 +287,34 @@ Review of the following questoins:
     - [x] [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
     - [x] [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
     - [x] [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)   
+
+
+## 20200907 - Dynamic Programming
+- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+    - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)      
+    - [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)      
+    - [x] [697. Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)    
+    - [x] [978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)      
+    
+* But and Sell Stock
+    - [ ] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+    - [ ] [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)        
+    - [ ] [123.Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)       
+    - [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)        
+
+
+    * Best Time to Buy and Sell Stock
+    * Maximum Product and Subarray
+    * Degree Product Subarray
+    * Longest Turbulent Subarray
+- [ ] 5.Longest Palindromic Substring
+- [ ] 121.Best Time to Buy and Sell Stock
+- [ ] 91.Decode Ways
+- [ ] 139.Word Break
+
+
+    
+    
     
 
 =========================================================
