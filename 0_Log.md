@@ -295,6 +295,14 @@ Review of the following questoins:
     - [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)      
     - [x] [697. Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)    
     - [x] [978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)      
+
+- [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+    - [ ] [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)      
+    - [ ] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)      
+    - [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
+    - [ ] [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)      
+    - [ ] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)      
+    
     
 * But and Sell Stock
     - [ ] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
