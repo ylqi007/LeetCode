@@ -303,25 +303,27 @@ Review of the following questoins:
     - [ ] [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)      
     - [ ] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)      
     
-    
-* But and Sell Stock
-    - [ ] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [ ] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
     - [ ] [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)        
     - [ ] [123.Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)       
     - [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)        
 
-
-    * Best Time to Buy and Sell Stock
-    * Maximum Product and Subarray
-    * Degree Product Subarray
-    * Longest Turbulent Subarray
-- [ ] 5.Longest Palindromic Substring
-- [ ] 121.Best Time to Buy and Sell Stock
 - [ ] 91.Decode Ways
 - [ ] 139.Word Break
 
 
-    
+
+## Trie
+[677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
+Replace Words
+Design Search Autocompletion
+Add and Search Word -
+  
+Maximum XOR of Two Numbers in an Array
+Word Search II
+Word Square
+Palindrome Pairs
+  
     
     
 
