@@ -308,7 +308,9 @@ Review of the following questoins:
     - [ ] [123.Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)       
     - [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)        
 
-- [ ] 91.Decode Ways
+- [x] [91.Decode Ways](https://leetcode.com/problems/decode-ways/)
+    - [x] [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)          
+    
 - [ ] 139.Word Break
 
 
