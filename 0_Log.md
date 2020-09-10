@@ -319,10 +319,19 @@ Review of the following questoins:
 
 
 ## Trie
-[677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
-Replace Words
-Design Search Autocompletion
-Add and Search Word -
+- [ ] 692.Top K Frequent Words
+- [ ] 211.Design Add and Search Words Data Structure
+- [ ] 212.Word Search II
+- [ ] 472.Concatenated Words
+- [ ] 336.Palindrome Pairs
+- [ ] 642.Design Search Autocomplete System
+- [ ] 208.Implement Trie (Prefix Tree)
+- [ ] 421.Maximum XOR of Two Numbers in an Array
+- [ ] 720.Longest Word in Dictionary
+
+- [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
+- [ ] 648.Replace Words
+- [ ] Add and Search Word -
   
 Maximum XOR of Two Numbers in an Array
 Word Search II
