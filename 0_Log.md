@@ -311,7 +311,10 @@ Review of the following questoins:
 - [x] [91.Decode Ways](https://leetcode.com/problems/decode-ways/)
     - [x] [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)          
     
-- [ ] 139.Word Break
+- [x] [139. Word Break](https://leetcode.com/problems/word-break/)
+    - [x] [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
+    - [x] [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
+    - [ ] [Java Common template - Word Break I, Word Break II, Concatenated Words](https://leetcode.com/problems/concatenated-words/discuss/348972/Java-Common-template-Word-Break-I-Word-Break-II-Concatenated-Words)
 
 
 
