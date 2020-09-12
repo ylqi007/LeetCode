@@ -297,16 +297,16 @@ Review of the following questoins:
     - [x] [978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)      
 
 - [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-    - [ ] [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)      
-    - [ ] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)      
-    - [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
-    - [ ] [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)      
-    - [ ] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)      
+    - [x] [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)      
+    - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)      
+    - [x] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
+    - [x] [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)      
+    - [x] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)      
     
-- [ ] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-    - [ ] [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)        
-    - [ ] [123.Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)       
-    - [ ] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)        
+- [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+    - [x] [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)        
+    - [x] [123.Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)       
+    - [x] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)        
 
 - [x] [91.Decode Ways](https://leetcode.com/problems/decode-ways/)
     - [x] [639. Decode Ways II](https://leetcode.com/problems/decode-ways-ii/)          
@@ -314,15 +314,18 @@ Review of the following questoins:
 - [x] [139. Word Break](https://leetcode.com/problems/word-break/)
     - [x] [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
     - [x] [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
-    - [ ] [Java Common template - Word Break I, Word Break II, Concatenated Words](https://leetcode.com/problems/concatenated-words/discuss/348972/Java-Common-template-Word-Break-I-Word-Break-II-Concatenated-Words)
+    - [x] [Java Common template - Word Break I, Word Break II, Concatenated Words](https://leetcode.com/problems/concatenated-words/discuss/348972/Java-Common-template-Word-Break-I-Word-Break-II-Concatenated-Words)
 
 - [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)         
     - [x] [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
     - [x] [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
     - [x] [764. Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)
     
-- [ ] [322. Coin Change](https://leetcode.com/problems/coin-change/)
-- [ ] [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
+- [x] [322. Coin Change](https://leetcode.com/problems/coin-change/)        
+    - [x] [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
+
+- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+    - [ ] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 
 
 ## Trie
