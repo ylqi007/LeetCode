@@ -300,8 +300,8 @@ Review of the following questoins:
     - [x] [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)      
     - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)      
     - [x] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
-    - [x] [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)      
     - [x] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)      
+    - [x] [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)      
     
 - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
     - [x] [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)        
