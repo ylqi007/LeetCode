@@ -324,8 +324,8 @@ Review of the following questoins:
 - [x] [322. Coin Change](https://leetcode.com/problems/coin-change/)        
     - [x] [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)
 
-- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-    - [ ] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
+- [x] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+    - [x] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 
 
 ## Trie
