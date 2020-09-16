@@ -330,9 +330,13 @@ Review of the following questoins:
 - [ ]           
 
 
-- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
-    - [ ] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
-    
+- [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)   : DP
+- [x] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)           : DP
+- [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
+- [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)  : Backtracking, Depth-First Search
+- [ ] [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
+- [ ] [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
+
 
 ## Trie
 - [ ] 692.Top K Frequent Words
