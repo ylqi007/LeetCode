@@ -330,6 +330,10 @@ Review of the following questoins:
 - [ ]           
 
 
+- [ ] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+    - [ ] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+    
+
 ## Trie
 - [ ] 692.Top K Frequent Words
 - [ ] 211.Design Add and Search Words Data Structure
