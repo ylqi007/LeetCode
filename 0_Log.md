@@ -122,16 +122,11 @@ Review of the following questoins:
     - [x] 685.Redundant Connection II   : directed graph, Union Find
     - [x] 734.Sentence Similarity
     - [x] 737.Sentence Similarity II
-<<<<<<< HEAD
-=======
+
 - [x] 133.Clone Graph
     - [x] 138.Copy List with Random Pointer
     - [x] 1485.Clone Binary Tree with Random Pointer
     - [x] 1490.Clone N-ary Tree
-
-
->>>>>>> 656ee85e3d5f02a4b638b9898fd9e706ab41a393
-
 
 * Iterator
     - [ ] Flatten 2D Vector
@@ -289,7 +284,8 @@ Review of the following questoins:
     - [x] [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)   
 
 
-## 20200907 - Dynamic Programming
+## Dynamic Programming
+(20200907)
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
     - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)      
     - [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)      
@@ -326,6 +322,12 @@ Review of the following questoins:
 
 - [x] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
     - [x] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
+
+- [x] [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)          
+    - [?] [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)          
+- [ ]           
+- [ ]           
+- [ ]           
 
 
 ## Trie
