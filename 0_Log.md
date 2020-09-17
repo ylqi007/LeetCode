@@ -325,17 +325,22 @@ Review of the following questoins:
 
 - [x] [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)          
     - [?] [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)          
-- [ ]           
-- [ ]           
-- [ ]           
-
-
 - [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)   : DP
 - [x] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)           : DP
-- [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
-- [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)  : Backtracking, Depth-First Search
+    - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
+    - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)  : Backtracking, Depth-First Search
 - [ ] [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
-- [ ] [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
+    - [ ] [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
+
+- [ ] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)          
+    - [ ] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)          
+    - [ ] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
+    - [ ] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)          
+
+- [ ] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
+= [ ] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
+
+
 
 
 ## Trie
