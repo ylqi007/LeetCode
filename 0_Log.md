@@ -333,16 +333,31 @@ Review of the following questoins:
     - [ ] [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
 
 - [x] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)          
+    - [x] [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
+    - [x] [354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
+    - [x] [646. Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)
+        - [x] [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
     - [x] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)          
-    - [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
-    - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)          
+    - [x] [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)     
+        - [x] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+        - [x] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)      
+        - [x] [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)
+        
+- [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
+- [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)          
+        
+- [x] [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)      
+    - [x] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+    - [x] [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)    
+    - [x] [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
 
-- [ ]       
-- [ ]       
-- [ ]       
-- [ ]       
-- [ ]       
-- [ ]       
+- [ ] 32.Longest Valid Parentheses      
+- [ ] 70.Climbing Stairs
+- [ ] 472.Concatenated Words
+- [ ] 72.Edit Distance
+- [ ] 97.Interleaving String
+- [ ] 403.Frog Jump
+- [ ] 279.Perfect Squares
 
 * Consecutive Sequence in Binary Tree
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
