@@ -332,11 +332,17 @@ Review of the following questoins:
 - [ ] [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
     - [ ] [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
 
-- [ ] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)          
-    - [ ] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)          
-    - [ ] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
-    - [ ] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)          
+- [x] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)          
+    - [x] [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)          
+    - [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
+    - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)          
 
+- [ ]       
+- [ ]       
+- [ ]       
+- [ ]       
+- [ ]       
+- [ ]       
 
 * Consecutive Sequence in Binary Tree
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
