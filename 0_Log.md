@@ -364,8 +364,13 @@ Review of the following questoins:
     - [x] [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
     - [x] [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 
-- [ ] 472.Concatenated Words
-- [ ] 72.Edit Distance
+- [x] [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
+    - [x] [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
+
+- [ ] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+    - [ ] 
+    
+- [ ] 
 - [ ] 97.Interleaving String
 - [ ] 403.Frog Jump
 - [ ] 279.Perfect Squares
