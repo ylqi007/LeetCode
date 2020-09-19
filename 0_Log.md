@@ -40,7 +40,8 @@ Review of the following questoins:
 - [ ] 626.Exchange Seats            : SQL
  
 
-### 20200711. DFS
+### DFS
+(20200711)
 - [x] 200.Number of Islands         : DFS, BFS, Union Find
     - [x] 130.Surrounded Regions    : DFS, BFS
     - [x] 286.Walls and Gates       : BFS
@@ -134,7 +135,8 @@ Review of the following questoins:
     - [ ] Peeking Iterator
     
     
-### 20200815. Tree
+### Tree
+(20200815)
 * Traversal
 - [x] 94.Binary Tree Inorder Traversal
 - [x] 144.Binary Tree Preorder Traversal        : recursion + iteration, without morris
@@ -177,7 +179,8 @@ Review of the following questoins:
 - [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
  
  
-## 20200817. Graph    
+### Graph  
+(20200817)  
 - [x] 269.Alien Dictionary                  : DFS, Topological Sort
     - [x] 210.Course Schedule II
 - [x] 207.Course Schedule                   : DFS, 
@@ -209,14 +212,16 @@ Review of the following questoins:
     - [x] 1055.Shortest Way to Form String      : Two Pointers
 
 
-## 20200901. Queue
+## Queue
+(20200901)
 - [x] 621.Task Schedule     
     - [x] 358.Rearrange String k Distance Apart
     - [x] 767.Reorganize String
 - [x] 363.Max Sum of Rectangle No Larger Than K
 
 
-## 20200904, Sliding Window + Two Pointers
+## Sliding Window + Two Pointers
+(20200904)
 * Sliding Window Problems       
     * At Most K Distinct Elements
         * 对于 3, 159, 340, and 904, 都是求最长的 substring or subarray 的长度
@@ -351,8 +356,14 @@ Review of the following questoins:
     - [x] [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)    
     - [x] [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) 
 
-- [ ] 32.Longest Valid Parentheses      
-- [ ] 70.Climbing Stairs
+- [x] [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)      
+    - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+    
+- [x] [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+    - [x] [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+    - [x] [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+    - [x] [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
+
 - [ ] 472.Concatenated Words
 - [ ] 72.Edit Distance
 - [ ] 97.Interleaving String
