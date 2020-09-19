@@ -367,8 +367,8 @@ Review of the following questoins:
 - [x] [472. Concatenated Words](https://leetcode.com/problems/concatenated-words/)
     - [x] [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
 
-- [ ] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
-    - [ ] 
+- [x] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+    - [x] [161. One Edit Distance](https://leetcode.com/problems/one-edit-distance/)
     
 - [ ] 
 - [ ] 97.Interleaving String
