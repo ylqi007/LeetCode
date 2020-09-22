@@ -313,11 +313,11 @@ Review of the following questoins:
     - [x] [697. Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)    
     - [x] [978. Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/)      
 
-- [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  : **Extend from center**
     - [x] [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)      
-    - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)      
+    - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)          : **Extend from center or Dynamic Programming**   
     - [x] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
-    - [x] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)      
+    - [x] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)    : **DP**
     - [x] [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)      
     
 - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
