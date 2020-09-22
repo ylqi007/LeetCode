@@ -220,6 +220,12 @@ Review of the following questoins:
 - [x] 363.Max Sum of Rectangle No Larger Than K
 
 
+## Hash Table
+(20200921)
+- [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+
+
+
 ## Sliding Window + Two Pointers
 (20200904)
 * Sliding Window Problems       
@@ -250,7 +256,17 @@ Review of the following questoins:
         - [x] 862.Shortest Subarray with Sum at Least K         : Queue
         - [x] 1234.Replace the Substring for Balanced String    : Two Pointers, Outside the window
         - [x] 930.Binary Subarrays With Sum                     : Two Window + Presum
-
+    * Sum / Product
+        - [x] [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)    : **判断是否存在**
+        - [x] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)        : **HashMap or Prefix Sum**
+        - [x] [1. Two Sum](https://leetcode.com/problems/two-sum/)
+        - [x] [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  : **Sliding Window**
+        - [x] [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)
+        - [x] [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
+        - [x] [1590. Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)
+        - [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)   
+        - [x] [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+        - [x] [1099. Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)
 
 
 * Range Sum Query
@@ -373,12 +389,12 @@ Review of the following questoins:
 - [ ] [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
 - [ ] [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
 - [ ] [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
-
+- [x] [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
+    - [x] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 * Consecutive Sequence in Binary Tree
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
 - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
-
 
 
 
