@@ -335,8 +335,8 @@ Review of the following questoins:
     - [x] [Java Common template - Word Break I, Word Break II, Concatenated Words](https://leetcode.com/problems/concatenated-words/discuss/348972/Java-Common-template-Word-Break-I-Word-Break-II-Concatenated-Words)
 
 - [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)         
-    - [x] [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
     - [x] [221. Maximal Square](https://leetcode.com/problems/maximal-square/)
+    - [x] [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
     - [x] [764. Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/)
     
 - [x] [322. Coin Change](https://leetcode.com/problems/coin-change/)        
