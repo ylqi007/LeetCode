@@ -38,7 +38,7 @@
     - [x] [2019-Google-Maximum_Level_Sum_of_a_Binary_Tree](2019-Google-Maximum_Level_Sum_of_a_Binary_Tree.md)
 - [ ] [Google | OA 2019 | Min Number of Chairs](https://leetcode.com/discuss/interview-question/356520)   
     - [x] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)   
-- [ ] []()      
+- [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)      
 - [ ] []()      
 - [ ] []()      
 - [ ] []()      

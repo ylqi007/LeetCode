@@ -420,7 +420,11 @@ Word Square
 Palindrome Pairs
   
     
-    
+## Divide and Conquer
+- [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)      
+    - [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+    - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+    - [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 
 =========================================================
 471.Encode String...
