@@ -10,7 +10,7 @@
 * Linked List
 * String
 * [Stack & Queue](Conclusions/LeetCode_Queue_&_Stack.md)
-    * [Queue](0_Log.md/#Queue)
+    * [Queue](0_Log.md/#Queue-&-Stack)
 * Heap
 * [Tree](0_Log.md/#Tree)
 * [Graph](0_Log.md/#Graph)

@@ -212,13 +212,13 @@ Review of the following questoins:
     - [x] 1055.Shortest Way to Form String      : Two Pointers
 
 
-## Queue
+## Queue & Stack
 (20200901)
 - [x] 621.Task Schedule     
     - [x] 358.Rearrange String k Distance Apart
     - [x] 767.Reorganize String
 - [x] 363.Max Sum of Rectangle No Larger Than K
-
+[71. Simplify Path](https://leetcode.com/problems/simplify-path/)
 
 ## Hash Table
 (20200921)
@@ -425,8 +425,14 @@ Palindrome Pairs
     - [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
     - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
     - [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
-
+- [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+    Wiggle Sort II
+    - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+    Third Maximum Number
+    Kth Largest Element in a Stream
+    - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)   
 =========================================================
 471.Encode String...
+
 
 
