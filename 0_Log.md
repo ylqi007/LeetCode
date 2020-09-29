@@ -346,7 +346,9 @@ Review of the following questoins:
     - [x] [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 
 - [x] [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)          
-    - [?] [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)          
+    - [x] [1000. Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/)          
+    - [x] [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
+    
 - [x] [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)   : DP
 - [x] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)           : DP
     - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
