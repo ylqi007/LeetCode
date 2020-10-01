@@ -24,7 +24,7 @@
 * Binary Search
 * Divide and Conquer
 * [Dynamic Programming](0_Log.md/#Dynamic-Programming)
-* Backtracking
+* [Backtracking](0_Log.md/#Backtracking)
 * Greedy
 * Bit Manipulation
 * [Depth-First Search](0_Log.md/#DFS)

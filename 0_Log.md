@@ -353,8 +353,8 @@ Review of the following questoins:
 - [x] [62. Unique Paths](https://leetcode.com/problems/unique-paths/)           : DP
     - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
     - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)  : Backtracking, Depth-First Search
-- [ ] [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
-    - [ ] [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
+- [x] [174. Dungeon Game](https://leetcode.com/problems/dungeon-game/)
+    - [x] [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
 
 - [x] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)          
     - [x] [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
@@ -399,6 +399,13 @@ Review of the following questoins:
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
 - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 
+
+## Backtracking
+- [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
+    - [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+    - [x] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+    - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+    - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
 
 
 ## Trie
