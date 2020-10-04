@@ -1,45 +1,5 @@
 
-
-### 20200701: Review of Basic Calculators
-Review of the following questoins:
-1. 224.Basic Calculator
-2. 227.Basic Calculator II
-3. 772.Basic Calculator III
-
-### 20200702: Clone-related problems
-1. 133.Clone Graph
-2. 138.Copy List with Random Pointer
-3. 1485.Clone Binary Tree with Random Pointer
-4. 1490.Clone N-ary Tree
-
-* 用 HashMap 标记已经访问过的 or 复制过的 node，从而避免陷入死循环。
-* 在 `1485. Clone Binary Tree with Random Pointer` 中，需要有 `HashMap` 来标记已经访问过的 Nodes。
-* 然而在 `1490. Clone N-ary Tree` 中，并不需要 `HashMap`，只要简单的 DFS 就可以。这是因为 `1490` 是普通的 Tree，没有 `random`，因此不会有循环的产生。
-
-
-### 20200705: Brace Expansion
-- [x] 1087.Brace Expansion
-- [x] 1096.Brace Expansion II
-
-
-### 20200706. Backtracking
-- [x] 78.Subsets
-- [x] 90.Subsets II
-- [x] 784.Letter Case Permutation
-
-
-### 20200708. Abbreviaton
-- [x] 187.Repeated DNA Sequences    : **对 iterate range 的分析**
-- [x] 408.Valid Word Abbreviation   : Two Pointers
-- [x] 288.Unique Word Abbreviation  : HashSet + hashCode
-- [x] 320.Generalized Abbreviation  : Backtracking
-- [x] 527.Word Abbreviation         : !!!
-- [ ] 411.Minimum Unique Word Abbreviation  : Still not figure out.
-
-- [ ] 1044.Longest Duplicate Substring
-- [ ] 626.Exchange Seats            : SQL
- 
-
+## 1. Data Structure
 ### DFS
 (20200711)
 - [x] 200.Number of Islands         : DFS, BFS, Union Find
@@ -204,27 +164,81 @@ Review of the following questoins:
     - [x] 547.Friend Circles
 - [x] 444.Sequence Reconstruction           : BFS, Topological sort
 - [x] 743.Network Delay Time                : DFS, Dijkstra's Algorithm
-
-
-## 20200825. Dynamic Programming, Greedy, Two Pointers
-- [x] 392.Is Subsequence                        : Two Pointers
-    - [x] 792.Number of Matching Subsequences   : Tow Pointers, Next Letter Pointer
-    - [x] 1055.Shortest Way to Form String      : Two Pointers
-
-
-## Queue & Stack
+### Queue & Stack
 (20200901)
 - [x] 621.Task Schedule     
     - [x] 358.Rearrange String k Distance Apart
     - [x] 767.Reorganize String
 - [x] 363.Max Sum of Rectangle No Larger Than K
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
-
-## Hash Table
+### Hash Table
 (20200921)
 - [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+### Trie
+- [ ] 692.Top K Frequent Words
+- [ ] 211.Design Add and Search Words Data Structure
+- [ ] 212.Word Search II
+- [ ] 472.Concatenated Words
+- [ ] 336.Palindrome Pairs
+- [ ] 642.Design Search Autocomplete System
+- [ ] 208.Implement Trie (Prefix Tree)
+- [ ] 421.Maximum XOR of Two Numbers in an Array
+- [ ] 720.Longest Word in Dictionary
+
+- [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
+- [ ] 648.Replace Words
+- [ ] Add and Search Word -
+  
+Maximum XOR of Two Numbers in an Array
+Word Search II
+Word Square
+Palindrome Pairs
+  
+    
 
 
+## 2. Algorithm
+### 20200701: Review of Basic Calculators
+Review of the following questoins:
+1. 224.Basic Calculator
+2. 227.Basic Calculator II
+3. 772.Basic Calculator III
+
+### 20200702: Clone-related problems
+1. 133.Clone Graph
+2. 138.Copy List with Random Pointer
+3. 1485.Clone Binary Tree with Random Pointer
+4. 1490.Clone N-ary Tree
+
+* 用 HashMap 标记已经访问过的 or 复制过的 node，从而避免陷入死循环。
+* 在 `1485. Clone Binary Tree with Random Pointer` 中，需要有 `HashMap` 来标记已经访问过的 Nodes。
+* 然而在 `1490. Clone N-ary Tree` 中，并不需要 `HashMap`，只要简单的 DFS 就可以。这是因为 `1490` 是普通的 Tree，没有 `random`，因此不会有循环的产生。
+
+### 20200705: Brace Expansion
+- [x] 1087.Brace Expansion
+- [x] 1096.Brace Expansion II
+
+### 20200706. Backtracking
+- [x] 78.Subsets
+- [x] 90.Subsets II
+- [x] 784.Letter Case Permutation
+
+### 20200708. Abbreviaton
+- [x] 187.Repeated DNA Sequences    : **对 iterate range 的分析**
+- [x] 408.Valid Word Abbreviation   : Two Pointers
+- [x] 288.Unique Word Abbreviation  : HashSet + hashCode
+- [x] 320.Generalized Abbreviation  : Backtracking
+- [x] 527.Word Abbreviation         : !!!
+- [ ] 411.Minimum Unique Word Abbreviation  : Still not figure out.
+
+- [ ] 1044.Longest Duplicate Substring
+- [ ] 626.Exchange Seats            : SQL
+ 
+
+## 20200825. Dynamic Programming, Greedy, Two Pointers
+- [x] 392.Is Subsequence                        : Two Pointers
+    - [x] 792.Number of Matching Subsequences   : Tow Pointers, Next Letter Pointer
+    - [x] 1055.Shortest Way to Form String      : Two Pointers
 
 ## Sliding Window + Two Pointers
 (20200904)
@@ -286,7 +300,6 @@ Review of the following questoins:
 
 - [ ] 1049.Last Stone Weight II
 
-
 ## 20200906
 - [x] [1007.Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)
 - [x] [1165. Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)
@@ -303,7 +316,6 @@ Review of the following questoins:
     - [x] [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
     - [x] [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
     - [x] [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)   
-
 
 ## Dynamic Programming
 (20200907)
@@ -399,7 +411,6 @@ Review of the following questoins:
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
 - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 
-
 ## Backtracking
 - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
     - [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
@@ -407,28 +418,6 @@ Review of the following questoins:
     - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
     - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
 
-
-## Trie
-- [ ] 692.Top K Frequent Words
-- [ ] 211.Design Add and Search Words Data Structure
-- [ ] 212.Word Search II
-- [ ] 472.Concatenated Words
-- [ ] 336.Palindrome Pairs
-- [ ] 642.Design Search Autocomplete System
-- [ ] 208.Implement Trie (Prefix Tree)
-- [ ] 421.Maximum XOR of Two Numbers in an Array
-- [ ] 720.Longest Word in Dictionary
-
-- [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
-- [ ] 648.Replace Words
-- [ ] Add and Search Word -
-  
-Maximum XOR of Two Numbers in an Array
-Word Search II
-Word Square
-Palindrome Pairs
-  
-    
 ## Divide and Conquer
 - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)      
     - [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
@@ -444,4 +433,9 @@ Palindrome Pairs
 471.Encode String...
 
 
+## 3. Contest
+1. [20200919 - Weekly Contest 206](contest/0_Log.md/#20200912.Weekly-Contest-206)
+2. [20200919 - Weekly Contest 207](contest/0_Log.md/#20200919.Weekly-Contest-207)
+2. [20200919 - Weekly Contest 208](contest/0_Log.md/#20200926.Weekly-Contest-208)
+2. [20200919 - Weekly Contest 209](contest/0_Log.md/#20201003.Weekly-Contest-209)
 
