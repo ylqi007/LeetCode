@@ -416,8 +416,12 @@ Review of the following questoins:
     - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - [ ] Permutations
     - [ ] [46. Permutations](https://leetcode.com/problems/permutations/)
-- [ ] Subsets
-    - [ ] [78. Subsets](https://leetcode.com/problems/subsets/)
+- [x] Subsets
+    - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
+    - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+    - [x] [320. Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
+    - [x] [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
+
 - [x] Unique Paths
     - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
     - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)

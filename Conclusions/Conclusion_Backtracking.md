@@ -22,13 +22,29 @@
 > * 而回溯法在用来求问题的任一解时，只要搜索到问题的一个解就可以结束。
 > 这种**以深度优先的方式**系统地搜索问题的解的算法称为回溯法，它适用于解一些组合数较大的问题。
 
+1. [51. N-Queens](https://leetcode.com/problems/n-queens/)
+2. [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
+3. [78. Subsets](https://leetcode.com/problems/subsets/)
+4. [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+39. Combination Sum
+40. Combination Sum II
+216. Combination Sum III
+46. Permutations
+47. Permutations II
+
+131. Palindrome Partitioning
+
 
 ## [[Leetcode] Backtracking回溯法(又称DFS,递归)全解](https://segmentfault.com/a/1190000006121957)
 * 一般回溯的问题有三种：
-    1. Find a path to success 有没有解;
+    1. Find a path to success 有没有解
+        * [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
     2. Find all paths to success 求所有解
         * 求所有解的个数
+            * [51. N-Queens](https://leetcode.com/problems/n-queens/)
         * 求所有解的集体信息
+            * [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
+            * [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
     3. Find the best path to success 求最优解
 
 ## [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
@@ -37,10 +53,11 @@
 
 
 ## References:
-[leetcode解题笔记：backtracking类型解题思路](https://blog.csdn.net/crystal6918/article/details/51924665)
-[算法漫游指北（第十篇）:泛型递归、递归代码模板、递归思维要点、分治算法、回溯算法](https://www.cnblogs.com/Nicholas0707/p/13138193.html#_label2)
-[6 Introduction to Backtracking - Brute Force Approach](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63)
-[[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
-[]()
-[]()
-[]()
+* [leetcode解题笔记：backtracking类型解题思路](https://blog.csdn.net/crystal6918/article/details/51924665)
+* [算法漫游指北（第十篇）:泛型递归、递归代码模板、递归思维要点、分治算法、回溯算法](https://www.cnblogs.com/Nicholas0707/p/13138193.html#_label2)
+* [6 Introduction to Backtracking - Brute Force Approach](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63)
+* [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
+* []()
+* []()
+* []()
+* 
