@@ -26,9 +26,9 @@
 2. [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
 3. [78. Subsets](https://leetcode.com/problems/subsets/)
 4. [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-39. Combination Sum
-40. Combination Sum II
-216. Combination Sum III
+5. [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+6. [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+7. [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 46. Permutations
 47. Permutations II
 
