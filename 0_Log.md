@@ -197,6 +197,7 @@ Palindrome Pairs
     
 
 
+---
 ## 2. Algorithm
 ### 20200701: Review of Basic Calculators
 Review of the following questoins:
@@ -411,12 +412,51 @@ Review of the following questoins:
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
 - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 
+
 ### Backtracking
-- [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
-    - [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-    - [x] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+
+[//]: # (TODO: 20201007, 22.Generate Parentheses)
+[//]: # (TODO: 20201007, 46.Permutations)
+[//]: # (TODO: 20201007, 79.Word Search)
+[//]: # (TODO: 20201007, 10.Regular Expression Matching)
+[//]: # (TODO: 20201007, 17.Letter Combinations of a Phone Number)
+[//]: # (TODO: 20201007, 140.Word Break II)
+[//]: # (TODO: 20201007, 211.Design Add and Search Words Data Structure)
+[//]: # (TODO: 20201007, 131.Palindrome Partitioning)
+[//]: # (TODO: 20201007, 78.Subsets)
+[//]: # (TODO: 20201007, 37.Sodoku Solver)
+[//]: # (FIXME: test1, test2)
+
+- [ ] Generate Parentheses
+    - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [ ] Permutations
+    - [ ] [46. Permutations](https://leetcode.com/problems/permutations/)
+- [x] Subsets
+    - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
+    - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+    - [x] [320. Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
+    - [x] [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
+
+- [x] Unique Paths
+    - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
     - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
     - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
+ 
+- [x] 八皇后 N-Queens
+    - [x] [51. N-Queens](https://leetcode.com/problems/n-queens/)
+    - [x] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
+    - [x] [1001. Grid Illumination](https://leetcode.com/problems/grid-illumination/)
+- [ ] Sodoku 
+    - [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+    - [x] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+- [x] Combination Sum
+    - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+    - [x] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+    - [x] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+    - [x] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+- [ ] Word Search
+- [ ] Word Ladder
+
 
 ### Divide and Conquer
 - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)      
