@@ -235,12 +235,12 @@ Review of the following questoins:
 - [ ] 626.Exchange Seats            : SQL
  
 
-## 20200825. Dynamic Programming, Greedy, Two Pointers
+### 20200825. Dynamic Programming, Greedy, Two Pointers
 - [x] 392.Is Subsequence                        : Two Pointers
     - [x] 792.Number of Matching Subsequences   : Tow Pointers, Next Letter Pointer
     - [x] 1055.Shortest Way to Form String      : Two Pointers
 
-## Sliding Window + Two Pointers
+### Sliding Window + Two Pointers
 (20200904)
 * Sliding Window Problems       
     * At Most K Distinct Elements
@@ -300,7 +300,7 @@ Review of the following questoins:
 
 - [ ] 1049.Last Stone Weight II
 
-## 20200906
+### 20200906
 - [x] [1007.Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)
 - [x] [1165. Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)
 - [x] [1161. Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
@@ -317,7 +317,7 @@ Review of the following questoins:
     - [x] [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
     - [x] [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)   
 
-## Dynamic Programming
+### Dynamic Programming
 (20200907)
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
     - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)      
@@ -411,14 +411,14 @@ Review of the following questoins:
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
 - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 
-## Backtracking
+### Backtracking
 - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
     - [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
     - [x] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
     - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
     - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
 
-## Divide and Conquer
+### Divide and Conquer
 - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)      
     - [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
     - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
