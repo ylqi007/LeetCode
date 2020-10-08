@@ -1,3 +1,4 @@
+[TOC]
 
 ## 1. Data Structure
 ### DFS
@@ -416,7 +417,6 @@ Review of the following questoins:
 ### Backtracking
 
 [//]: # (TODO: 20201007, 22.Generate Parentheses)
-[//]: # (TODO: 20201007, 46.Permutations)
 [//]: # (TODO: 20201007, 79.Word Search)
 [//]: # (TODO: 20201007, 10.Regular Expression Matching)
 [//]: # (TODO: 20201007, 17.Letter Combinations of a Phone Number)
@@ -429,12 +429,12 @@ Review of the following questoins:
 
 - [ ] Generate Parentheses
     - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-- [ ] Permutations
+- [x] Permutations
     - [x] [46. Permutations](https://leetcode.com/problems/permutations/)           **: Swap untill all**
     - [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/)     **: Swap untill all, Pick and add one by one**
     - [x] [77. Combinations](https://leetcode.com/problems/combinations/)
-    - [ ] Next Permutation
-    - [ ] Permutation Sequence
+    - [x] [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
+    - [x] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
     
 - [x] Subsets
     - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
