@@ -430,7 +430,12 @@ Review of the following questoins:
 - [ ] Generate Parentheses
     - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - [ ] Permutations
-    - [ ] [46. Permutations](https://leetcode.com/problems/permutations/)
+    - [x] [46. Permutations](https://leetcode.com/problems/permutations/)           **: Swap untill all**
+    - [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/)     **: Swap untill all, Pick and add one by one**
+    - [x] [77. Combinations](https://leetcode.com/problems/combinations/)
+    - [ ] Next Permutation
+    - [ ] Permutation Sequence
+    
 - [x] Subsets
     - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
     - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/)

@@ -29,8 +29,9 @@
 5. [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 6. [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
 7. [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
-46. Permutations
-47. Permutations II
+8. [46. Permutations](https://leetcode.com/problems/permutations/)
+9. [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
+10. [77. Combinations](https://leetcode.com/problems/combinations/)
 
 131. Palindrome Partitioning
 
