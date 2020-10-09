@@ -424,7 +424,12 @@ Review of the following questoins:
 [//]: # (TODO: 20201007, 78.Subsets)
 [//]: # (TODO: 20201007, 37.Sodoku Solver)
 [//]: # (FIXME: test1, test2)
-
+- [ ] Typical Problems
+    * N-Queens
+    * Subsets
+    * Combinations
+    * Combination Sum
+    * Permutation
 - [x] Generate Parentheses
     - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
     - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -461,6 +466,9 @@ Review of the following questoins:
     - [x] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 - [ ] Word Search
 - [ ] Word Ladder
+- [ ] Palindrome Partitioning
+    - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+    - [ ] [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
 
 
 ### Divide and Conquer

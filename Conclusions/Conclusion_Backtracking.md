@@ -33,7 +33,9 @@
 9. [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
 10. [77. Combinations](https://leetcode.com/problems/combinations/)
 11. [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-131. Palindrome Partitioning
+12. [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+13. [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
+
 
 
 ## [[Leetcode] Backtracking回溯法(又称DFS,递归)全解](https://segmentfault.com/a/1190000006121957)
