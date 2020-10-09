@@ -415,8 +415,6 @@ Review of the following questoins:
 
 
 ### Backtracking
-
-[//]: # (TODO: 20201007, 22.Generate Parentheses)
 [//]: # (TODO: 20201007, 79.Word Search)
 [//]: # (TODO: 20201007, 10.Regular Expression Matching)
 [//]: # (TODO: 20201007, 17.Letter Combinations of a Phone Number)
@@ -427,8 +425,10 @@ Review of the following questoins:
 [//]: # (TODO: 20201007, 37.Sodoku Solver)
 [//]: # (FIXME: test1, test2)
 
-- [ ] Generate Parentheses
-    - [ ] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [x] Generate Parentheses
+    - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+    - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+    - [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [x] Permutations
     - [x] [46. Permutations](https://leetcode.com/problems/permutations/)           **: Swap untill all**
     - [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/)     **: Swap untill all, Pick and add one by one**

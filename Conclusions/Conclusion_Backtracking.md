@@ -32,7 +32,7 @@
 8. [46. Permutations](https://leetcode.com/problems/permutations/)
 9. [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
 10. [77. Combinations](https://leetcode.com/problems/combinations/)
-
+11. [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 131. Palindrome Partitioning
 
 
