@@ -439,7 +439,11 @@ Review of the following questoins:
     - [x] [77. Combinations](https://leetcode.com/problems/combinations/)
     - [x] [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
     - [x] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
-    
+- [x] Word Search
+    - [x] [79. Word Search](https://leetcode.com/problems/word-search/)
+    - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)      
+- [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) 
 - [x] Subsets
     - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
     - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
@@ -463,9 +467,7 @@ Review of the following questoins:
     - [x] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
     - [x] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
     - [x] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
-- [x] Word Search
-    - [x] [79. Word Search](https://leetcode.com/problems/word-search/)
-    - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+
 - [ ] Word Ladder
 - [ ] Palindrome Partitioning
     - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
@@ -483,10 +485,9 @@ Review of the following questoins:
     Third Maximum Number
     Kth Largest Element in a Stream
     - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)   
-=========================================================
-471.Encode String...
 
 
+---
 ## 3. Contest
 1. [20200919 - Weekly Contest 206](contest/0_Log.md/#20200912.Weekly-Contest-206)
 2. [20200919 - Weekly Contest 207](contest/0_Log.md/#20200919.Weekly-Contest-207)
