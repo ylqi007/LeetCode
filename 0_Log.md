@@ -415,7 +415,6 @@ Review of the following questoins:
 
 
 ### Backtracking
-[//]: # (TODO: 20201007, 79.Word Search)
 [//]: # (TODO: 20201007, 10.Regular Expression Matching)
 [//]: # (TODO: 20201007, 17.Letter Combinations of a Phone Number)
 [//]: # (TODO: 20201007, 140.Word Break II)
@@ -464,7 +463,9 @@ Review of the following questoins:
     - [x] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
     - [x] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
     - [x] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
-- [ ] Word Search
+- [x] Word Search
+    - [x] [79. Word Search](https://leetcode.com/problems/word-search/)
+    - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [ ] Word Ladder
 - [ ] Palindrome Partitioning
     - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
