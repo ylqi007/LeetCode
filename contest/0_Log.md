@@ -42,3 +42,7 @@ Unsolved: 1599, 1600, 1601
 - [ ] [1610. Maximum Number of Visible Points](https://leetcode.com/problems/maximum-number-of-visible-points/)
 - [ ] [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/)
 
+
+## 20201010.Weekly Contest 210
+Results:
+4684 / 11792	ylqi007 	7	0:56:50	0:05:45 	0:51:50 1

@@ -491,6 +491,7 @@ Review of the following questoins:
 ## 3. Contest
 1. [20200919 - Weekly Contest 206](contest/0_Log.md/#20200912.Weekly-Contest-206)
 2. [20200919 - Weekly Contest 207](contest/0_Log.md/#20200919.Weekly-Contest-207)
-2. [20200919 - Weekly Contest 208](contest/0_Log.md/#20200926.Weekly-Contest-208)
-2. [20200919 - Weekly Contest 209](contest/0_Log.md/#20201003.Weekly-Contest-209)
+3. [20200919 - Weekly Contest 208](contest/0_Log.md/#20200926.Weekly-Contest-208)
+4. [20200919 - Weekly Contest 209](contest/0_Log.md/#20201003.Weekly-Contest-209)
+5. [20200919 - Weekly Contest 210](contest/0_Log.md/#20201003.Weekly-Contest-210)
 
