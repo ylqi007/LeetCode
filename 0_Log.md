@@ -1,5 +1,6 @@
 [TOC]
 
+---
 ## 1. Data Structure
 ### DFS
 (20200711)
@@ -9,6 +10,7 @@
     - [x] 695.Max Area of Island    : DFS
     - [x] 463.Island Perimeter      : Count
 - [x] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
+  
     - [x] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 - [x] 199.Binary Tree Right Side View   ： BFS
     - [x] 116.Populating Next Right Pointers in Each Node
@@ -66,8 +68,10 @@
     - [x] 889.Construct Binary Tree from Preorder and Postorder Traversal
     - [x] 1008.Construct Binary Search Tree from Preorder Traversal
 - [x] 108.Convert Sorted Array to Binary Search Tree
+  
     - [x] 109.Convert Sorted List to Binary Search Tree
 - [x] 114.Flatten Binary Tree to Linked List
+  
     - [x] 430.Flatten a Multilevel Doubly Linked List
 - [x] 863.All Nodes Distance K in Binary Tree
 - [x] 98.Valid Binary Search Tree
@@ -138,8 +142,8 @@
 - [x] 783.Minimum Distance Between BST Nodes
 - [x] 285.Inorder Successor in BST
 - [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
- 
- 
+
+
 ### Graph  
 (20200817)  
 - [x] 269.Alien Dictionary                  : DFS, Topological Sort
@@ -190,12 +194,12 @@
 - [ ] 648.Replace Words
 - [ ] Add and Search Word -
   
+
 Maximum XOR of Two Numbers in an Array
 Word Search II
 Word Square
 Palindrome Pairs
-  
-    
+
 
 
 ---
@@ -235,7 +239,7 @@ Review of the following questoins:
 
 - [ ] 1044.Longest Duplicate Substring
 - [ ] 626.Exchange Seats            : SQL
- 
+
 
 ### 20200825. Dynamic Programming, Greedy, Two Pointers
 - [x] 392.Is Subsequence                        : Two Pointers
@@ -290,9 +294,9 @@ Review of the following questoins:
     - [x] 304.Range Sum Query 2D - Immutable
     - [?] 307.Range Sum Query - Mutable     : Segment Tree
     - [?] 308.Range Sum Query 2D - Mutable      
+
   
-  
-  
+
 - [ ] 353.Design Snake Game          
 - [ ] 622.Design Circular Queue          
 - [ ] 346.Moving Average from Data Stream                 
@@ -380,10 +384,10 @@ Review of the following questoins:
         - [x] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
         - [x] [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)      
         - [x] [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)
-        
+    
 - [x] [674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)
 - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)          
-        
+  
 - [x] [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)      
     - [x] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
     - [x] [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/)    
@@ -411,18 +415,24 @@ Review of the following questoins:
 
 * Consecutive Sequence in Binary Tree
 - [x] [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)    
+
 - [x] [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 
+  
+  
+- [x] [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+- [x] [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [x] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 ### Backtracking
-[//]: # (TODO: 20201007, 10.Regular Expression Matching)
-[//]: # (TODO: 20201007, 17.Letter Combinations of a Phone Number)
-[//]: # (TODO: 20201007, 140.Word Break II)
-[//]: # (TODO: 20201007, 211.Design Add and Search Words Data Structure)
-[//]: # (TODO: 20201007, 131.Palindrome Partitioning)
-[//]: # (TODO: 20201007, 78.Subsets)
-[//]: # (TODO: 20201007, 37.Sodoku Solver)
-[//]: # (FIXME: test1, test2)
+[//]: # "TODO: 20201007, 10.Regular Expression Matching"
+[//]: # "TODO: 20201007, 17.Letter Combinations of a Phone Number"
+[//]: # "TODO: 20201007, 140.Word Break II"
+[//]: # "TODO: 20201007, 211.Design Add and Search Words Data Structure"
+[//]: # "TODO: 20201007, 131.Palindrome Partitioning"
+[//]: # "TODO: 20201007, 78.Subsets"
+[//]: # "TODO: 20201007, 37.Sodoku Solver"
+[//]: # "FIXME: test1, test2"
 - [ ] Typical Problems
     * N-Queens
     * Subsets
@@ -454,7 +464,7 @@ Review of the following questoins:
     - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
     - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
     - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
- 
+
 - [x] 八皇后 N-Queens
     - [x] [51. N-Queens](https://leetcode.com/problems/n-queens/)
     - [x] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
@@ -486,6 +496,8 @@ Review of the following questoins:
     Kth Largest Element in a Stream
     - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)   
 
+
+---
 
 ---
 ## 3. Contest
