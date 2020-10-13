@@ -323,8 +323,7 @@ Review of the following questoins:
     - [x] [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
     - [x] [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)   
 
-### Dynamic Programming
-(20200907)
+### Dynamic Programming -- (20200907)
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
     - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)      
     - [x] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)      
@@ -454,6 +453,9 @@ Review of the following questoins:
     - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)      
 - [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) 
+    - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+    - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+    - [x] [401. Binary Watch](https://leetcode.com/problems/binary-watch/)
 - [x] Subsets
     - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
     - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
