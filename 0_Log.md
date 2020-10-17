@@ -433,7 +433,6 @@ Review of the following questoins:
 [//]: # "TODO: 20201007, 37.Sodoku Solver"
 [//]: # "FIXME: test1, test2"
 - [ ] Typical Problems
-    * N-Queens
     * Subsets
     * Combinations
     * Combination Sum
@@ -502,6 +501,15 @@ Review of the following questoins:
 ---
 
 ---
+
+### Greedy
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+
+
 ## 3. Contest
 1. [20200919 - Weekly Contest 206](contest/0_Log.md/#20200912.Weekly-Contest-206)
 2. [20200919 - Weekly Contest 207](contest/0_Log.md/#20200919.Weekly-Contest-207)
