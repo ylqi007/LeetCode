@@ -503,8 +503,15 @@ Review of the following questoins:
 ---
 
 ### Greedy
-- [ ] []()
-- [ ] []()
+- [x] [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
+    - [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] Meeting Rooms
+    - [x] [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+    - [x] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [ ] Jump Game
+    - [x] [55. Jump Game](https://leetcode.com/problems/jump-game/)
+    - [ ] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+    - [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/)
 - [ ] []()
 - [ ] []()
 - [ ] []()
