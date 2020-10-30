@@ -498,10 +498,8 @@ Review of the following questoins:
     - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)   
 
 
----
 
 ---
-
 ### Greedy
 - [x] [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
     - [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
@@ -517,6 +515,31 @@ Review of the following questoins:
 - [ ] []()
 
 
+---
+### Union Find
+- [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [ ] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
+- [ ] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+- [ ] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+- [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+- [ ] [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+- [ ] [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
+- [ ] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [ ] [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
+- [ ] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
+- [ ] [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+- [ ] [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/)
+- [ ] [685. Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)
+- [ ] [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+- [ ] [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+- [ ] [1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)
+- [ ] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] [924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)
+- [ ] [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
+
+
+---
 ## 3. Contest
 1. [20200919 - Weekly Contest 206](contest/0_Log.md/#20200912.Weekly-Contest-206)
 2. [20200919 - Weekly Contest 207](contest/0_Log.md/#20200919.Weekly-Contest-207)

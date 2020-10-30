@@ -46,3 +46,14 @@ Unsolved: 1599, 1600, 1601
 ## 20201010.Weekly Contest 210
 Results:
 4684 / 11792	ylqi007 	7	0:56:50	0:05:45 	0:51:50 1
+
+
+## 20201024.Weekly Contest 212
+Results:
+2302 / 10984	ylqi007 	7	0:19:37	0:11:55 	0:19:37 	
+Solved Problem in time: 
+Unsolved:
+- [] [1629. Slowest Key](https://leetcode.com/contest/weekly-contest-212/problems/slowest-key/)
+- [] [1630. Arithmetic Subarrays](https://leetcode.com/contest/weekly-contest-212/problems/arithmetic-subarrays/)
+- [] [1631. Path With Minimum Effort](https://leetcode.com/contest/weekly-contest-212/problems/path-with-minimum-effort/)
+- [] []()

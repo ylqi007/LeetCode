@@ -104,7 +104,7 @@
     - [ ] [2019-Amazon-Critical Connections](2019-Amazon-Critical_Connections.md)
     - [ ] [1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)   
 - [x] [5. 1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
-    - [x] [1268.Search_Suggestions_System](../1268.Search_Suggestions_System.md)       
+    - [x] [1268.Search_Suggestions_System](../../problems/1268.Search_Suggestions_System.md)       
 - [x] [6. 937.Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)      
 - [x] [7. 763. Partition Labels](https://leetcode.com/problems/partition-labels/)      
     * Related Questions:
