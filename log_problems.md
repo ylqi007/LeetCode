@@ -520,7 +520,8 @@ Review of the following questoins:
 - [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
     - [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
     - [ ] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
-- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
+    * 记住 `currentLen` 的写法，出现连续相同数字的情况是，`currentLen` 没有改变
 - [ ] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
 - [ ] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
 - [ ] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)

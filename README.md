@@ -1,7 +1,7 @@
 # LeetCode
 
 ## 1. LC Log
-[Log](0_Log.md)
+[Log](log_problems.md)
 
 
 ## 2. Data Structure
@@ -10,24 +10,24 @@
 * Linked List
 * String
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
-    * [Queue](0_Log.md/#Queue-&-Stack)
+    * [Queue](log_problems.md/#Queue-&-Stack)
 * Heap
-* [Tree](0_Log.md/#Tree)
-* [Graph](0_Log.md/#Graph)
-* [Trie](0_Log.md/#Trie)
+* [Tree](log_problems.md/#Tree)
+* [Graph](log_problems.md/#Graph)
+* [Trie](log_problems.md/#Trie)
 
 
 ## 3. Algorithm
 * Sort
-* [Graph](0_Log.md/#Graph)
-* [Two Pointer](0_Log.md/#Sliding-Window-+-Two Pointers)
+* [Graph](log_problems.md/#Graph)
+* [Two Pointer](log_problems.md/#Sliding-Window-+-Two Pointers)
 * Binary Search
 * Divide and Conquer
-* [Dynamic Programming](0_Log.md/#Dynamic-Programming)
-* [Backtracking](0_Log.md/#Backtracking)
+* [Dynamic Programming](log_problems.md/#Dynamic-Programming)
+* [Backtracking](log_problems.md/#Backtracking)
 * Greedy
 * Bit Manipulation
-* [Depth-First Search](0_Log.md/#DFS)
+* [Depth-First Search](log_problems.md/#DFS)
 * Breadth-First Search
 * Topological Sort
 * Recursion
