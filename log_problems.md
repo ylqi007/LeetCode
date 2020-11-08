@@ -529,10 +529,13 @@ Review of the following questoins:
     - [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
     - [x] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/), **not related to UF**
 - [x] [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
-- [下] [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)    : Cyclic Swapping (LC 41, 268)
+- [x] [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)    : Cyclic Swapping (LC 41, 268)
     - [x] [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
-    - [ ] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
-- [ ] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+    - [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
+- [x] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+    - [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+    - [x] [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)   **UF, DFS**
+    - [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
 - [ ] [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
 - [ ] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
 - [ ] [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
