@@ -29,6 +29,7 @@
 * Bit Manipulation
 * [Depth-First Search](log_problems.md/#DFS)
 * Breadth-First Search
+* [Union Find](log_problems.md/#Union-Find)
 * Topological Sort
 * Recursion
 * Sliding Window
