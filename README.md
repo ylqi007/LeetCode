@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/github/issues/ylqi007/LeetCode)	![](https://img.shields.io/github/forks/ylqi007/LeetCode)	![](https://img.shields.io/github/stars/ylqi007/LeetCode)
+![](https://img.shields.io/github/stars/ylqi007/LeetCode)	![](https://img.shields.io/github/forks/ylqi007/LeetCode)	![](https://img.shields.io/github/issues/ylqi007/LeetCode)	
 
 ## 1. LC Log
 [Log](log_problems.md)
