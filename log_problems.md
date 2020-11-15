@@ -249,20 +249,6 @@ Palindrome Pairs
 - [ ] ??? [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)
 - [ ] []()
 - [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-
 
 
 ### Union Find
@@ -280,7 +266,7 @@ Palindrome Pairs
 
 - [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)     **Graph + DFS, UF**，此处的 graph 是用 adjacent matrix 表示的。
 
-- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)   **Graph + DFS, UF**, `a/b = (a/c) / (b/c) = a/b`
 
 - [x] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)     **Graph+DFS, UF**， Graph represented by adjacent list.
 
