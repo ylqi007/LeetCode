@@ -278,11 +278,11 @@ Palindrome Pairs
 
   * 记住 `currentLen` 的写法，出现连续相同数字的情况是，`currentLen` 没有改变
 
-- [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)     **DFS, UF**
+- [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)     **Graph + DFS, UF**，此处的 graph 是用 adjacent matrix 表示的。
 
-- [ ] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
 
-- [ ] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)  : DSU, Union-Find
+- [x] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)     **Graph+DFS, UF**， Graph represented by adjacent list.
 
 - [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
 
