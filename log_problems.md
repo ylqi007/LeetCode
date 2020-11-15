@@ -2,104 +2,7 @@
 
 ---
 ## 1. Data Structure
-### DFS
-(20200711)
-- [x] 200.Number of Islands         : DFS, BFS, Union Find
-    - [x] 130.Surrounded Regions    : DFS, BFS
-    - [x] 286.Walls and Gates       : BFS
-    - [x] 695.Max Area of Island    : DFS
-    - [x] 463.Island Perimeter      : Count
-- [x] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
-  
-    - [x] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
-- [x] 199.Binary Tree Right Side View   ： BFS
-    - [x] 116.Populating Next Right Pointers in Each Node
-    - [x] 117.Populating Next Right Pointers in Each Node II
-    - [ ] 545.Boundary of Binary Tree
-- [x] 394.Decode String             : stack
-    - [ ] 726.Number of Atoms       : stack
-    - [ ] 736.Parse Lisp Expression : stack
-- [x] 124.Binary Tree Maximum Path Sum
-    * 计算路径上值的和
-    - [x] 112.Path Sum      : from root-to-leaf, is there any sum equals target or not
-    - [x] 113.Path Sum II   : from root-to-leaf, all paths that have sum equals target
-    - [x] 437.Path Sum III  : (prefix sum) the number of paths that sum to a given value, the path does not need to start or end at the root or leaf, but must go downwards
-    - [x] 666.Path Sum IV   : return the sum of all paths from the root towards the leaves
-    - [x] 129.Sum Root to Leaf Numbers: DFS
-    * 计算 Tree 的路径长度
-    - [x] 687.Longest Univalue Path
-    - [x] 543.Diameter of Binary Tree
-    - [x] 1522.Diameter of N-Ary Tree
-    * Univalue tree
-    - [x] 250.Count Univalue Subtrees
-    - [x] 572.Subtree of Another Tree
-    - [x] 687.Longest Univalue Path
-- [x] 301.Remove Invalid Parentheses
-    - [x] 20.Valid Parentheses
-    - [x] 22.Generate Parentheses
-        - [x] 17.Letter Combination of a Phone Number   : Backtracking
-    - [x] 32.Longest Valid Parentheses
-    - [x] 1003.Check If Word Is Valid After Substitutions
-    - [x] 39.Combination Sum    : DP or Backtracking
-        - [x] 40.Combination Sum II : 与 39 题相比, each candidate number can only be used for one time, and need to avoid duplicate candidate numbers.
-        - [x] 216.Combination Sum III
-        - [x] 377.Combination Sum IV
-    - [x] 77.Combinations
-        - [x] 46.Permutations       : backtrack
-        - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
-        - [x] 31.Next Permutations  
-        - [x] 17.Letter Combinations of a Phone Number  : Backtracking
-        - [x] 254.Factor Combinations   : Recursive
-    - [x] 46.Permutations       : backtrack
-        - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
-        - [x] 60.Permutation Sequence   !!!
-- [x] 472.Concatnated Words
-    - [x] 139.Word Break
-    - [x] 140.Word Break II
-- [x] 332.Reconstruct Itinerary     : DFS
-    - [x] 207.Course Schedule       : DFS, BFS, inDegree, detect cycle
-    - [x] 210.Course Schedule II    : 
-    - [x] 630.Course Schedule III   : Greedy
-    - [x] 261.Graph Valid Tree      : Detect if a cycle exists or not
-    - [x] 547.Friend Circles        : Union Find, DFS
-    - [x] 310.Minimum Height Trees  : 
-- [x] 105.Construct Binary Tree from Preorder and Inorder Traversal
-    - [x] 106.Construct Binary Tree from Inorder and Postorder Traversal
-    - [x] 889.Construct Binary Tree from Preorder and Postorder Traversal
-    - [x] 1008.Construct Binary Search Tree from Preorder Traversal
-- [x] 108.Convert Sorted Array to Binary Search Tree
-  
-    - [x] 109.Convert Sorted List to Binary Search Tree
-- [x] 114.Flatten Binary Tree to Linked List
-  
-    - [x] 430.Flatten a Multilevel Doubly Linked List
-- [x] 863.All Nodes Distance K in Binary Tree
-- [x] 98.Valid Binary Search Tree
-- [x] 529.Minesweeper
-- [x] 314.Binary Tree Vertical Order Traversal
-- [x] 695.Max Area of Island
-    - [x] 200.Number of Islands
-    - [x] 463.Island Perimeter
-    - [x] 1034.Coloring A Border
-    - [x] 733.Flood Fill
-- [x] 329.Longest Increasing Path in a Matrix
-- [x] 721.Accounts Merge
-    - [x] 684.Redundant Connection      : undirected graph, Union Find
-    - [x] 685.Redundant Connection II   : directed graph, Union Find
-    - [x] 734.Sentence Similarity
-    - [x] 737.Sentence Similarity II
-
-- [x] 133.Clone Graph
-    - [x] 138.Copy List with Random Pointer
-    - [x] 1485.Clone Binary Tree with Random Pointer
-    - [x] 1490.Clone N-ary Tree
-
-* Iterator
-    - [ ] Flatten 2D Vector
-    - [ ] Zigzag Iterator
-    - [ ] Peeking Iterator
-    
-    
+* 
 ### Tree
 (20200815)
 * Traversal
@@ -204,7 +107,304 @@ Palindrome Pairs
 
 ---
 ## 2. Algorithm
+
+### Depth First Search (20200711)
+
+- [x] 200.Number of Islands         : DFS, BFS, Union Find
+
+  - [x] 130.Surrounded Regions    : DFS, BFS
+  - [x] 286.Walls and Gates       : BFS
+  - [x] 695.Max Area of Island    : DFS
+  - [x] 463.Island Perimeter      : Count
+
+- [x] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
+
+  - [x] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+
+- [x] 199.Binary Tree Right Side View   ： BFS
+
+  - [x] 116.Populating Next Right Pointers in Each Node
+  - [x] 117.Populating Next Right Pointers in Each Node II
+  - [ ] 545.Boundary of Binary Tree
+
+- [x] 394.Decode String             : stack
+
+  - [ ] 726.Number of Atoms       : stack
+  - [ ] 736.Parse Lisp Expression : stack
+
+- [x] 124.Binary Tree Maximum Path Sum
+
+  * 计算路径上值的和
+
+  - [x] 112.Path Sum      : from root-to-leaf, is there any sum equals target or not
+  - [x] 113.Path Sum II   : from root-to-leaf, all paths that have sum equals target
+  - [x] 437.Path Sum III  : (prefix sum) the number of paths that sum to a given value, the path does not need to start or end at the root or leaf, but must go downwards
+  - [x] 666.Path Sum IV   : return the sum of all paths from the root towards the leaves
+  - [x] 129.Sum Root to Leaf Numbers: DFS
+
+  * 计算 Tree 的路径长度
+
+  - [x] 687.Longest Univalue Path
+  - [x] 543.Diameter of Binary Tree
+  - [x] 1522.Diameter of N-Ary Tree
+
+  * Univalue tree
+
+  - [x] 250.Count Univalue Subtrees
+  - [x] 572.Subtree of Another Tree
+  - [x] 687.Longest Univalue Path
+
+- [x] 301.Remove Invalid Parentheses
+
+  - [x] 20.Valid Parentheses
+  - [x] 22.Generate Parentheses
+    - [x] 17.Letter Combination of a Phone Number   : Backtracking
+  - [x] 32.Longest Valid Parentheses
+  - [x] 1003.Check If Word Is Valid After Substitutions
+  - [x] 39.Combination Sum    : DP or Backtracking
+    - [x] 40.Combination Sum II : 与 39 题相比, each candidate number can only be used for one time, and need to avoid duplicate candidate numbers.
+    - [x] 216.Combination Sum III
+    - [x] 377.Combination Sum IV
+  - [x] 77.Combinations
+    - [x] 46.Permutations       : backtrack
+    - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
+    - [x] 31.Next Permutations  
+    - [x] 17.Letter Combinations of a Phone Number  : Backtracking
+    - [x] 254.Factor Combinations   : Recursive
+  - [x] 46.Permutations       : backtrack
+    - [x] 47.Permutations II    : `nums` array may contains duplicate numbers
+    - [x] 60.Permutation Sequence   !!!
+
+- [x] 472.Concatnated Words
+
+  - [x] 139.Word Break
+  - [x] 140.Word Break II
+
+- [x] 332.Reconstruct Itinerary     : DFS
+
+  - [x] 207.Course Schedule       : DFS, BFS, inDegree, detect cycle
+  - [x] 210.Course Schedule II    : 
+  - [x] 630.Course Schedule III   : Greedy
+  - [x] 261.Graph Valid Tree      : Detect if a cycle exists or not
+  - [x] 547.Friend Circles        : Union Find, DFS
+  - [x] 310.Minimum Height Trees  : 
+
+- [x] 105.Construct Binary Tree from Preorder and Inorder Traversal
+
+  - [x] 106.Construct Binary Tree from Inorder and Postorder Traversal
+  - [x] 889.Construct Binary Tree from Preorder and Postorder Traversal
+  - [x] 1008.Construct Binary Search Tree from Preorder Traversal
+
+- [x] 108.Convert Sorted Array to Binary Search Tree
+
+  - [x] 109.Convert Sorted List to Binary Search Tree
+
+- [x] 114.Flatten Binary Tree to Linked List
+
+  - [x] 430.Flatten a Multilevel Doubly Linked List
+
+- [x] 863.All Nodes Distance K in Binary Tree
+
+- [x] 98.Valid Binary Search Tree
+
+- [x] 529.Minesweeper
+
+- [x] 314.Binary Tree Vertical Order Traversal
+
+- [x] 695.Max Area of Island
+
+  - [x] 200.Number of Islands
+  - [x] 463.Island Perimeter
+  - [x] 1034.Coloring A Border
+  - [x] 733.Flood Fill
+
+- [x] 329.Longest Increasing Path in a Matrix
+
+- [x] 721.Accounts Merge
+
+  - [x] 684.Redundant Connection      : undirected graph, Union Find
+  - [x] 685.Redundant Connection II   : directed graph, Union Find
+  - [x] 734.Sentence Similarity
+  - [x] 737.Sentence Similarity II
+
+- [x] 133.Clone Graph
+
+  - [x] 138.Copy List with Random Pointer
+  - [x] 1485.Clone Binary Tree with Random Pointer
+  - [x] 1490.Clone N-ary Tree
+
+* Iterator
+  - [ ] Flatten 2D Vector
+  - [ ] Zigzag Iterator
+  - [ ] Peeking Iterator
+
+
+
+### Breadth First Search
+
+- [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [x] [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+- [x] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [x] [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+- [ ] ??? [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+
+
+
+### Union Find
+
+[//]: # "TODO: 20201110, common factor"
+
+- [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)    **DFS, BFS, UF**
+
+  - [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+  - [ ] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
+
+- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)    **Sort, Set, Map**
+
+  * 记住 `currentLen` 的写法，出现连续相同数字的情况是，`currentLen` 没有改变
+
+- [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)     **DFS, UF**
+
+- [ ] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+
+- [ ] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)  : DSU, Union-Find
+
+- [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
+
+  - [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+  - [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/), **not related to UF**
+
+- [ ] [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+
+- [ ] [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)    : Cyclic Swapping (LC 41, 268)
+
+  - [ ] [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
+  - [ ] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
+
+- [ ] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+
+  - [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+  - [ ] [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)   **UF, DFS**
+  - [ ] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
+
+- [ ] [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
+
+- [ ] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
+
+- [ ] [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+
+- [ ] [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/)
+
+- [ ] **hard** : [685. Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)
+
+- [ ] [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+
+- [ ] [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+
+- [ ] [1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)
+
+- [ ] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+
+- [ ] [924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)
+
+- [ ] [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
+
+  
+
+
+
+### Backtracking
+
+[//]: # "TODO: 20201007, 10.Regular Expression Matching"
+[//]: # "TODO: 20201007, 17.Letter Combinations of a Phone Number"
+[//]: # "TODO: 20201007, 140.Word Break II"
+[//]: # "TODO: 20201007, 211.Design Add and Search Words Data Structure"
+[//]: # "TODO: 20201007, 131.Palindrome Partitioning"
+[//]: # "TODO: 20201007, 78.Subsets"
+[//]: # "TODO: 20201007, 37.Sodoku Solver"
+[//]: # "FIXME: test1, test2"
+
+- [ ] Typical Problems
+  * Subsets
+  * Combinations
+  * Combination Sum
+  * Permutation
+- [x] Generate Parentheses
+  - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+  - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+  - [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [x] Permutations
+  - [x] [46. Permutations](https://leetcode.com/problems/permutations/)           **: Swap untill all**
+  - [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/)     **: Swap untill all, Pick and add one by one**
+  - [x] [77. Combinations](https://leetcode.com/problems/combinations/)
+  - [x] [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
+  - [x] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
+- [x] Word Search
+  - [x] [79. Word Search](https://leetcode.com/problems/word-search/)
+  - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)      
+- [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) 
+  - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+  - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+  - [x] [401. Binary Watch](https://leetcode.com/problems/binary-watch/)
+- [x] Subsets
+  - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
+  - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
+  - [x] [320. Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
+  - [x] [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
+
+- [x] Unique Paths
+  - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
+  - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
+  - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
+
+- [x] 八皇后 N-Queens
+  - [x] [51. N-Queens](https://leetcode.com/problems/n-queens/)
+  - [x] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
+  - [x] [1001. Grid Illumination](https://leetcode.com/problems/grid-illumination/)
+- [ ] Sodoku 
+  - [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+  - [x] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+- [x] Combination Sum
+  - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+  - [x] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+  - [x] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+  - [x] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+
+- [ ] Word Ladder
+- [ ] Palindrome Partitioning
+  - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+  - [ ] [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
+
+
+
+- [x] 78.Subsets
+- [x] 90.Subsets II
+- [x] 784.Letter Case Permutation
+
+
+
+### --- Split ---
+
+
+
 ### 20200701: Review of Basic Calculators
+
 Review of the following questoins:
 1. 224.Basic Calculator
 2. 227.Basic Calculator II
@@ -224,10 +424,7 @@ Review of the following questoins:
 - [x] 1087.Brace Expansion
 - [x] 1096.Brace Expansion II
 
-### 20200706. Backtracking
-- [x] 78.Subsets
-- [x] 90.Subsets II
-- [x] 784.Letter Case Permutation
+- [x] 
 
 ### 20200708. Abbreviaton
 - [x] 187.Repeated DNA Sequences    : **对 iterate range 的分析**
@@ -423,66 +620,7 @@ Review of the following questoins:
 - [x] [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [x] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
-### Backtracking
-[//]: # "TODO: 20201007, 10.Regular Expression Matching"
-[//]: # "TODO: 20201007, 17.Letter Combinations of a Phone Number"
-[//]: # "TODO: 20201007, 140.Word Break II"
-[//]: # "TODO: 20201007, 211.Design Add and Search Words Data Structure"
-[//]: # "TODO: 20201007, 131.Palindrome Partitioning"
-[//]: # "TODO: 20201007, 78.Subsets"
-[//]: # "TODO: 20201007, 37.Sodoku Solver"
-[//]: # "FIXME: test1, test2"
-- [ ] Typical Problems
-    * Subsets
-    * Combinations
-    * Combination Sum
-    * Permutation
-- [x] Generate Parentheses
-    - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-    - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-    - [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [x] Permutations
-    - [x] [46. Permutations](https://leetcode.com/problems/permutations/)           **: Swap untill all**
-    - [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/)     **: Swap untill all, Pick and add one by one**
-    - [x] [77. Combinations](https://leetcode.com/problems/combinations/)
-    - [x] [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
-    - [x] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
-- [x] Word Search
-    - [x] [79. Word Search](https://leetcode.com/problems/word-search/)
-    - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
-- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)      
-- [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) 
-    - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-    - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-    - [x] [401. Binary Watch](https://leetcode.com/problems/binary-watch/)
-- [x] Subsets
-    - [x] [78. Subsets](https://leetcode.com/problems/subsets/)
-    - [x] [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
-    - [x] [320. Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
-    - [x] [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
-
-- [x] Unique Paths
-    - [x] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/)
-    - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
-    - [x] [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)     : DP
-
-- [x] 八皇后 N-Queens
-    - [x] [51. N-Queens](https://leetcode.com/problems/n-queens/)
-    - [x] [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
-    - [x] [1001. Grid Illumination](https://leetcode.com/problems/grid-illumination/)
-- [ ] Sodoku 
-    - [x] [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-    - [x] [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
-- [x] Combination Sum
-    - [x] [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-    - [x] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
-    - [x] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
-    - [x] [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
-
-- [ ] Word Ladder
-- [ ] Palindrome Partitioning
-    - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-    - [ ] [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
+- [ ] - [ ] 
 
 
 ### Divide and Conquer
@@ -516,62 +654,11 @@ Review of the following questoins:
 
 
 ---
-### Breadth First Search
-- [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-- [x] [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
-- [x] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
-- [x] [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
-- [ ] ??? [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
-- [ ] []()
+- [ ] 
 
 
 ---
-### Union Find
-[//]: # "TODO: 20201110, common factor"
-- [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-    - [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-    - [ ] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
-- [x] [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) 
-    * 记住 `currentLen` 的写法，出现连续相同数字的情况是，`currentLen` 没有改变
-- [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
-- [x] [399. Evaluate Division](https://leetcode.com/problems/evaluate-division/)
-- [x] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)  : DSU, Union-Find
-- [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
-    - [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-    - [x] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/), **not related to UF**
-- [x] [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
-- [x] [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)    : Cyclic Swapping (LC 41, 268)
-    - [x] [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
-    - [x] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
-- [x] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-    - [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-    - [x] [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)   **UF, DFS**
-    - [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
-- [ ] [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
-- [x] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
-- [ ] [1319. Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
-- [ ] [839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/)
-- [ ] **hard** : [685. Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)
-- [x] [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
-- [ ] [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
-- [ ] [1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)
-- [ ] [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/)
-- [ ] [924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)
-- [ ] [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
+- [ ] 
 
 
 ---
