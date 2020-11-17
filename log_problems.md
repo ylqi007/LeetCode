@@ -275,9 +275,9 @@ Palindrome Pairs
   - [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
   - [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/), **not related to UF**
 
-- [ ] [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+- [x] [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)    **UF**
 
-- [ ] [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)    : Cyclic Swapping (LC 41, 268)
+- [x] [765. Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)    **Cyclic Swapping (LC 41, 268)**
 
   - [ ] [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
   - [ ] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
