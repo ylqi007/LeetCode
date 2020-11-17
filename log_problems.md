@@ -270,7 +270,7 @@ Palindrome Pairs
 
 - [x] [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)     **Graph+DFS, UF**， Graph represented by adjacent list.
 
-- [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
+- [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)    **DFS, UF**     
 
   - [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
   - [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/), **not related to UF**
@@ -282,13 +282,13 @@ Palindrome Pairs
   - [ ] [268. Missing Number](https://leetcode.com/problems/missing-number/description/)
   - [ ] [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)
 
-- [ ] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+- [x] [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)    **UF, DFS**
 
   - [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
   - [ ] [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)   **UF, DFS**
   - [ ] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
 
-- [ ] [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)
+- [x] [1202. Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)    **UF + PriorityQueue**
 
 - [ ] [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)
 
