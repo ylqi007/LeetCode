@@ -108,16 +108,16 @@ Palindrome Pairs
 ---
 ## 2. Algorithm
 
-### Depth First Search (20200711)
+### Depth First Search
 
-- [x] 200.Number of Islands         : DFS, BFS, Union Find
+- [x] [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)         **DFS, BFS, Union Find**
 
   - [x] 130.Surrounded Regions    : DFS, BFS
   - [x] 286.Walls and Gates       : BFS
   - [x] 695.Max Area of Island    : DFS
   - [x] 463.Island Perimeter      : Count
 
-- [x] 1192.Critical Connections in a Network    : DFS, Dijistra, *Add explanation to the post*
+- [x] [1192.Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)    **DFS, Dijistra, *Add explanation to the post***
 
   - [x] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 
@@ -127,7 +127,7 @@ Palindrome Pairs
   - [x] 117.Populating Next Right Pointers in Each Node II
   - [ ] 545.Boundary of Binary Tree
 
-- [x] 394.Decode String             : stack
+- [x] [394.Decode String](https://leetcode.com/problems/decode-string/)             **stack**
 
   - [ ] 726.Number of Atoms       : stack
   - [ ] 736.Parse Lisp Expression : stack
