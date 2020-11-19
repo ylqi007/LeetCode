@@ -121,7 +121,7 @@ Palindrome Pairs
 
   - [x] 1489.Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 
-- [x] 199.Binary Tree Right Side View   ： BFS
+- [x] [199.Binary Tree Right Side View](https://github.com/ylqi007/LeetCode/issues/new)     **BFS + sentinel**
 
   - [x] 116.Populating Next Right Pointers in Each Node
   - [x] 117.Populating Next Right Pointers in Each Node II
@@ -132,7 +132,7 @@ Palindrome Pairs
   - [ ] 726.Number of Atoms       : stack
   - [ ] 736.Parse Lisp Expression : stack
 
-- [x] 124.Binary Tree Maximum Path Sum
+- [x] [124.Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)    **Recursion/DFS**
 
   * 计算路径上值的和
 
@@ -153,6 +153,8 @@ Palindrome Pairs
   - [x] 250.Count Univalue Subtrees
   - [x] 572.Subtree of Another Tree
   - [x] 687.Longest Univalue Path
+
+- [x] [547. Friend Circles](https://leetcode.com/problems/friend-circles/)    **DFS, BFS, UF**
 
 - [x] 301.Remove Invalid Parentheses
 
@@ -189,7 +191,7 @@ Palindrome Pairs
   - [x] 547.Friend Circles        : Union Find, DFS
   - [x] 310.Minimum Height Trees  : 
 
-- [x] 105.Construct Binary Tree from Preorder and Inorder Traversal
+- [x] [105.Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)    **DFS/Recursion**
 
   - [x] 106.Construct Binary Tree from Inorder and Postorder Traversal
   - [x] 889.Construct Binary Tree from Preorder and Postorder Traversal
