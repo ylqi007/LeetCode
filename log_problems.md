@@ -244,13 +244,15 @@ Palindrome Pairs
 
 ### Breadth First Search
 
-- [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
-- [x] [127. Word Ladder](https://leetcode.com/problems/word-ladder/)
-- [x] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
-- [x] [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
-- [ ] ??? [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)
+- [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [x] [127. Word Ladder](https://leetcode.com/problems/word-ladder/)    **BFS, Two Direction BFS**
+- [x] [199.Binary Tree Right Side View](https://github.com/ylqi007/LeetCode/issues/new)     **BFS + sentinel**
+- [x] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)    **BFS, BFS 1ms 值得再看**
+- [x] [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)    **BFS + Formular**
 - [ ] []()
 - [ ] []()
+
+
 
 
 ### Union Find
