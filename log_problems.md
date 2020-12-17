@@ -79,7 +79,15 @@
     - [x] 767.Reorganize String
 - [x] 363.Max Sum of Rectangle No Larger Than K
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
+### Stack
+
+- [ ] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)  DP
+- [ ] 
+
+
+
 ### Hash Table
+
 (20200921)
 - [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 ### Trie
@@ -249,6 +257,9 @@ Palindrome Pairs
 - [x] [199.Binary Tree Right Side View](https://github.com/ylqi007/LeetCode/issues/new)     **BFS + sentinel**
 - [x] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)    **BFS, BFS 1ms 值得再看**
 - [x] [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)    **BFS + Formular**
+- [x] [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)    **DFS, BFS**
+- [x] [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)    **DFS, BFS**
+- [ ] []()
 - [ ] []()
 - [ ] []()
 

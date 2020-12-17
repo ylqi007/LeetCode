@@ -7,9 +7,15 @@
 
 
 ## 2. Data Structure
-* Array
-* Hash Table
+* Array(fixed), Dynamic array
 * Linked List
+* TreeSet/TreeMap (ordered)
+* HashSet/HashMap(unordered)
+* Heap/PriorityQueue
+* Deque/Queue/Stack
+* Pair/Tuple
+* Customized data structure
+* 
 * String
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
     * [Queue](log_problems.md/#Queue-&-Stack)
