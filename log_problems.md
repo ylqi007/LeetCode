@@ -81,8 +81,11 @@
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
 ### Stack
 
-- [ ] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)  DP
-- [ ] 
+- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    **DP**
+- [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)     **Stack**
+- [x] [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+- [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)    **DP, Stack**
+- [x] [394.Decode String](https://leetcode.com/problems/decode-string/)    **Stack**
 
 
 
