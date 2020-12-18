@@ -79,15 +79,17 @@
     - [x] 767.Reorganize String
 - [x] 363.Max Sum of Rectangle No Larger Than K
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
+  
 ### Stack
-
 - [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    **DP**
 - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)     **Stack**
 - [x] [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
 - [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)    **DP, Stack**
 - [x] [394.Decode String](https://leetcode.com/problems/decode-string/)    **Stack**
-
-
+- [x] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+- [x] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+- [x] [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
+- [ ] [770. Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)
 
 ### Hash Table
 
