@@ -90,6 +90,8 @@
 - [x] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
 - [x] [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
 - [ ] [770. Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)
+- [x] [155. Min Stack](https://leetcode.com/problems/min-stack/)  **Stack, Stack + One Integer**
+- [x] [716. Max Stack](https://leetcode.com/problems/max-stack/)  **Stack, Doubly Linked List + TreeMap**
 
 ### Hash Table
 
