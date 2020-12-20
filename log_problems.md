@@ -92,6 +92,9 @@
 - [ ] [770. Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)
 - [x] [155. Min Stack](https://leetcode.com/problems/min-stack/)  **Stack, Stack + One Integer**
 - [x] [716. Max Stack](https://leetcode.com/problems/max-stack/)  **Stack, Doubly Linked List + TreeMap**
+- [x] [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)   **Stack**  
+- [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)   **Arrays, base on LC84**
+
 
 ### Hash Table
 

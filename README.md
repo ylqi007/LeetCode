@@ -7,6 +7,9 @@
 
 
 ## 2. Data Structure
+* [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
+  * [Stack](log_problems.md/#Stack)
+  * [Queue](log_problems.md/#Queue-&-Stack)
 * Array(fixed), Dynamic array
 * Linked List
 * TreeSet/TreeMap (ordered)
@@ -17,8 +20,7 @@
 * Customized data structure
 * 
 * String
-* [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
-    * [Queue](log_problems.md/#Queue-&-Stack)
+
 * Heap
 * [Tree](log_problems.md/#Tree)
 * [Graph](log_problems.md/#Graph)
