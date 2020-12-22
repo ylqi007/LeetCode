@@ -94,6 +94,8 @@
 - [x] [716. Max Stack](https://leetcode.com/problems/max-stack/)  **Stack, Doubly Linked List + TreeMap**
 - [x] [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)   **Stack**  
 - [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)   **Arrays, base on LC84**
+- [x] [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+- [x] [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 
 
 ### Hash Table
