@@ -80,7 +80,7 @@
 - [x] 363.Max Sum of Rectangle No Larger Than K
 [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
   
-### Stack
+#### Stack
 - [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    **DP**
 - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)     **Stack**
 - [x] [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
@@ -96,6 +96,11 @@
 - [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)   **Arrays, base on LC84**
 - [x] [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
 - [x] [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+
+#### Queue
+- [ ] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [ ] [767. Reorganize String](https://leetcode.com/problems/reorganize-string/)
+- [ ] [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
 
 
 ### Hash Table
