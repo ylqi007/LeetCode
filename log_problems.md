@@ -102,7 +102,7 @@
 - [ ] [767. Reorganize String](https://leetcode.com/problems/reorganize-string/)
 - [ ] [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
 - [ ] [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/)
-- [ ] [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
+- [ ] [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)  **circular queue or array**
 
 
 ### Hash Table
