@@ -103,6 +103,10 @@
 - [ ] [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
 - [ ] [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/)
 - [ ] [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)  **circular queue or array**
+- [ ] [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
+- [ ] [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)
+- [ ] [1670. Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)
+
 
 
 ### Hash Table
