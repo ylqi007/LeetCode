@@ -2,7 +2,9 @@
 
 ---
 ## 1. Data Structure
-* 
+
+### Array - TODO
+ 
 ### Tree
 (20200815)
 * Traversal
@@ -72,13 +74,9 @@
     - [x] 547.Friend Circles
 - [x] 444.Sequence Reconstruction           : BFS, Topological sort
 - [x] 743.Network Delay Time                : DFS, Dijkstra's Algorithm
+
+
 ### Queue & Stack
-(20200901)
-- [x] 621.Task Schedule     
-    - [x] 358.Rearrange String k Distance Apart
-    - [x] 767.Reorganize String
-- [x] 363.Max Sum of Rectangle No Larger Than K
-[71. Simplify Path](https://leetcode.com/problems/simplify-path/)
   
 #### Stack
 - [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    **DP**
@@ -106,8 +104,15 @@
 - [ ] [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 - [ ] [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)
 - [ ] [1670. Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)
+- [x] [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)
+- [x] [582.Kill Process](https://leetcode.com/problems/kill-process/)
 
-
+(20200901)
+- [x] 621.Task Schedule
+  - [x] 358.Rearrange String k Distance Apart
+  - [x] 767.Reorganize String
+- [x] 363.Max Sum of Rectangle No Larger Than K
+  [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
 
 ### Hash Table
 
