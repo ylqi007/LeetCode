@@ -7,6 +7,7 @@
 
 
 ## 2. Data Structure
+* Array -- TODO
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
   * [Stack](log_problems.md/#Stack)
   * [Queue](log_problems.md/#Queue)
