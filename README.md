@@ -8,6 +8,7 @@
 
 ## 2. Data Structure
 * Array -- TODO
+* [Tree](log_problems.md/#Tree)
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
   * [Stack](log_problems.md/#Stack)
   * [Queue](log_problems.md/#Queue)
@@ -19,11 +20,8 @@
 * Deque/Queue/Stack
 * Pair/Tuple
 * Customized data structure
-* 
 * String
-
 * Heap
-* [Tree](log_problems.md/#Tree)
 * [Graph](log_problems.md/#Graph)
 * [Trie](log_problems.md/#Trie)
 

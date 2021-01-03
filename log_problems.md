@@ -10,15 +10,16 @@
 (20200815)
 * Traversal
 - [x] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  **recursion + iteration, morris**
-- [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) : **recursion + iteration, morris**
+- [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) **recursion + iteration, morris**
 - [x] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)  **recursion + iteration**
-- [x] 589.N-ary Tree Preorder Traversal         : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
-- [x] 590.N-ary Tree Postorder Traversal        : 1.注意 iterative 的写法，基于 Stack 实现；   2.recursion
-- [x] 314.Binary Tree Vertical Order Traversal
-- [x] 102.Binary Tree Level Order Traversal     : BFS
-- [x] 107.Binary Tree Level Order Traversal II
-- [x] 103.Binary Tree Zigzag Level Order
-- [x] 429.N-ary Tree Level Order Traversal
+- [x] [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)  **1.注意 iterative 的写法，基于 Stack 实现；   2.recursion**
+- [x] [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)  **1.注意 iterative 的写法，基于 Stack 实现；   2.recursion**
+- [x] [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)  **Pair; Two Queue**
+- [x] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  **BFS; recursion**
+- [x] [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)   **LinkedList.addFirst(); Collections.reverse()**
+- [x] [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [x] [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) **BFS; Recursion**
+
 * Search
 - [x] 700.Search in a Binary Search Tree        : recuresion + iteration
 - [x] 270.Closest Binary Search Tree Value      : recuresion + iteration
