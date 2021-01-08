@@ -7,7 +7,6 @@
 
 
 ### Tree
-(20200815)
 * Traversal
 - [x] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  **recursion + iteration, morris**
 - [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) **recursion + iteration, morris**
@@ -19,6 +18,12 @@
 - [x] [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)   **LinkedList.addFirst(); Collections.reverse()**
 - [x] [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 - [x] [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) **BFS; Recursion**
+
+- [x] [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+- [x] [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- [x] [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [x] [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+- [x] [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 * Search
 - [x] 700.Search in a Binary Search Tree        : recuresion + iteration
