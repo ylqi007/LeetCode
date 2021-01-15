@@ -713,8 +713,8 @@ Review of the following questoins:
 --
 ## 4. Company
 ### Google
-- [ ] [843. Guess the Word](https://leetcode.com/problems/guess-the-word/)  **keep narrowing range; minimax**
-- [ ] [1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) **Sliding Window**
-- [ ] [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)	**Hash Table**
-- [ ] [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)	**Stack operation**
-- [ ] [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)  **Find and then optimize**
+- [x] [843. Guess the Word](https://leetcode.com/problems/guess-the-word/)  **keep narrowing range; minimax**
+- [x] [1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) **Sliding Window**
+- [x] [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)	**Hash Table**
+- [x] [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) **Stack operation**
+- [x] [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)  **Find and then optimize**
