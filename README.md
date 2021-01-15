@@ -46,7 +46,8 @@
 
 
 ## 4. Company
-* [Google](companies/Google/0_Google_Online_Assessment_Questions.md)
+* [Google_OA](companies/Google/0_Google_Online_Assessment_Questions.md)
+* [Google_LC](log_problems.md/#Google)
 
 
 
