@@ -101,9 +101,8 @@ class PairInts {
 ```
 
 Complexity:
-
-    Time: O(NlogN), 
-    Space: O(N), because we need to add everything to the heap.
+1. Time: O(NlogN), 
+2. Space: O(N), because we need to add everything to the heap.
 
 
 

@@ -39,3 +39,32 @@ class Solution {
     }
 }
 ```
+Bottom up recursion, T=O(N)
+
+```java
+class Solution {
+    double res = Integer.MIN_VALUE;
+    
+    public double maximumAverageSubtree(TreeNode root) {
+        helper(root);
+        return res;
+    }
+    
+    private int[] helper(TreeNode root) {
+        int[] arr = new int[2];
+        if(root == null) {
+            return arr;
+        }
+        arr[0] += root.val;
+        arr[1] = 1;
+        for(TreeNode child: root.children) {
+            int[] tmp = helper(child);
+            arr[0] += tmp[0];
+            arr[1] += tmp[1];
+        }
+        res = Math.max(res, (double) arr[0] / arr[1]);
+        return arr;
+    }
+
+}
+```

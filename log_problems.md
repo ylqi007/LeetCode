@@ -720,7 +720,87 @@ Review of the following questoins:
 - [x] [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/)  **Find and then optimize**
 
 - [ ] [1548. The Most Similar Path in a Graph](https://leetcode.com/problems/the-most-similar-path-in-a-graph/) **DFS, Dijkstra**
+- [ ] [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)     **Sliding Window**
+- [ ] [1153. String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/)   **linkedlist or cycle**
+- [ ] [715. Range Module](https://leetcode.com/problems/range-module/)  **Not finish yet**
 - [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+
+### Amazon
+[Amazon Online Assessment Questions](https://algo.monster/problems/amazon_online_assessement_questions)
+
+New Grad
+- [x] 1. Cut off Rank: **Bucket Sort; PriorityQueue**
+    - [x] [Cutoff Ranks](https://aonecode.com/amazon-online-assessment-cutoff-ranks)
+    - [ ] [[NA] Amazon SDE Intern OA 2](https://leetcode.com/discuss/interview-question/824381/na-amazon-sde-intern-oa-2)
+    - [x] [playground](https://leetcode.com/playground/7XyKjun3)
+    - [x] [Amazon-CutOff_Rank](./companies/Amazon/2021_CutOffRank.md)
+- [x] 2. Fill the truck: **Bucket Sort; PriorityQueue**
+    - [x] [Load The Cargo](https://aonecode.com/interview-question/load_cargo)
+    - [x] [playground](https://leetcode.com/playground/bhLiku4X)
+    - [x] [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) **buckets; Sort array; Priority Queue**
+    - [x] [1710. Maximum Units on a Truck.md](./problems/1710)
+- [x] 3. Disk Space Analysis: **Dynamic Programming; Deque**
+    - [x] [The Max Of Minima](https://aonecode.com/interview-question/MaxOfMinima)  **Deque; DP**
+    - [x] [Amazon Online Assessment (OA) - Find The Maximum Available Disk Space](https://algo.monster/problems/find_the_maximum_available_disk_space)
+    - [x] [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) **Dynamic Programming; Deque**
+    - [ ] [Maximum of Minimum Values II](https://leetcode.com/discuss/interview-question/442377/Maximum-of-Minimum-Values-II/397715)
+    - [ ] [1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/)
+    - [ ] [Amazon-Disk_Space_Analysis](./companies/Amazon/Amazon-Disk_Space_Analysis.md)
+- [x] 4. Nearest City:  **HashMap + TreeSet**
+    - [x] [Amazon | OA 2020 | Nearest City](https://leetcode.com/discuss/interview-question/872961/Amazon-or-OA-2020-or-Nearest-City)
+    - [x] [Amazon-Nearest_City](./companies/Amazon/2021_Nearest_City.md)
+    - [x] [Playground](https://leetcode.com/playground/h6T9VMRi)
+- [x] 5. Subtree with Maximum Average: 
+    - [x] [Amazon | OA 2019 | Subtree with Maximum Average](https://leetcode.com/discuss/interview-question/349617)
+    - [x] [1120. Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)
+    - [x] [Amazon-Subtree_with_Maximum_Average.md](./companies/Amazon/Amazon-Subtree_with_Maximum_Average.md)
+    - [ ] [Amazon-Subtree_with_the_Maximum_Average](./companies/Amazon/2021_Subtree_with_the_Maximum_Average.md)
+- [x] 6. 解除回文: 
+    - [x] [1328. Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)
+    - [x] [1328. Break a Palindrome](./problems/1328.Break_a_Palindrome.md)
+- [x] 7. Smallest Negative Balance: **HashMap**
+    - [ ] [Find Countries with the Largest Deficit](https://aonecode.com/interview-question/FindCountriesWithTheLargestDeficit)
+    - [x] [2021_Smallest_Negative_Balance](./companies/Amazon/2021_Smallest_Negative_Balance_or_Amazon_Debt_Records.md)
+    - [x] [Playground](https://leetcode.com/playground/kEa2XYnW)
+- [x] 8. Find the highest Profit; Maximize Profit: **PrirityQueue**
+    - [ ] [Maximize Profit](https://aonecode.com/maximize-profit) **Priority Queue**
+    - [x] [Amazon-Higest_Profit](./companies/Amazon/Amazon-Highest_Profit.md)   **HashMap**
+    - [ ] [2021_Find_the_Highest_Profit.md](./companies/Amazon/2021_Find_the_Highest_Profit.md)
+- [x] 9. Ways to Split String into Prime Numbers:
+    - [ ] [ [面试经验] 亚麻oa2 ng ](https://www.1point3acres.com/bbs/thread-661768-1-1.html)
+    - [x] [count the number of ways the string can split to get pime number](https://leetcode.com/discuss/interview-question/593211/count-the-number-of-ways-the-string-can-split-to-get-pime-number)
+    - [x] [Amazon-Split_String_into_Primes](./companies/Amazon/Amazon-Split_String_Into_Primes.md)
+    - [x] [Find all possible ways to Split the given string into Primes](https://www.geeksforgeeks.org/find-all-possible-ways-to-split-the-given-string-into-primes/)
+    - [x] [Playground](https://leetcode.com/playground/2WpmBFRX)
+- [x] 10. Fetch items to display:   **Sort**
+    - [ ] [Ranking Products](https://aonecode.com/interview-question/ranking-products)
+    - [ ] [[面试经验] 亞麻OA2](https://www.1point3acres.com/bbs/interview/amazon-software-engineer-678189.html)
+    - [ ] [Amazon Online Assessment (OA) - Fetch Items To Display](https://algo.monster/problems/fetch_items_to_display)
+    - [x] [Amazon-Pagination](./companies/Amazon/Amazon-Pagination.md)
+    - [x] [Playground](https://leetcode.com/playground/EyTrfrQD)
+    - [x] ~/Dropbox/Jobs/Amazon/OA_part1.pdf
+- [x] 11. Packaging Automation: **HashMap**
+    - [ ] [[面试经验] 求OA2 packaging automation](https://www.1point3acres.com/bbs/interview/amazon-software-engineer-701392.html)
+    - [ ] [AMAZON OA | SDE | 2021 | hackerrank | packaging automation](https://leetcode.com/discuss/interview-question/1018060/AMAZON-OA-or-SDE-or-2021-or-hackerrank-or-packaging-automation)
+    - [x] $$$ [Playground](https://leetcode.com/playground/TzdtAVaj)
+    - [x] $$$ [Markdown](./companies/Amazon/2021_Packaging_Automation.md)
+- [x] 12. Min Distance Between Robots: **
+    - [ ] [Squared Shortest Distance](https://aonecode.com/interview-question/squared-shortest-distance)
+    - [ ] [Amazon Online Assessment (OA) - Squared Shortest Distance](https://algo.monster/problems/squared_shortest_distance)
+    - [ ] [Shortest Distance Between Robots](https://leetcode.com/discuss/interview-question/799431/)
+    - [x] [Shortest Distance Between Robots](./companies/Amazon/Amazon-Shortest_Distance_Between_Robots.md)
+    - [x] [Shortest Distance](./companies/Amazon/Amazon-Shortest_Distance.md)
+- [x] 13. Power Grid    **Union Find**
+    - [x] [Amazon OA2 - SDE1(New Grad) 2021 - Power Grid - With Solutions](https://leetcode.com/discuss/interview-question/797541/Amazon-Online-Assessment-2-SDE-1)
+    - [ ] [1135. Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+    - [x] [1135. Connecting Cities With Minimum Cost.md](./companies/Amazon/Amazon-Min_Cost_to_Connect_All_Nodes.md)
+- [x] 14. Count Teams   **排列组合**
+    - [ ] [Count Review Combinations](https://aonecode.com/interview-question/Count-Review-Combinations)
+    - [ ] [Amazon Online Assessment (OA) - Count Teams](https://algo.monster/problems/count_teams)
+    - [x] [3.Associates Roster](https://www.1point3acres.com/bbs/thread-661422-1-1.html)
+    - [x] [⭐ [面试经验] 亚麻 新鲜OA2 NG全职 08/21/2020](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=662496&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3046%5D%5Bvalue%5D%3D5%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline)
+    - [x] [Playground](https://leetcode.com/playground/X7YCu9Dy)
+    - [x] [Markdown](./companies/Amazon/Amazon-Associates_Roster.md)
+- [x] 15. Copy List with Random Pointer: **Method 4**
+    - [x] [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+    - [x] [138. Copy List with Random Pointer](./problems/138.Copy_List_with_Random_Pointer.md)
