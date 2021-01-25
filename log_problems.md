@@ -784,7 +784,7 @@ New Grad
     - [ ] [AMAZON OA | SDE | 2021 | hackerrank | packaging automation](https://leetcode.com/discuss/interview-question/1018060/AMAZON-OA-or-SDE-or-2021-or-hackerrank-or-packaging-automation)
     - [x] $$$ [Playground](https://leetcode.com/playground/TzdtAVaj)
     - [x] $$$ [Markdown](./companies/Amazon/2021_Packaging_Automation.md)
-- [x] 12. Min Distance Between Robots: **
+- [x] 12. Min Distance Between Robots: **Union Find**
     - [ ] [Squared Shortest Distance](https://aonecode.com/interview-question/squared-shortest-distance)
     - [ ] [Amazon Online Assessment (OA) - Squared Shortest Distance](https://algo.monster/problems/squared_shortest_distance)
     - [ ] [Shortest Distance Between Robots](https://leetcode.com/discuss/interview-question/799431/)
