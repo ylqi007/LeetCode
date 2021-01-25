@@ -111,6 +111,8 @@ HR挺不错，prep call时还告知了军规考察重点：**earn & be curious, 
 
 [小土刀 - 如何开始找工作](https://wdxtub.com/interview/14520609088903.html)
 
+[小土刀 - Amazon OA](https://wdxtub.com/interview/14520850399861.html)
+
 [OA3 - [面试经验] 亚麻 OA3 超详细原题！！！！  ](https://www.1point3acres.com/bbs/thread-562078-1-1.html)
 
 [[面试经验] 亚麻SDE VO挂经 ](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=708043&extra=page%3D1%26filter%3Dsortid%26sortid%3D311%26searchoption%5B3086%5D%5Bvalue%5D%3D11%26searchoption%5B3086%5D%5Btype%5D%3Dradio%26searchoption%5B3087%5D%5Bvalue%5D%3D1%26searchoption%5B3087%5D%5Btype%5D%3Dradio%26searchoption%5B3088%5D%5Bvalue%5D%3D1%26searchoption%5B3088%5D%5Btype%5D%3Dradio%26searchoption%5B3092%5D%5Bvalue%5D%3D1%26searchoption%5B3092%5D%5Btype%5D%3Dradio%26searchoption%5B3046%5D%5Bvalue%5D%3D5%26searchoption%5B3046%5D%5Btype%5D%3Dradio%26sortid%3D311%26orderby%3Ddateline)
