@@ -6,6 +6,15 @@
 ### Array-TODO
 
 
+### Dynamic Programming
+- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) **DP; Two Pointers**
+- [x] [91. Decode Ways](https://leetcode.com/problems/decode-ways/) **DP**
+- [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) **DP**
+- [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  **DP; Two Pointers**
+
+
+
 ### Tree
 * Traversal
 - [x] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  **recursion + iteration, morris**
