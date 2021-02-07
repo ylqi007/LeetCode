@@ -12,7 +12,7 @@
 - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) **DP**
 - [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  **DP; Two Pointers**
-
+- [x] [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 
 
 ### Tree
