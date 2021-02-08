@@ -13,7 +13,8 @@
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) **DP**
 - [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  **DP; Two Pointers**
 - [x] [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
-
+- [x] [221. Maximal Square](https://leetcode.com/problems/maximal-square/)  **DP; 还有一个1ms的方法**
+- [x] [139. Word Break](https://leetcode.com/problems/word-break/)  **DP with memoization**
 
 ### Tree
 * Traversal
