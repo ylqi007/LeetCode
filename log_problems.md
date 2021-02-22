@@ -16,6 +16,8 @@
 - [x] [221. Maximal Square](https://leetcode.com/problems/maximal-square/)  **DP; 还有一个1ms的方法**
 - [x] [139. Word Break](https://leetcode.com/problems/word-break/)  **DP with memoization**
 - [ ] [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)  **DP, top-down, bottom-up**
+- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) **DP, top-down, bottom-up**
+- [ ] 
 
 
 ### Tree
