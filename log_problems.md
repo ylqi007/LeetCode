@@ -16,8 +16,18 @@
 - [x] [221. Maximal Square](https://leetcode.com/problems/maximal-square/)  **DP; 还有一个1ms的方法**
 - [x] [139. Word Break](https://leetcode.com/problems/word-break/)  **DP with memoization**
 - [ ] [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)  **DP, top-down, bottom-up**
-- [ ] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) **DP, top-down, bottom-up**
-- [ ] 
+- [x] [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) **DP, top-down, bottom-up**
+- [ ] [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) **DP, TreeMap**
+- [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
+- [ ] [322. Coin Change](https://leetcode.com/problems/coin-change/) 
+- [ ] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+- [ ] [741. Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)
+- [ ] 871
+- [ ] [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)   
+- [ ] 1531
+- [ ] [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
+- [ ] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+
 
 
 ### Tree
