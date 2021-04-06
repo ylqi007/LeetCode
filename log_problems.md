@@ -828,3 +828,15 @@ New Grad
 - [x] 15. Copy List with Random Pointer: **Method 4**
     - [x] [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
     - [x] [138. Copy List with Random Pointer](./problems/138.Copy_List_with_Random_Pointer.md)
+
+## 5. The First 400
+- [ ] [1. Two Sum](https://leetcode.com/problems/two-sum/)
+- [ ] [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [ ] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
+- [ ] []()
