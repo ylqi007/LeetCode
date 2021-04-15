@@ -830,11 +830,11 @@ New Grad
     - [x] [138. Copy List with Random Pointer](./problems/138.Copy_List_with_Random_Pointer.md)
 
 ## 5. The First 400
-- [ ] [1. Two Sum](https://leetcode.com/problems/two-sum/)
-- [ ] [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
-- [ ] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- [ ] []()
-- [ ] []()
+- [x] [1. Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [x] [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [x] [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+- [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] []()
 - [ ] []()
 - [ ] []()
