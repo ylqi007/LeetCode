@@ -56,3 +56,4 @@
 * [美國軟體工程師求職心得](https://medium.com/jktech/2016-17-%E7%BE%8E%E5%9C%8B%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%B1%82%E8%81%B7%E5%BF%83%E5%BE%97-a5c00427fa73)
 * [GYee/CV_interviews_Q-A](https://github.com/GYee/CV_interviews_Q-A)
 * [bhaveshAn/leetcode](https://github.com/bhaveshAn/leetcode)
+* [胖头龙的咸鱼刷题笔记-算法篇](https://www.1point3acres.com/bbs/thread-678970-1-1.html)
