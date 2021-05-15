@@ -846,7 +846,7 @@ New Grad
 - [x] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 - [x] [15. 3Sum](https://leetcode.com/problems/3sum/)
 - [x] [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
-- []
-- []
+- [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [ ] [18. 4Sum](https://leetcode.com/problems/4sum/)
 - []
 - []
