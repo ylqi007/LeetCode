@@ -851,3 +851,5 @@ New Grad
 - [ ] [18. 4Sum](https://leetcode.com/problems/4sum/)
 - [x] [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [x] [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)   **Backtracking**
