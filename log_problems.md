@@ -829,6 +829,7 @@ New Grad
     - [x] [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
     - [x] [138. Copy List with Random Pointer](./problems/138.Copy_List_with_Random_Pointer.md)
 
+
 ## 5. The First 400
 - [x] [1. Two Sum](https://leetcode.com/problems/two-sum/)
 - [x] [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
@@ -848,5 +849,5 @@ New Grad
 - [x] [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [ ] [18. 4Sum](https://leetcode.com/problems/4sum/)
-- []
-- []
+- [x] [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
