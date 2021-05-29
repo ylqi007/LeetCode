@@ -853,3 +853,5 @@ New Grad
 - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [x] [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)   **Backtracking**
+- [x] [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)   **Quick Merge**
+- [x] [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)     **Recursion, Iterative**
