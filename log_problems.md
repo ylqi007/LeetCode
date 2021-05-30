@@ -855,3 +855,4 @@ New Grad
 - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)   **Backtracking**
 - [x] [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)   **Quick Merge**
 - [x] [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)     **Recursion, Iterative**
+- [x] [⭐ 25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)     **Recursion, Iterative**
