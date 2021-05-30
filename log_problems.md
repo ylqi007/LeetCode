@@ -856,3 +856,6 @@ New Grad
 - [x] [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)   **Quick Merge**
 - [x] [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)     **Recursion, Iterative**
 - [x] [⭐ 25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)     **Recursion, Iterative**
+- [x] [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) **Two Pointers**
+- [x] [27. Remove Element](https://leetcode.com/problems/remove-element/)     **Two Pointers**
+- [x] [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)   **Two Pointers**
