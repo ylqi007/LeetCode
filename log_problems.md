@@ -859,3 +859,5 @@ New Grad
 - [x] [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) **Two Pointers**
 - [x] [27. Remove Element](https://leetcode.com/problems/remove-element/)     **Two Pointers**
 - [x] [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)   **Two Pointers**
+- [ ] [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+- [ ] [⭐ 30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)   **Hash Table; Two Pointers?**
