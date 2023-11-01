@@ -1,5 +1,8 @@
 # LeetCode
 
+**关于格式的说明**
+1. 题目都以四位数字开头，以便文件可以按照题目的顺序排列，比如`0001.Two_Sum.md`。
+
 ![](https://img.shields.io/github/stars/ylqi007/LeetCode)	![](https://img.shields.io/github/forks/ylqi007/LeetCode)	![](https://img.shields.io/github/issues/ylqi007/LeetCode)	
 
 ## 1. LC Log
