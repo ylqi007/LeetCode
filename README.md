@@ -29,6 +29,18 @@
 * [Trie](log_problems.md/#Trie)
 
 
+### 2.1 Stack
+* Basic Calculators
+  1. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) [`+, -, *, /`]
+  2. [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) [非常好的Stack题目, with parenthesis, `+, -` and `(, )`]
+  3. [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) [With parenthesis, `+, -, *, /` and `(, )`]
+  4. [Basic Calculator Template](https://leetcode.com/problems/basic-calculator-iii/solutions/344371/Java-Common-template-for-Basic-Calculator-I-II-and-III-using-Stack/)
+* Decode string
+  1. [394. Decode String](https://leetcode.com/problems/decode-string/)
+  2. [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+  3. [71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
+
+
 ## 3. Algorithm
 * Sort
 * [Graph](log_problems.md/#Graph)
