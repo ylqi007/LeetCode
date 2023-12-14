@@ -85,3 +85,8 @@ public void main{
 
 ## Problem
 * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+* [456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
+* [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
+* [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+* [155. Min Stack](https://leetcode.com/problems/min-stack/)
+* [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
