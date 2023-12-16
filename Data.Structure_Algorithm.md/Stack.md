@@ -90,3 +90,11 @@ public void main{
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 * [155. Min Stack](https://leetcode.com/problems/min-stack/)
 * [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
+
+
+## Monotonic Stack
+A monotonic stack is simply a stack where the elements are always in sorted order. Monotonic **decreasing** means that the stack will always be sorted in descending order.
+
+### Reference
+* [Editorial of 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/editorial/)
+* [Editorial of 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)

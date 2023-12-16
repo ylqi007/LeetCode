@@ -40,6 +40,9 @@
   2. [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
   3. [71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
 
+### 2.2 Monotonic Stack
+1. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+2. [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)
 
 ## 3. Algorithm
 * Sort
@@ -72,3 +75,8 @@
 * [GYee/CV_interviews_Q-A](https://github.com/GYee/CV_interviews_Q-A)
 * [bhaveshAn/leetcode](https://github.com/bhaveshAn/leetcode)
 * [胖头龙的咸鱼刷题笔记-算法篇](https://www.1point3acres.com/bbs/thread-678970-1-1.html)
+
+
+## Templates
+1. Basic Calculators
+2. Next Greater Element
