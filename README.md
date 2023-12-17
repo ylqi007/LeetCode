@@ -80,3 +80,8 @@
 ## Templates
 1. Basic Calculators
 2. Next Greater Element
+3. Trapping Rain Water (`Stack`, LC 42，84，85)
+
+
+## Others
+* [Working with Java Empty String: A Detailed Guide](https://ioflood.com/blog/empty-string-java/)

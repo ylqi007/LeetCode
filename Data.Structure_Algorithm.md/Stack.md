@@ -1,5 +1,5 @@
 # Stack
-## `Stack`
+## `Stack` (First-In-First-Out, FIFO)
 > The `Stack` class represents a last-in-first-out (LIFO) stack of objects. It extends class `Vector` with five operations that allow a vector to be treated as a stack.
 > When a stack is first created, it contains no items. 
 > A more complete and consistent set of LIFO stack operations is provided by the Deque interface and its implementations, which should be used in preference to this class. For example: 
@@ -26,6 +26,24 @@ E push(E item)
 # Returns the 1-based position where an object is on this stack.
 int search(Object o)
 ```
+
+
+## Stack的实现方式
+遗留类`java.util.Stack`为了复用`Vector`中的方法，来实现进栈(push)、出栈(pop)等操作，所以继承了`java.util.Vector`。这就是`java.util.Stack`设计不好的地方，为了复用简单的方法而迫使它继承`Vector`。
+
+后来Java修正了这个不良好的设计，提出了用`java.util.Deque`代替`java.util.Stack`的建议。
+```Java
+Deque<Integer> stack = new ArrayDeque<Integer>();
+```
+操作`Deque`的方法有：
+* 把元素压栈：`push(E)`
+* 把栈顶的元素“弹出”：`pop()`
+* 取栈顶元素但不弹出：`peek()`
+* 把栈**顶**元素”弹出”：`remove()`
+* 把栈**底**元素”弹出”：`removeLast()`
+
+
+
 
 
 ## `Deque` and `ArrayDeque`
@@ -84,7 +102,13 @@ public void main{
 
 
 ## Problem
+LC 20, 71都是比较直接的Stack problem；LC 42，84，85需要额外的思考再用Stack解决，不过这三题都有相同的思路，可以使用同一个template解决。
 * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+* [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+* [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
+* [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+* [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+* ""
 * [456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
 * [735. Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
 * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
@@ -92,9 +116,32 @@ public void main{
 * [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
 
 
-## Monotonic Stack
-A monotonic stack is simply a stack where the elements are always in sorted order. Monotonic **decreasing** means that the stack will always be sorted in descending order.
+## Monotonic Stack (单调栈)
+1. A monotonic stack is simply a stack where the elements are always in sorted order. Monotonic **decreasing** means that the stack will always be sorted in descending order.
+单调栈是一个维持单调递增or递减的Stack。
+2. 所谓**单调栈**，没有现成的方法和类，需要自己去实现。其思想就是每次进行入栈操作(push)时，如果要入栈的元素大于(or小于)栈顶元素，那么就将其弹出，直到栈顶元素大于(or小于)即将入栈的元素。
+[Ref](https://www.zhihu.com/tardis/zm/art/518743572?source_id=1003)
+
+
+
+### Problems 1: 维护一个单调递减的栈
+1. LC 42
+2. LC 496
+3. LC 503, 
+4. LC 739
+5. LC 901,
+6. LC 239
+
+### Problems 2: 维护一个单调递增的栈
+1. 84
+2. 
+
 
 ### Reference
 * [Editorial of 739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/editorial/)
 * [Editorial of 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)
+* [907. Sum of Subarray Minimums. Stack solution with very detailed explanation step by step](https://leetcode.com/problems/sum-of-subarray-minimums/solutions/178876/stack-solution-with-very-detailed-explanation-step-by-step/)
+* [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)
+
+* [LeetCode 单调栈/单调队列 总结](https://www.zhihu.com/tardis/zm/art/518743572?source_id=1003)
+* [LeeCode 栈与队列专题总结](https://blog.csdn.net/weixin_40910614/article/details/120378512)
