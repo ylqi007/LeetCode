@@ -11,7 +11,7 @@ Properties of a BST:
 3. Both left and right subtrees are also BSTs.
 
 
-:warning:⚠️注意: BT and BST 是不同的，BST有序。
+:warning:注意: BT and BST 是不同的，BST有序。
 
 
 ## Reference
