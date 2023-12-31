@@ -18,6 +18,7 @@ The common strategies to traverse a Tree data structure are Breadth-First Search
 
 ### 1. Depth First Search (DFS) & Breadth First Search (BFS)
 #### DFS
+The DFS strategy can be further distinguished as **preorder DFS**, **inorder DFS** and **postorder DFS**, depending on the relative order of visit among the node itself and its child nodes.
 * Preorder traversal
 * Inorder traversal
 * Postorder traversal
@@ -56,7 +57,10 @@ Java和C++标准库中的二叉搜索树都是用红黑树来实现的
 * [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 * [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 
-
+### 2. 验证二叉搜索树(BST)
+* [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+* [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
 
 ## Time and Space Complexity
 ![](images/Tree_Time.Space.Complexity.png)
