@@ -89,6 +89,16 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 4. [1676. Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)
 
 
+### 4. Path Sum
+1. [112. Path Sum](https://leetcode.com/problems/path-sum/)
+2. [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
+    1. [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+3. [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+    1. Prefix Sum: https://leetcode.com/problems/path-sum-iii/editorial/
+    2. Recursive preorder traversal: https://leetcode.com/problems/sum-root-to-leaf-numbers/editorial/
+4. [666. Path Sum IV](https://leetcode.com/problems/path-sum-iv/)
+
+
 ## Time and Space Complexity
 ![](images/Tree_Time.Space.Complexity.png)
 
