@@ -48,7 +48,7 @@
 * Sort
 * [Graph](log_problems.md/#Graph)
 * [Two Pointer](log_problems.md/#Sliding-Window-+-Two Pointers)
-* Binary Search
+* [**Binary Search**]()
 * Divide and Conquer
 * [Dynamic Programming](log_problems.md/#Dynamic-Programming)
 * [Backtracking](log_problems.md/#Backtracking)
@@ -82,6 +82,12 @@
 2. Next Greater Element
 3. Trapping Rain Water (`Stack`, LC 42，84，85)
 
+
+## 代码规范
+* [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+* [Alibaba-Java-Coding-Guidelines](https://github.com/alibaba/Alibaba-Java-Coding-Guidelines)
+* [Java开发手册(阿里)](https://developer.aliyun.com/special/tech-java)
+* Java开发手册(黄山版) [2022.02.03]
 
 ## Others
 * [Working with Java Empty String: A Detailed Guide](https://ioflood.com/blog/empty-string-java/)
