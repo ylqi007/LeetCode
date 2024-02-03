@@ -17,6 +17,30 @@
 * 最优子结构性质: 如果问题的最优解所包含的子问题的解也是最优的，我们就称该问题具有最优子结构性质(即满足最优化原理)。
 
 
+在算法上，**动态规划**和**查表的递归(也称记忆化递归)**有很多相似的地方。
+
+## 记忆化递归
+**递归**是指在函数中**调用函数自身**的方法。
+有意义的递归通常会把问题分解成**规模缩小的同类子问题**，当子问题缩小到一步可以解决的时候，我们可以直接知道它的解(即base cases)。然后通过建立递归函数之间的联系(转移)即可解决原问题。
+
+一个问题要使用**递归(recursion)**来解决必须有递归终止条件(算法的有穷性)，也就是说递归会逐步缩小到寻常规模。
+:x:虽然下面代码也是递归，但是由于其无法结束，因此不算一个有效算法。如果没有外界干预，否则会永远执行下去，不会停止。
+```python
+def f(x):
+    return x + f(x-1)
+```
+:white_check_mark:更多的情况应该是
+```python
+def f(n):
+    if n == 1:
+        return 1
+    return n + f(n-1)
+```
+使用递归通常可以使代码短小，有时候也更可读。在算法中使用递归可以很简单地完成一些循环不太容易实现的功能，比如二叉树中的左中右序遍历。
+
+
+
+
 **举例:**
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 > You are climbing a staircase. It takes n steps to reach the top.
@@ -40,4 +64,5 @@
 References:
 1. [Dynamic-Programming Interview questions.](https://leetcode.com/discuss/interview-question/344578/Dynamic-Programming-Interview-questions.)
 2. [Longest Common Subsequence Problem](https://en.m.wikipedia.org/wiki/Longest_common_subsequence_problem)
-
+3. [【算法面试通关40讲】43 - 理论理解：动态规划（上）&44 - 理论理解：动态规划（下）](https://blog.nowcoder.net/n/425f1a25e0684097928c0bd306b93079)
+4. 
