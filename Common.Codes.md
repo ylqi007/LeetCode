@@ -23,17 +23,45 @@ Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5);
 int[] array = stream.mapToInt(Integer::intValue).toArray();
 ```
 
+
+### Lowest Common Ancestor
+* https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/editorial/
+```Java
+private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
+    if (node == null || node == p || node == q)
+        return node;
+    TreeNode left = LCA(node.left, p, q);
+    TreeNode right = LCA(node.right, p, q);
+    if (left != null && right != null)
+        return node;
+    else if (left != null)
+        return left;
+    else
+        return right;
+}
+```
+* This solution doesn't account for the cases where `p` or `q` are not in the binary tree. 这个解法无法解决`p` or `q`不存在的特殊情况。
+    * The stop condition for the recusion is `if(node == null || node == p || node == q) return node;`. This means that if we encounter `p`, we won't explore the subtree as we immediately return.
+    * If `q` does not exist in the subtree of `p`, we will never know. 
+
+
 ## Important Classes In Java
 在刷LeetCode的过程中，有一些class是常用的，但是不同的它们的method可能还有一些区别。因此，列出来，要重点掌握
 * [java.lang.Character](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html)
 * [java.lang.String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html)
 * [Interface java.util.Comparator<T>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Comparator.html)
 * [Interface java.util.Deque<E>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Deque.html) [念做dai ke]
+* [Class java.util.Arrays](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Arrays.html)
 * [java.util.ArrayDeque<E>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/ArrayDeque.html) [`implement Deque`]
 * [java.util.LinkedList<E>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/LinkedList.html)  [`implement Deque`, 以后尽量用 `Deque<E> deque = new LinkedList<>()`]
 * [java.util.PriorityQueue](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/PriorityQueue.html)
 * [java.util.stream.Stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Stream.html)
 * [Summary of regular-expression constructs](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/regex/Pattern.html#sum)
+
+**Note:**
+* Removed from JDK11: [Class javafx.util.Pair<K,V>](https://docs.oracle.com/javase%2F9%2Fdocs%2Fapi%2F%2F/javafx/util/Pair.html)
+* [Removed from JDK 11, JavaFX 11 arrives as a standalone module](https://www.infoworld.com/article/3308400/removed-from-jdk-11-javafx-11-arrives-as-a-standalone-module.html)
+* [Five Alternatives To Pair Class In Java](https://xperti.io/blogs/java-pair-class-alternatives/)
 
 
 **Reference**
