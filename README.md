@@ -75,6 +75,7 @@
 * [GYee/CV_interviews_Q-A](https://github.com/GYee/CV_interviews_Q-A)
 * [bhaveshAn/leetcode](https://github.com/bhaveshAn/leetcode)
 * [胖头龙的咸鱼刷题笔记-算法篇](https://www.1point3acres.com/bbs/thread-678970-1-1.html)
+* [博客园 CNoodle Let the code speak for you.](https://www.cnblogs.com/cnoodle)
 
 
 ## Templates
