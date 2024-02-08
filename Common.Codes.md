@@ -45,12 +45,23 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
     * If `q` does not exist in the subtree of `p`, we will never know. 
 
 
+### Top k frequency, Top k largest 问题
+1. 如果input是offline的，即不会再添加新的member，那么可以使用Max-Heap
+2. 如果是dynamically add elements，we often solve them by maintaining a `Min-Heap` of size k to store the largest k elements so far. Every time we enumerate a new element, just compare it with the top of the min heap and check if it is one of the largest k elements.
+    * 因为对于Min-Heap而言，每次都是最小的element先被取出。
+
+#### K-th问题
+如果elements是逐步加入的，那么前N个elements中的k-th largest，是否就是所有elements中的k-th largests。**YES!**
+Refer to [692. Top K Frequent Words -- Editorial](https://leetcode.com/problems/top-k-frequent-words/editorial/)
+
 ## Important Classes In Java
 在刷LeetCode的过程中，有一些class是常用的，但是不同的它们的method可能还有一些区别。因此，列出来，要重点掌握
 * [java.lang.Character](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html)
 * [java.lang.String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html)
 * [Interface java.util.Comparator<T>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Comparator.html)
+* [Interface java.lang.Comparable<T>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Comparable.html)
 * [Interface java.util.Deque<E>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Deque.html) [念做dai ke]
+* [Class java.util.Random](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Random.html)
 * [Class java.util.Arrays](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Arrays.html)
 * [java.util.ArrayDeque<E>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/ArrayDeque.html) [`implement Deque`]
 * [java.util.LinkedList<E>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/LinkedList.html)  [`implement Deque`, 以后尽量用 `Deque<E> deque = new LinkedList<>()`]
