@@ -82,22 +82,7 @@
 
 ### Queue & Stack
 
-#### Stack
-- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    **DP**
-- [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)     **Stack**
-- [x] [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
-- [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)    **DP, Stack**
-- [x] [394.Decode String](https://leetcode.com/problems/decode-string/)    **Stack**
-- [x] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
-- [x] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
-- [x] [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
-- [ ] [770. Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)
-- [x] [155. Min Stack](https://leetcode.com/problems/min-stack/)  **Stack, Stack + One Integer**
-- [x] [716. Max Stack](https://leetcode.com/problems/max-stack/)  **Stack, Doubly Linked List + TreeMap**
-- [x] [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)   **Stack**
-- [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)   **Arrays, base on LC84**
-- [x] [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
-- [x] [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+
 
 #### Queue
 - [ ] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)

@@ -43,9 +43,6 @@ Deque<Integer> stack = new ArrayDeque<Integer>();
 * 把栈**底**元素”弹出”：`removeLast()`
 
 
-
-
-
 ## `Deque` and `ArrayDeque`
 > A linear collection that supports element insertion and removal at both ends. The name deque is short for "double ended queue" and is usually pronounced "deck".
 > 
@@ -90,15 +87,38 @@ public void main{
 ```
 
 
-* [java.util.Vector<E>](https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html)
-* [java.util.Stack<E>](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
-* [Interface java.util.Deque<E>](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
-* [java.util.ArrayDeque<E>](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html)
-* [Java 全栈知识体系: Collection - Stack & Queue 源码解析](https://pdai.tech/md/java/collection/java-collection-Queue&Stack.html)
-* [Java中Stack栈用foreach,迭代器访问的坑](https://blog.csdn.net/qq_43778308/article/details/108483525)
+### Stack
+- [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    **DP**
+- [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)     **Stack**
+- [x] [1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)
+- [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)    **DP, Stack**
+- [x] [394.Decode String](https://leetcode.com/problems/decode-string/)    **Stack**
+- [x] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+- [x] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+- [x] [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
+- [ ] [770. Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/)
+- [x] [155. Min Stack](https://leetcode.com/problems/min-stack/)  **Stack, Stack + One Integer**
+- [x] [716. Max Stack](https://leetcode.com/problems/max-stack/)  **Stack, Doubly Linked List + TreeMap**
+- [x] [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)   **Stack**
+- [x] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)   **Arrays, base on LC84**
+- [x] [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+- [x] [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 
 
-* [Java里的堆(heap)栈(stack)和方法区(method)](https://www.cnblogs.com/fmgao-technology/p/11095873.html) --> JVM, 与此处的`Stack`相关性不大
+#### 题目类型
+* Basic Calculators
+    1. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) [`+, -, *, /`]
+    2. [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) [非常好的Stack题目, with parenthesis, `+, -` and `(, )`]
+    3. [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) [With parenthesis, `+, -, *, /` and `(, )`]
+    4. [Basic Calculator Template](https://leetcode.com/problems/basic-calculator-iii/solutions/344371/Java-Common-template-for-Basic-Calculator-I-II-and-III-using-Stack/)
+* Decode string
+    1. [394. Decode String](https://leetcode.com/problems/decode-string/)
+    2. [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+    3. [71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
+
+#### Monotonic Stack
+1. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+2. [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)
 
 
 ## Problem
@@ -123,7 +143,6 @@ LC 20, 71都是比较直接的Stack problem；LC 42，84，85需要额外的思�
 [Ref](https://www.zhihu.com/tardis/zm/art/518743572?source_id=1003)
 
 
-
 ### Problems 1: 维护一个单调递减的栈
 1. LC 42
 2. LC 496
@@ -134,7 +153,6 @@ LC 20, 71都是比较直接的Stack problem；LC 42，84，85需要额外的思�
 
 ### Problems 2: 维护一个单调递增的栈
 1. 84
-2. 
 
 
 ### Reference
@@ -142,6 +160,12 @@ LC 20, 71都是比较直接的Stack problem；LC 42，84，85需要额外的思�
 * [Editorial of 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)
 * [907. Sum of Subarray Minimums. Stack solution with very detailed explanation step by step](https://leetcode.com/problems/sum-of-subarray-minimums/solutions/178876/stack-solution-with-very-detailed-explanation-step-by-step/)
 * [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)
-
 * [LeetCode 单调栈/单调队列 总结](https://www.zhihu.com/tardis/zm/art/518743572?source_id=1003)
 * [LeeCode 栈与队列专题总结](https://blog.csdn.net/weixin_40910614/article/details/120378512)
+* [java.util.Vector<E>](https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html)
+* [java.util.Stack<E>](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
+* [Interface java.util.Deque<E>](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
+* [java.util.ArrayDeque<E>](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayDeque.html)
+* [Java 全栈知识体系: Collection - Stack & Queue 源码解析](https://pdai.tech/md/java/collection/java-collection-Queue&Stack.html)
+* [Java中Stack栈用foreach,迭代器访问的坑](https://blog.csdn.net/qq_43778308/article/details/108483525)
+* [Java里的堆(heap)栈(stack)和方法区(method)](https://www.cnblogs.com/fmgao-technology/p/11095873.html) --> JVM, 与此处的`Stack`相关性不大
