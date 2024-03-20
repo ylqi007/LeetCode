@@ -1,28 +1,5 @@
 [toc]
 
-### 1. Convert `stream<T>` to `T[]`
-```Java
-// 1. toArray()
-Object[] array = stream.toArray();
-
-// 2. toArray(IntFunction<A[]> generator)
-// Using Method reference: `String[]::new` calls constructor of `String`
-String[] array = stream.toArray(String[]::new);
-```
-
-Example 1:
-```Java
-Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5);
-Integer[] intArray = stream.toArray(Integer[]::new);
-```
-
-#### 1.1 Convert `stream<Integer>` to `int[]`
-Converting a stream of `Integer` objects to a primitive integer array is not straightforward in Java.
-```Java
-Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5);
-int[] array = stream.mapToInt(Integer::intValue).toArray();
-```
-
 
 ### Lowest Common Ancestor
 * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/editorial/
@@ -58,6 +35,7 @@ Refer to [692. Top K Frequent Words -- Editorial](https://leetcode.com/problems/
 在刷LeetCode的过程中，有一些class是常用的，但是不同的它们的method可能还有一些区别。因此，列出来，要重点掌握
 * [java.lang.Character](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html)
 * [java.lang.String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html)
+* [Interface java.util.Set](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Set.html)
 * [Interface java.util.Comparator<T>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Comparator.html)
 * [Interface java.lang.Comparable<T>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Comparable.html)
 * [Interface java.util.Deque<E>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Deque.html) [念做dai ke]

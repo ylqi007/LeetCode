@@ -38,7 +38,7 @@
   * [Backtracking](log_problems.md/#Backtracking)
 * [Graph](log_problems.md/#Graph)
 * [Two Pointer](log_problems.md/#Sliding-Window-+-Two Pointers)
-* [**Binary Search**]()
+* [**Binary Search**](docs/BinarySearch.md)
 * [Dynamic Programming](log_problems.md/#Dynamic-Programming)
 * Greedy
 * Bit Manipulation
