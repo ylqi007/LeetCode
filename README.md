@@ -48,6 +48,7 @@
 * Topological Sort
 * Sliding Window
 * Sampling
+* [Math(数学)](docs/Math.md)
 
 
 ## 4. Company

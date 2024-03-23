@@ -150,7 +150,7 @@ class Solution {
 * 2009	Minimum Number of Operations to Make Array Continuous
 * 1235	Maximum Profit in Job Scheduling
 * 528	Random Pick with Weight
-* 2513	Minimize the Maximum of Two Arrays
+* [2513. Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/description/)
 * 2468	Split Message Based on Limit
 * 162	Find Peak Element
 * 875	Koko Eating Bananas
@@ -176,6 +176,6 @@ class Solution {
 
 ## Refernce
 * [Leetcode 题解 - 二分查找](https://blog.nowcoder.net/n/799b30349a8d4eb68f489ddc97a463c2)
-* [CNoodle: [LeetCode] 二分查找模板 binary search](https://www.cnblogs.com/cnoodle/p/14267991.html)
+* ✅ [CNoodle: [LeetCode] 二分查找模板 binary search](https://www.cnblogs.com/cnoodle/p/14267991.html)
 * [【小小福讲算法】硅谷工程师十五分钟带你全面理解 Binary Search （二分查找）算法以及应用](https://www.youtube.com/watch?v=U3U9XMtSxQc&list=PL6i_0cc-sEeIH2xUJX8xrDHoEhkni1Tk8)
 * [二分查找Binary Search套路和解题模板【LeetCode刷题套路教程3】](https://www.youtube.com/watch?v=j2_JW3In9PE&list=PLV5qT67glKSErHD66rKTfqerMYz9OaTOs&index=3)
