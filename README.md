@@ -91,6 +91,7 @@
 
 ## Reference
 * [Google Drive, LeetCode打卡记录](https://docs.google.com/spreadsheets/d/1RteWHzN_ZkTx4oD9OGX1IHH8GKiJ6rtQ7Cfs9Q_2dBU/edit#gid=1154683708)
-* [CNoodle, LeetCode 题目总结](https://www.cnblogs.com/cnoodle/p/12515334.html)
+* [CNoodle, LeetCode题目总结](https://www.cnblogs.com/cnoodle/p/12515334.html)
+* [CNoodle, LeetCode题目总结, 腾讯文档](https://docs.qq.com/sheet/DVnNKeUNIaEJzSmtU?c=B2C0B0&tab=bb08j2)
 * [一亩三分地: [其他] 关于算法的一点总结](https://www.1point3acres.com/bbs/thread-436925-1-1.html)
 * [【小小福讲算法】硅谷工程师十五分钟带你深入理解 Recursion （递归）算法，及其衍生出的算法（分治算法Divide and Conquer, 回溯 Backtracking）](https://www.youtube.com/watch?v=AqGagBmFXgw)
