@@ -64,6 +64,12 @@
 4. [Java - Common template for Basic Calculator I, II, and III using Stack](https://leetcode.com/problems/basic-calculator-iii/discuss/344371/Java-Common-template-for-Basic-Calculator-I-II-and-III-using-Stack)
 
 
+## ✅ 要掌握的Java Core API
+* [Class java.lang.Math](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
+* [Class java.util.Random](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Random.html)
+* [Class java.lang.String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html)
+
+
 ## 有用信息
 * [Leetcode 总结](http://joshuablog.herokuapp.com/Leetcode-%E6%80%BB%E7%BB%93.html)
   * http://darkalexwang.github.io/2018/05/14/Leetcode-%E6%80%BB%E7%BB%93/
