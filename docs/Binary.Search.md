@@ -152,9 +152,9 @@ class Solution {
 * 528	Random Pick with Weight
 * [2513. Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/description/)
 * 2468	Split Message Based on Limit
-* 162	Find Peak Element
-* 875	Koko Eating Bananas
-* 362	Design Hit Counter
+* [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+* [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
+* [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/) [Binary Search?]
 * 2251	Number of Flowers in Full Bloom
 * 300	Longest Increasing Subsequence
 * 1268	Search Suggestions System

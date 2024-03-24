@@ -31,6 +31,19 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 如果elements是逐步加入的，那么前N个elements中的k-th largest，是否就是所有elements中的k-th largests。**YES!**
 Refer to [692. Top K Frequent Words -- Editorial](https://leetcode.com/problems/top-k-frequent-words/editorial/)
 
+
+## Lowest Common Multiple(LCM) & Greatest Common Divisor(GCD)
+```java
+// Greatest Common Divisor, 最大公因数
+private int gcd(int a, int b) {
+    return b == 0 ? a : gcd(b, a % b);
+}
+
+// Lowest Common Multiple
+long lcm = ((long) divisor1 * (long) divisor2) / gcd(divisor1, divisor2);   // 此处必须为(long)divisor1 * (long)divisor2,否则会有溢出问题
+```
+
+
 ## Important Classes In Java
 在刷LeetCode的过程中，有一些class是常用的，但是不同的它们的method可能还有一些区别。因此，列出来，要重点掌握
 * [java.lang.Character](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html)
