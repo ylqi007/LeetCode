@@ -26,17 +26,16 @@
 * Customized data structure
 * String
 * Heap
-* [Graph](log_problems.md/#Graph)
+* [图, Graph](docs/图.Graph.md)
 * [Trie](log_problems.md/#Trie)
 
 
 ## 3. Algorithm专题
-* Sort
+* [排序, Sort](docs/排序.md)
 * [Recursion](docs/Recursion.md)
   * Memorization
   * Divide and Conquer
   * [Backtracking](log_problems.md/#Backtracking)
-* [Graph](log_problems.md/#Graph)
 * [Two Pointer](log_problems.md/#Sliding-Window-+-Two Pointers)
 * [**Binary Search**](docs/Binary.Search.md)
 * [Dynamic Programming](log_problems.md/#Dynamic-Programming)
@@ -49,6 +48,7 @@
 * Sliding Window
 * Sampling
 * [Math(数学)](docs/Math.md)
+* [Quick Search & Quick Sort](docs/Quick.Select_Quick.Sort.md)
 
 
 ## 4. Company
@@ -70,20 +70,11 @@
 * [Class java.lang.String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html)
 
 
-## 有用信息
-* [Leetcode 总结](http://joshuablog.herokuapp.com/Leetcode-%E6%80%BB%E7%BB%93.html)
-  * http://darkalexwang.github.io/2018/05/14/Leetcode-%E6%80%BB%E7%BB%93/
-* [美國軟體工程師求職心得](https://medium.com/jktech/2016-17-%E7%BE%8E%E5%9C%8B%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%B1%82%E8%81%B7%E5%BF%83%E5%BE%97-a5c00427fa73)
-* [GYee/CV_interviews_Q-A](https://github.com/GYee/CV_interviews_Q-A)
-* [bhaveshAn/leetcode](https://github.com/bhaveshAn/leetcode)
-* [胖头龙的咸鱼刷题笔记-算法篇](https://www.1point3acres.com/bbs/thread-678970-1-1.html)
-* [博客园 CNoodle Let the code speak for you.](https://www.cnblogs.com/cnoodle)
-
-
 ## Templates
 1. Basic Calculators
 2. Next Greater Element
 3. Trapping Rain Water (`Stack`, LC 42，84，85)
+4. Lowest Common Ancestor
 
 
 ## 代码规范
@@ -92,8 +83,19 @@
 * [Java开发手册(阿里)](https://developer.aliyun.com/special/tech-java)
 * Java开发手册(黄山版) [2022.02.03]
 
+
 ## Others
 * [Working with Java Empty String: A Detailed Guide](https://ioflood.com/blog/empty-string-java/)
+
+
+## 有用信息
+* [Leetcode 总结](http://joshuablog.herokuapp.com/Leetcode-%E6%80%BB%E7%BB%93.html)
+  * http://darkalexwang.github.io/2018/05/14/Leetcode-%E6%80%BB%E7%BB%93/
+* [美國軟體工程師求職心得](https://medium.com/jktech/2016-17-%E7%BE%8E%E5%9C%8B%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E6%B1%82%E8%81%B7%E5%BF%83%E5%BE%97-a5c00427fa73)
+* [GYee/CV_interviews_Q-A](https://github.com/GYee/CV_interviews_Q-A)
+* [bhaveshAn/leetcode](https://github.com/bhaveshAn/leetcode)
+* [胖头龙的咸鱼刷题笔记-算法篇](https://www.1point3acres.com/bbs/thread-678970-1-1.html)
+* [博客园 CNoodle Let the code speak for you.](https://www.cnblogs.com/cnoodle)
 
 
 ## Reference
