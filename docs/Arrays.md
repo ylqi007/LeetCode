@@ -38,3 +38,20 @@ To create a two-dimensional array, add each array within its own set of curly br
 ```java
 int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
 ```
+
+
+## Two Pointers
+### 1. 同向(i,j都向同一个方向移动，比如都往➡️ or 都往⬅️)
+#### LeetCode题目
+* [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+
+### 2. 方向()
+
+#### LeetCode题目
+* 344 Reverse String
+* 26 Remove duplicates from sorted array
+* 11
+* 42
+* 283
+* 80
+* 1047
