@@ -44,6 +44,7 @@ int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
 ### 1. 同向(i,j都向同一个方向移动，比如都往➡️ or 都往⬅️)
 #### LeetCode题目
 * [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+* [1868. Product of Two Run-Length Encoded Arrays](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/description/)
 
 ### 2. 方向()
 

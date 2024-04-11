@@ -135,6 +135,7 @@ class Solution {
       * 缩减搜索空间: `l=mid, r=mid`
 
 
+
 ## LeetCode Problems
 * 1062 Longest Repeating Substring
 * 410 Split Array Largest Sum
@@ -152,7 +153,7 @@ class Solution {
 * 528	Random Pick with Weight
 * [2513. Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/description/)
 * 2468	Split Message Based on Limit
-* [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+* ✅ [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 * [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)
 * [362. Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/) [Binary Search?]
 * 2251	Number of Flowers in Full Bloom
@@ -165,12 +166,11 @@ class Solution {
 * 1011	Capacity To Ship Packages Within D Days
 * 981	Time Based Key-Value Store
 * 456	132 Pattern
-* 658	Find K Closest Elements
+* ✅ [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
 * [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
   * [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 * 1802	Maximum Value at a Given Index in a Bounded Array
 * [268. Missing Number](https://leetcode.com/problems/missing-number/description/) (没看出来跟Binary Search有关)
-
 
 
 
@@ -179,3 +179,5 @@ class Solution {
 * ✅ [CNoodle: [LeetCode] 二分查找模板 binary search](https://www.cnblogs.com/cnoodle/p/14267991.html)
 * [【小小福讲算法】硅谷工程师十五分钟带你全面理解 Binary Search （二分查找）算法以及应用](https://www.youtube.com/watch?v=U3U9XMtSxQc&list=PL6i_0cc-sEeIH2xUJX8xrDHoEhkni1Tk8)
 * [二分查找Binary Search套路和解题模板【LeetCode刷题套路教程3】](https://www.youtube.com/watch?v=j2_JW3In9PE&list=PLV5qT67glKSErHD66rKTfqerMYz9OaTOs&index=3)
+* ✅ [力扣: 排除法（双指针）+ 二分法（Java、Python）](https://leetcode.cn/problems/find-k-closest-elements/solutions/12476/pai-chu-fa-shuang-zhi-zhen-er-fen-fa-python-dai-ma/)
+* ✅ [力扣: 通过二分法确定左边界](https://leetcode.cn/problems/find-k-closest-elements/solutions/376097/tong-guo-er-fen-fa-que-ding-zuo-bian-jie-by-hao-ha/)
