@@ -55,10 +55,14 @@ def f(n):
 * SCS: https://leetcode.com/problems/shortest-common-supersequence/
 
 
-[1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)   
-**题目**: 给出两个字符串 str1 和 str2, 返回同时以 str1 和 str2 作为子序列的最短的字符串。    
-**分析**: 1) 使用 `DP`，选出最长的公共子字符串(common subsequence)；2) 使用双指针，按照要求构成最短字符串。
 
+## LeetCode题目
+* [139. Word Break](https://leetcode.com/problems/word-break/)
+* [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
+* [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)   
+  * **题目**: 给出两个字符串 str1 和 str2, 返回同时以 str1 和 str2 作为子序列的最短的字符串。    
+  * **分析**: 1) 使用 `DP`，选出最长的公共子字符串(common subsequence)；2) 使用双指针，按照要求构成最短字符串。
+* [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 
 
 References:

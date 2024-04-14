@@ -1,0 +1,10 @@
+
+1. [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+2. [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+3. [1331. Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)
+4. [953. Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)
+5. [1541. Minimum Insertions to Balance a Parentheses String](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/description/)
+6. [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/description/)
+7. [2060. Check if an Original String Exists Given Two Encoded Strings](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings/description/)
+8. [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+9. ✅ [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)

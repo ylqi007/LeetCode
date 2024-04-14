@@ -28,6 +28,9 @@ while (!stack.isEmpty()) {
 }
 ```
 
+## LeetCode题目
+* [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
+
 
 ## Reference
 1. [261. Solution](https://leetcode.com/problems/graph-valid-tree/solution/)
