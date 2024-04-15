@@ -1,4 +1,140 @@
 
+## LeetCode Explore Card提供的三种模板
+### 1. Template 1: The most basic and elementary form of Binary Search
+```java
+class Solution {
+   public int binarySearch(int[] nums, int target) {
+      // Corner case
+      if (nums == null || nums.length == 0)
+         return -1;
+
+      // Initial search space
+      int left = 0;
+      int right = nums.length - 1;
+      while (left <= right) {
+         int mid = left + (right - left) / 2;    // Prevent (left + right) overflow
+         if (nums[mid] == target) {
+            return mid;
+         } else if (nums[mid] < target) {
+            left = mid + 1;  // Searching Right: left = mid+1
+         } else {
+            right = mid - 1; // Searching Left: right = mid-1
+         }
+      }
+
+      // End Condition: left > right
+      return -1;
+   }
+}
+```
+**Key Attributes:**
+* Most basic and elementary form of Binary Search
+* Search Condition can be determined without comparing to the element's neighbors (or use specific elements around it)
+* No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end, then you know the element is not found
+
+**✅ Distinguishing Syntax(区分的语法要点):**
+1. Initial Condition: `left = 0, right = length-1`
+2. Termination: `left > right`
+3. Searching Left: `right = mid-1`
+4. Searching Right: `left = mid+1`
+
+**典型LeetCode题目:**
+* ✅ [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
+* ✅ [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
+* [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)
+* ✅ [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+
+
+### 2. Template 2: An advanced form of Binary Search
+```java
+class Solution {
+    private int binarySearch(int[] nums, int target) {
+        // Corner case: There is no enough search space
+        if (nums == null || nums.length == 0) return -1;
+        
+        int left = 0;
+        int right = nums.length - 1;    // Search space: [left, right]
+        while (left < right) {
+            int mid = left + (right - left) / 2;  // Prevent (left + right) overflow
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        } // End Condition: left == right
+        
+        // Post-processing: 
+        if (nums[left] == target) return left;
+        return -1;
+   }
+}
+```
+**Key Attributes:**
+* An advanced way to implement Binary Search.
+* **Use the element's right neighbor to determine if the condition is met and decide whether to go left or right**
+* **Guarantees Search Space is at least 2 in size at each step**
+* Post-processing required. Loop/Recursion ends when you have 1 element left. Need to assess if the remaining element meets the condition.
+
+**✅ Distinguishing Syntax:**
+1. Initial Condition: `left = 0, right = length - 1`
+2. Termination: `left == right`
+3. Searching Left: `right = mid` 
+4. Searching Right: `left = mid+1`
+
+**典型LeetCode题目:**
+* [278. First Bad Version](https://leetcode.com/problems/first-bad-version/description/)
+* [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+* [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+
+
+### 3. Template 3: 
+```java
+class Solution {
+    private int binarySearch(int[] nums, int target) {
+        if (nums == null || nums.length == 0) 
+            return -1;
+        
+        int left = 0, right = nums.length - 1;
+      
+        while (left + 1 < right){
+            // Prevent (left + right) overflow
+            int mid = left + (right - left) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                left = mid;
+            } else {
+                right = mid;
+            }
+        }
+
+        // Post-processing:
+        // End Condition: left + 1 == right
+        if(nums[left] == target) return left;
+        if(nums[right] == target) return right;
+        return -1;
+    }
+}
+```
+**Key Attributes:**
+* An alternative way to implement Binary Search
+* **Use the element's neighbors to determine if the condition is met and decide whether to go left or right**
+* **Guarantees Search Space is at least 3 in size at each step**
+* Post-processing required. Loop/Recursion ends when you have 2 elements left. Need to assess if the remaining elements meet the condition.
+
+**✅ Distinguishing Syntax:**
+1. Initial Condition: `left = 0, right = length-1`
+2. Termination: `left + 1 == right`
+3. Searching Left: `right = mid`
+4. Searching Right: `left = mid`
+
+**典型LeetCode题目:**
+* ✅ [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+* [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
+* [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+
 
 ### 1. 模板1: 在有序数组中查找目标值
 ```java
@@ -163,7 +299,7 @@ class Solution {
 * 1838	Frequency of the Most Frequent Element
 * 33	Search in Rotated Sorted Array
 * [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
-* 1011	Capacity To Ship Packages Within D Days
+* [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 * 981	Time Based Key-Value Store
 * 456	132 Pattern
 * ✅ [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
@@ -171,12 +307,16 @@ class Solution {
   * [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 * 1802	Maximum Value at a Given Index in a Bounded Array
 * [268. Missing Number](https://leetcode.com/problems/missing-number/description/) (没看出来跟Binary Search有关)
+* [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/)
+* [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
 
 
 
 ## Refernce
+* [LeetCode Explore Card: Binary Search](https://leetcode.com/explore/learn/card/binary-search/)
 * [Leetcode 题解 - 二分查找](https://blog.nowcoder.net/n/799b30349a8d4eb68f489ddc97a463c2)
 * ✅ [CNoodle: [LeetCode] 二分查找模板 binary search](https://www.cnblogs.com/cnoodle/p/14267991.html)
+* ✅ [CNoodle: LeetCode Binary Search Summary 二分搜索法小结](https://www.cnblogs.com/grandyang/p/6854825.html)
 * [【小小福讲算法】硅谷工程师十五分钟带你全面理解 Binary Search （二分查找）算法以及应用](https://www.youtube.com/watch?v=U3U9XMtSxQc&list=PL6i_0cc-sEeIH2xUJX8xrDHoEhkni1Tk8)
 * [二分查找Binary Search套路和解题模板【LeetCode刷题套路教程3】](https://www.youtube.com/watch?v=j2_JW3In9PE&list=PLV5qT67glKSErHD66rKTfqerMYz9OaTOs&index=3)
 * ✅ [力扣: 排除法（双指针）+ 二分法（Java、Python）](https://leetcode.cn/problems/find-k-closest-elements/solutions/12476/pai-chu-fa-shuang-zhi-zhen-er-fen-fa-python-dai-ma/)
