@@ -64,6 +64,13 @@
 4. [Java - Common template for Basic Calculator I, II, and III using Stack](https://leetcode.com/problems/basic-calculator-iii/discuss/344371/Java-Common-template-for-Basic-Calculator-I-II-and-III-using-Stack)
 
 
+### 2. Range Sum Query
+1. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+2. [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)
+3. [304.Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+4. [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+
+
 ## ✅ 要掌握的Java Core API
 * [Class java.lang.Math](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
 * [Class java.util.Random](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Random.html)
