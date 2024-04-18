@@ -309,6 +309,7 @@ class Solution {
 * [268. Missing Number](https://leetcode.com/problems/missing-number/description/) (没看出来跟Binary Search有关)
 * [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/description/)
 * [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
+* [825. Friends Of Appropriate Ages](https://leetcode.com/problems/friends-of-appropriate-ages/description/)
 
 
 
