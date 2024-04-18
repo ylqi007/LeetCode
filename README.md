@@ -26,7 +26,7 @@
 * Customized data structure
 * String
 * Heap
-* [图, Graph](docs/图.Graph.md)
+* [Graph](docs/Graph.md)
 * [Trie](log_problems.md/#Trie)
 
 
@@ -57,7 +57,7 @@
 
 
 ## 5. 经典题目系列
-### 1.Basic Calculators
+### ✅ 1.Basic Calculators
 1. [CNoodle [LeetCode] 224. Basic Calculator](https://www.cnblogs.com/cnoodle/p/12903414.html)
 2. [CNoodle [LeetCode] 227. Basic Calculator II](https://www.cnblogs.com/cnoodle/p/12903616.html)
 3. [CNoodle [LeetCode] 772. Basic Calculator III](https://www.cnblogs.com/cnoodle/p/14040192.html)
@@ -69,6 +69,35 @@
 2. [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)
 3. [304.Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
 4. [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
+
+
+### 3. K-th Smallest/Largest Element
+* [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)
+
+
+### 4. Word Search
+* [79. Word Search](https://leetcode.com/problems/word-search/description/)
+  * [489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/description/)
+* [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/)
+
+
+### 5. Trie 字典树
+* [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)
+  * [CNoodle: [LeetCode] 208. Implement Trie (Prefix Tree)](https://www.cnblogs.com/cnoodle/p/12460150.html)
+* [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)
+  * [CNoodle: [LeetCode] 211. Design Add and Search Words Data Structure](https://www.cnblogs.com/cnoodle/p/12460148.html)
+
+
+### 6. Sliding Window
+* 248 Count Number of Nice Subarrays
+* 234 Replace the Substring for Balanced String
+* 004 Max Consecutive Ones III
+* 930 Binary Subarrays With Sum
+* 992 Subarrays with K Different Integers
+* 904 Fruit Into Baskets
+* 862 Shortest Subarray with Sum at Least K
+* 209 Minimum Size Subarray Sum
+*  76 Minimum Window Substring
 
 
 ## ✅ 要掌握的Java Core API

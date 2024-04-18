@@ -13,7 +13,8 @@
     - [x] 630.Course Schedule III
     - [x] 261.Graph Valid Tree
     - [x] 310.Minimum Height Trees
-- [x] 332.Reconstruct Itinerary             : DFS,
+- [ ] [332. Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+  - DFS, Graph traversal
 - [x] 133.Clone Graph
     - [x] 138.Copy List with Random Pointer
     - [x] 1485.Clone Binary Tree with Random Pointer
