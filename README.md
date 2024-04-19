@@ -6,6 +6,8 @@
 ![](https://img.shields.io/github/stars/ylqi007/LeetCode)	![](https://img.shields.io/github/forks/ylqi007/LeetCode)	![](https://img.shields.io/github/issues/ylqi007/LeetCode)	
 
 
+![](docs/images/LeetCode_Problems_Overview.png)
+
 ## 1. LC Log
 [Log](log_problems.md)
 
@@ -100,6 +102,12 @@
 *  76 Minimum Window Substring
 
 
+### 7. Balanced Search Tree
+* [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+* [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+* [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)
+
+
 ## ✅ 要掌握的Java Core API
 * [Class java.lang.Math](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
 * [Class java.util.Random](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Random.html)
@@ -140,3 +148,5 @@
 * [CNoodle, LeetCode题目总结, 腾讯文档](https://docs.qq.com/sheet/DVnNKeUNIaEJzSmtU?c=B2C0B0&tab=bb08j2)
 * [一亩三分地: [其他] 关于算法的一点总结](https://www.1point3acres.com/bbs/thread-436925-1-1.html)
 * [【小小福讲算法】硅谷工程师十五分钟带你深入理解 Recursion （递归）算法，及其衍生出的算法（分治算法Divide and Conquer, 回溯 Backtracking）](https://www.youtube.com/watch?v=AqGagBmFXgw)
+* [LeetCode in Go](https://github.com/halfrost/LeetCode-Go/tree/master)
+* [LeetCode 101：和你一起你轻松刷题（C++）](https://github.com/changgyhub/leetcode_101)
