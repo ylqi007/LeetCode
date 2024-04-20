@@ -134,6 +134,8 @@ class Solution {
 * ✅ [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 * [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
 * [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+* ✅ [1060. Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/description/)
+
 
 
 ### 1. 模板1: 在有序数组中查找目标值
