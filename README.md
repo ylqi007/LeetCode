@@ -39,7 +39,7 @@
   * Divide and Conquer
   * [Backtracking](log_problems.md/#Backtracking)
 * [Two Pointer](log_problems.md/#Sliding-Window-+-Two Pointers)
-* [**Binary Search**](docs/Binary.Search.md)
+* [**Binary Search**](docs/Binary_Search.md)
 * [Dynamic Programming](log_problems.md/#Dynamic-Programming)
 * Greedy
 * Bit Manipulation
@@ -106,6 +106,19 @@
 * [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 * [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 * [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)
+
+
+### 8. Word Break
+* ✅ [139. Word Break](https://leetcode.com/problems/word-break/)
+* [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
+  * [Java Common template - Word Break I, Word Break II, Concatenated Words](https://leetcode.com/problems/concatenated-words/discuss/348972/Java-Common-template-Word-Break-I-Word-Break-II-Concatenated-Words)
+
+
+### 9. Serialize and Deserialize
+* [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)
+* [428. Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/description/)
+* [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)
+* [431. Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/description/)
 
 
 ## ✅ 要掌握的Java Core API

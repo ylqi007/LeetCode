@@ -23,6 +23,12 @@ private int gcd(int a, int b) {
 * Example 1: `gcd(2,7) = gcd(7,2%7) = gcd(7,2) = gcd(2,7%2) = gcd(2, 1) = gcd(1,2%1) = gcd(1, 0) = 1`
 * Complexity: `O(Log min(n1, n2))`
 
+
+## Permutations & Combinations
+![](images/Permutations_Combinations_Subsets.png)
+
+
+
 ## Reference
 * [Least Common Multiple – Definition, Method, Solved Examples](https://www.splashlearn.com/math-vocabulary/number-sense/least-common-multiple)
 * [Finding the Least Common Multiple in Java](https://www.baeldung.com/java-least-common-multiple)

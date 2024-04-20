@@ -6,6 +6,8 @@
 * [79. Word Search](https://leetcode.com/problems/word-search/description/)
   * [489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/description/)
 * [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/)
+* [78. Subsets](https://leetcode.com/problems/subsets/)
+* [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 
 
 ## Reference
