@@ -144,6 +144,10 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 3. :exclamation:[1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) [Both `p` and `q` exist. Two Pointers]
 4. [1676. Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)
 
+### 4. Diameter
+* [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+* [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
+* [1245. Tree Diameter](https://leetcode.com/problems/tree-diameter/description/)
 
 ### 距离
 与**路径**类似，距离也是一个相似且频繁出现的一个考点，并且二者都是搜索类题目的考点。
