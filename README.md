@@ -34,7 +34,7 @@
 
 ## 3. Algorithm专题
 * [排序, Sort](docs/排序.md)
-* [Recursion](docs/Recursion.md)
+* [Recursion](docs/Recursion_递归.md)
   * Memorization
   * Divide and Conquer
   * [Backtracking](log_problems.md/#Backtracking)
@@ -119,6 +119,12 @@
 * [428. Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/description/)
 * [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)
 * [431. Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/description/)
+
+
+### 10. Lowest Common Ancestor
+* [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)
+* [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
+
 
 
 ## ✅ 要掌握的Java Core API
