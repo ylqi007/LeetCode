@@ -149,6 +149,10 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 * [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
 * [1245. Tree Diameter](https://leetcode.com/problems/tree-diameter/description/)
 
+### 5. Full Binary Tree
+* [894. All Possible Full Binary Trees] (https://leetcode.com/problems/all-possible-full-binary-trees/description/)
+
+
 ### 距离
 与**路径**类似，距离也是一个相似且频繁出现的一个考点，并且二者都是搜索类题目的考点。
 1. [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
