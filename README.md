@@ -126,11 +126,13 @@
 * [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
 
 
-
 ## ✅ 要掌握的Java Core API
 * [Class java.lang.Math](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
 * [Class java.util.Random](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Random.html)
 * [Class java.lang.String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html)
+* [Interface java.lang.Comparable<T>](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Comparable.html)
+  * `T` - the type of objects that this object may be compared to.
+  * `int compareTo(T o)` - Compares this object with the specified object for order. ⚠️注意: 要返回的类型为`int`
 
 
 ## Templates
@@ -162,6 +164,8 @@
 
 
 ## Reference
+* [What are the environments for the programming languages?](https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environments-for-the-programming-languages)
+  * Includes Pair class from https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html.
 * [Google Drive, LeetCode打卡记录](https://docs.google.com/spreadsheets/d/1RteWHzN_ZkTx4oD9OGX1IHH8GKiJ6rtQ7Cfs9Q_2dBU/edit#gid=1154683708)
 * [CNoodle, LeetCode题目总结](https://www.cnblogs.com/cnoodle/p/12515334.html)
 * [CNoodle, LeetCode题目总结, 腾讯文档](https://docs.qq.com/sheet/DVnNKeUNIaEJzSmtU?c=B2C0B0&tab=bb08j2)

@@ -44,6 +44,40 @@ long lcm = ((long) divisor1 * (long) divisor2) / gcd(divisor1, divisor2);   // �
 ```
 
 
+## [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
+* **Reference equality:** In Java, `==` is used for reference equality (引用相等), which means that it checks whether two objects refer to the same memory location.
+  * `==` tests for reference equality (whether they are the same object).
+* **Value equality** takes place when two separate objects happen to have the same values or state.This compares values and is closely related to the Object's equals() method.
+  * `.equals()` tests for value equality (whether they contain the same data).
+    * `Objects.equals()` checks for null before calling `.equals()` so you don't have to (available as of JDK7, also available in Guava).
+    * Consequently, if you want to test whether two strings have the same value you will probably want to use `Objects.equals()`.
+```java
+String s1 = "hello";
+String s2 = new String("hello");
+
+if (s1 == s2) {
+    System.out.println("s1 and s2 are the same object");
+} else {
+    System.out.println("s1 and s2 are different objects");
+}
+
+if (s1.equals(s2)){ 
+    System.out.println("s1 and s2 have the same value");
+} else {
+    System.out.println("s1 and s2 have different values");
+}
+```
+
+**Reference:**
+* [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
+* [String.equals versus == [duplicate]](https://stackoverflow.com/questions/767372/string-equals-versus)
+* [How do I compare strings in Java?](https://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
+* [java中的==和equals有什么区别](https://worktile.com/kb/p/37775#:~:text=java%E4%B8%AD%E7%9A%84%3D%3D%E5%92%8Cequals()%E6%9C%80%E5%A4%A7%E7%9A%84%E5%8C%BA%E5%88%AB,%E5%AD%98%E5%9C%A8%E4%BA%8EObject%E7%B1%BB%E4%B8%AD%E3%80%82)
+* [Java 最常见的面试题：== 和 equals 的区别是什么](https://developer.aliyun.com/article/1169773)
+* [Java语法----Java中equals和==的区别](https://www.cnblogs.com/qianguyihao/p/3929585.html)
+* [== 和 equals 的区别是什么？](https://zhuanlan.zhihu.com/p/338350987)
+
+
 ## Important Classes In Java
 在刷LeetCode的过程中，有一些class是常用的，但是不同的它们的method可能还有一些区别。因此，列出来，要重点掌握
 * [java.lang.Character](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html)
