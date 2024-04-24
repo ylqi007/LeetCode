@@ -132,24 +132,29 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 * [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 * [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 
-### 2. 验证二叉搜索树(BST)
+### 2. Vertical Order Traversal of a Binary Tree
+* [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
+* [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)
+
+
+### 3. 验证二叉搜索树(BST)
 * [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 * [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
 
-### 3. 二叉树&二叉搜索树的最近公共祖先(Common Ancestor)
+### 4. 二叉树&二叉搜索树的最近公共祖先(Common Ancestor)
 1. :exclamation:[236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [`p` or `q` can be `null`]
     1. [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) [BST的特点: `left.val < root.val < right.val`]
 2. :exclamation:[1644. Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) [`p` or `q` cannot be `null`]
 3. :exclamation:[1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) [Both `p` and `q` exist. Two Pointers]
 4. [1676. Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/)
 
-### 4. Diameter
+### 5. Diameter
 * [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 * [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
 * [1245. Tree Diameter](https://leetcode.com/problems/tree-diameter/description/)
 
-### 5. Full Binary Tree
+### 6. Full Binary Tree
 * [894. All Possible Full Binary Trees] (https://leetcode.com/problems/all-possible-full-binary-trees/description/)
 
 
