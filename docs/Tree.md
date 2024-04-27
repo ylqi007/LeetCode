@@ -189,6 +189,12 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
   * [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 * [426.Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
   * ✅ [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)
+* [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+  * [116.Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/solution/)
+  * [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree/)
+* [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+  * [1522. Diameter of N-Ary Tree](https://leetcode.com/problems/diameter-of-n-ary-tree/)
 
 
 ## Time and Space Complexity
