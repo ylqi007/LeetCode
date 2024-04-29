@@ -134,6 +134,10 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 * [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 * [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)
 
+#### 1.1 后序遍历
+* [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+* [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
+
 ### 2. Vertical Order Traversal of a Binary Tree
 * [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 * [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/) [Interface `Comparable<T>`]
@@ -198,6 +202,10 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 * [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
   * [112. Path Sum](https://leetcode.com/problems/path-sum/)
   * [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+* [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)
+* [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+
+
 
 ## Time and Space Complexity
 ![](images/Tree_Time.Space.Complexity.png)
