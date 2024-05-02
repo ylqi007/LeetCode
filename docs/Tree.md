@@ -166,6 +166,11 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 * [894. All Possible Full Binary Trees] (https://leetcode.com/problems/all-possible-full-binary-trees/description/)
 
 
+### Binary Search Tree Iterator
+* [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+* [1586. Binary Search Tree Iterator II](https://leetcode.com/problems/binary-search-tree-iterator-ii/description/)
+
+
 ### 距离
 与**路径**类似，距离也是一个相似且频繁出现的一个考点，并且二者都是搜索类题目的考点。
 1. [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)
@@ -204,6 +209,8 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
   * [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 * [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)
 * [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+* ✅ [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+* [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 
 
