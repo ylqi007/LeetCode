@@ -87,6 +87,12 @@ public void main{
 ```
 
 
+## LeetCode题目
+* ✅ [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+  * [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+  * [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)
+
+
 ### Stack
 - [x] [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)    **DP**
 - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)     **Stack**
