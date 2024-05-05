@@ -55,7 +55,6 @@ def f(n):
 * SCS: https://leetcode.com/problems/shortest-common-supersequence/
 
 
-
 ## LeetCode题目
 * [139. Word Break](https://leetcode.com/problems/word-break/)
 * [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
@@ -63,10 +62,21 @@ def f(n):
   * **题目**: 给出两个字符串 str1 和 str2, 返回同时以 str1 和 str2 作为子序列的最短的字符串。    
   * **分析**: 1) 使用 `DP`，选出最长的公共子字符串(common subsequence)；2) 使用双指针，按照要求构成最短字符串。
 * [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+* [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+* [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* ✅ [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+
+### Best Time to Buy and Sell Stock
+* [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+* [123. Best Time to Buy and Sell Stock III]
+* [188. Best Time to Buy and Sell Stock IV]
+
 
 
 References:
 1. [Dynamic-Programming Interview questions.](https://leetcode.com/discuss/interview-question/344578/Dynamic-Programming-Interview-questions.)
 2. [Longest Common Subsequence Problem](https://en.m.wikipedia.org/wiki/Longest_common_subsequence_problem)
 3. [【算法面试通关40讲】43 - 理论理解：动态规划（上）&44 - 理论理解：动态规划（下）](https://blog.nowcoder.net/n/425f1a25e0684097928c0bd306b93079)
-4. 
+4. [力扣: 经典动态规划问题（理解「无后效性」）](https://leetcode.cn/problems/maximum-subarray/solutions/9058/dong-tai-gui-hua-fen-zhi-fa-python-dai-ma-java-dai/)
