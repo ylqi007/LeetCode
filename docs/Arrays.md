@@ -48,6 +48,15 @@ int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
 
 ### 2. 方向()
 
+
+## Sliding Window
+> In any sliding window based problem we have two pointers. One `right` pointer whose job is to expand the current window and then we have the `left` pointer whose job is to contract a given window. At any point in time only one of these pointers move and the other one remains fixed.
+
+在sliding window的问题中，一般有两个pointers: 一个是`right` pointer负责扩展current window，另一个是`left` pointer负责缩小current window。在任何时候，只有一个pointer移动，另一个pointer保持不变。
+
+
+* [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+
 #### LeetCode题目
 * 344 Reverse String
 * 26 Remove duplicates from sorted array

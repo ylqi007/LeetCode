@@ -83,6 +83,7 @@ def f(n):
 
 ### Best Time to Buy and Sell Stock
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  * [力扣: 暴力解法、动态规划（Java）](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/solutions/38477/bao-li-mei-ju-dong-tai-gui-hua-chai-fen-si-xiang-b/)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 * [123. Best Time to Buy and Sell Stock III]
 * [188. Best Time to Buy and Sell Stock IV]

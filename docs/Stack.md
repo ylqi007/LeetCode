@@ -121,6 +121,9 @@ public void main{
     1. [394. Decode String](https://leetcode.com/problems/decode-string/)
     2. [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
     3. [71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
+* Best Time to Buy and Sell Stock
+  1. [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
 
 #### Monotonic Stack
 1. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)

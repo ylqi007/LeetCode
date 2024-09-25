@@ -32,7 +32,7 @@ HR挺不错，prep call时还告知了军规考察重点：**earn & be curious, 
 
 
 
-> ![](./companies/Amazon/images/Amazon_LP_3.jpg)
+> ![](Amazon/images/Amazon_LP_3.jpg)
 >
 > Q1 选出4个feature1的优点
 > Q2 选出2个feature2的优点
