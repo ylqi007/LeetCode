@@ -126,6 +126,21 @@
 * [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
 
 
+### 11. Union Find
+* [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+
+
+### 12. DFS
+- [ ] 🟩🌟 [1110. Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest)
+  - [ ] 🟩 [1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/)
+  - [ ] 🟨 [2049. Count Nodes With the Highest Score](https://leetcode.com/problems/count-nodes-with-the-highest-score/description/)
+
+
+### 14. BFS
+- [ ] [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
+
+
 ## ✅ 要掌握的Java Core API
 * [Class java.lang.Math](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Math.html)
 * [Class java.util.Random](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Random.html)
