@@ -4,21 +4,30 @@
 ### Lowest Common Ancestor
 * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/editorial/
 ```Java
-private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
-    if (node == null || node == p || node == q)
-        return node;
-    TreeNode left = LCA(node.left, p, q);
-    TreeNode right = LCA(node.right, p, q);
-    if (left != null && right != null)
-        return node;
-    else if (left != null)
-        return left;
-    else
-        return right;
+class Solution {
+  public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    if (root == null || root == p || root == q) { // 递归结束条件
+      return root;
+    }
+
+    // 后序遍历
+    TreeNode left = lowestCommonAncestor(root.left, p, q);
+    TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+    if(left == null && right == null) { // 若未找到节点 p 或 q
+      return null;
+    }else if(left == null && right != null) { // 若找到一个节点
+      return right;
+    }else if(left != null && right == null) { // 若找到一个节点
+      return left;
+    }else { // 若找到两个节点
+      return root;
+    }
+  }
 }
 ```
 * This solution doesn't account for the cases where `p` or `q` are not in the binary tree. 这个解法无法解决`p` or `q`不存在的特殊情况。
-    * The stop condition for the recusion is `if(node == null || node == p || node == q) return node;`. This means that if we encounter `p`, we won't explore the subtree as we immediately return.
+    * The stop condition for the recursion is `if(node == null || node == p || node == q) return node;`. This means that if we encounter `p`, we won't explore the subtree as we immediately return.
     * If `q` does not exist in the subtree of `p`, we will never know. 
 
 
