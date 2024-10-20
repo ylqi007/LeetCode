@@ -84,6 +84,7 @@
   - [ ] [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
   - [ ] [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)
 
+
 ### Queue & Stack
 
 
@@ -142,13 +143,15 @@ Palindrome Pairs
 ## 2. Algorithm
 
 ### Depth First Search
+DFS（深度优先搜索）通常是用在树或者图结构的问题上，然而有使用也可以用在**网格**结构上。岛屿问题是这类网格DFS问题的典型代表。
 
-- [x] [200.Number of Islands](https://leetcode.com/problems/number-of-islands/)         **DFS, BFS, Union Find**
-
+🟩🌟 [岛屿类问题的通用解法、DFS 遍历框架](https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/)
+- [x] [200.Number of Islands](https://leetcode.com/problems/number-of-islands/) **DFS, BFS, Union Find**
+- [x] [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island)
+- [x] [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) : Count, DFS
   - [x] 130.Surrounded Regions    : DFS, BFS
   - [x] 286.Walls and Gates       : BFS
   - [x] 695.Max Area of Island    : DFS
-  - [x] 463.Island Perimeter      : Count
 
 - [x] [1192.Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)    **DFS, Dijistra, *Add explanation to the post***
 
