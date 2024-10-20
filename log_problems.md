@@ -79,6 +79,10 @@
 - [x] 285.Inorder Successor in BST
 - [x] 173.Binary Search Tree Iterator       : essentially, this is about inorder traversal 
 
+下面三道题都是将一个线性的array or list，创建成一个Balanced binary tree。思路都是取中间element创建root节点，然后以recursion的方式创建左右子树。
+- [x] 🟩 [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree)
+  - [ ] [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
+  - [ ] [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)
 
 ### Queue & Stack
 
