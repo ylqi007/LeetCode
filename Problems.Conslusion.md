@@ -149,7 +149,7 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 - [x] [200.Number of Islands](https://leetcode.com/problems/number-of-islands/) **DFS, BFS, Union Find**
 - [x] [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island)
 - [x] [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) : Count, DFS
-  - [x] 130.Surrounded Regions    : DFS, BFS
+  - [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)    : DFS, BFS
   - [x] 286.Walls and Gates       : BFS
   - [x] 695.Max Area of Island    : DFS
 
@@ -279,11 +279,13 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 
 
 ### Breadth First Search
-
 - [x] [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+  - [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+- [ ] space
 - [x] [127. Word Ladder](https://leetcode.com/problems/word-ladder/)    **BFS, Two Direction BFS**
 - [x] [199.Binary Tree Right Side View](https://github.com/ylqi007/LeetCode/issues/new)     **BFS + sentinel**
-- [x] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)    **BFS, BFS 1ms 值得再看**
+- [x] 🟩🌟 [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)    **BFS, BFS 1ms 值得再看**
+  - [x] 🟩🌟[286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) **BFS**
 - [x] [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)    **BFS + Formular**
 - [x] [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)    **DFS, BFS**
 - [x] [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)    **DFS, BFS**
@@ -295,6 +297,7 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 
 
 ### Union Find
+- [x] 🟩🌟 [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
 
 [//]: # "TODO: 20201110, common factor"
 

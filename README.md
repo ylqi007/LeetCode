@@ -179,7 +179,7 @@
 
 
 ## Reference
-* [What are the environments for the programming languages?](https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environments-for-the-programming-languages)
+[What are the environments for the programming languages?](https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environments-for-the-programming-languages)
   * Includes Pair class from https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html.
 * [Google Drive, LeetCode打卡记录](https://docs.google.com/spreadsheets/d/1RteWHzN_ZkTx4oD9OGX1IHH8GKiJ6rtQ7Cfs9Q_2dBU/edit#gid=1154683708)
 * [CNoodle, LeetCode题目总结](https://www.cnblogs.com/cnoodle/p/12515334.html)
@@ -188,3 +188,24 @@
 * [【小小福讲算法】硅谷工程师十五分钟带你深入理解 Recursion （递归）算法，及其衍生出的算法（分治算法Divide and Conquer, 回溯 Backtracking）](https://www.youtube.com/watch?v=AqGagBmFXgw)
 * [LeetCode in Go](https://github.com/halfrost/LeetCode-Go/tree/master)
 * [LeetCode 101：和你一起你轻松刷题（C++）](https://github.com/changgyhub/leetcode_101)
+
+一些有用的GitHub Repos:
+1. https://github.com/nalmoussa/coding-practice
+2. https://github.com/greatday4april/interview_training
+3. https://github.com/alvaroserrrano/codingInterviewQuestions
+4. https://github.com/jasonleakey/Algorithms
+5. https://github.com/kamyu104/LeetCode-Solutions
+6. https://github.com/ppsirker/dsalgo
+7. https://github.com/mission-peace/interview
+8. https://github.com/ayushupneja/InterviewPrep
+9. https://github.com/interviewdiscussion/files
+10. https://github.com/Sanqiang/Algorithm-Linux
+11. https://github.com/VincentUCLA/Personal-Notes
+12. https://github.com/PriyankaKhire/ProgrammingPracticePython
+13. https://github.com/jiangdapeng/asuwill-interview-code
+14. https://github.com/shua2018ti/airbnb-interview-problems
+15. https://github.com/nyghtowl/Interview_Problems
+16. https://github.com/tvandame/back-end-developer-interview-questions
+17. https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
+18. https://github.com/lingduoduo/Coding
+19. https://github.com/medmunds/how-to-hire-a-rockstar
