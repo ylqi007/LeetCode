@@ -152,6 +152,10 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
   - [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)    : DFS, BFS
   - [x] 286.Walls and Gates       : BFS
   - [x] 695.Max Area of Island    : DFS
+- [x] 🟩🌟 [339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum) **(DFS, BFS)**
+  - [x] 🟩🌟 [364. Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)
+  - [x] [565. Array Nesting](https://leetcode.com/problems/array-nesting/)
+  - [x] [690. Employee Importance](https://leetcode.com/problems/employee-importance/)
 
 - [x] [1192.Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)    **DFS, Dijistra, *Add explanation to the post***
 
