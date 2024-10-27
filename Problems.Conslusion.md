@@ -119,6 +119,7 @@
 - [ ] 208.Implement Trie (Prefix Tree)
 - [ ] 421.Maximum XOR of Two Numbers in an Array
 - [ ] 720.Longest Word in Dictionary
+- [x] 🟩🌟 [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers)
 
 - [ ] [677. Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
 - [ ] 648.Replace Words
