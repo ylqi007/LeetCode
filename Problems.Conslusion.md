@@ -12,15 +12,19 @@
   - [x] 🟩 [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
   - [ ] [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) [Hard]
   - [ ] [755. Pour Water](https://leetcode.com/problems/pour-water/)
-- [x] [91. Decode Ways](https://leetcode.com/problems/decode-ways/) **DP**
 - [x] 🟩🌟[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
   - [x] [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
   - [x] [123.Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
   - [x] [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
   - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-
+- [x] 🟩🌟 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) [Not an obvious DP, extend from center]
+  - [x] 🟥 🌟 [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)
+  - [x] [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)
+  - [ ] [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) [Not DP]
+  - [x] 🟩🌟 [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) [**DP, 两种写法**]
+  - [x] [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+  - [ ] [2472. Maximum Number of Non-overlapping Palindrome Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/)
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) **DP**
-- [x] [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  **DP; Two Pointers**
 - [x] [1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 - [x] [221. Maximal Square](https://leetcode.com/problems/maximal-square/)  **DP; 还有一个1ms的方法**
 - [x] [139. Word Break](https://leetcode.com/problems/word-break/)  **DP with memoization**
@@ -36,6 +40,7 @@
 - [ ] 1531
 - [ ] [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
 - [ ] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+- [x] [91. Decode Ways](https://leetcode.com/problems/decode-ways/) **DP**
 
 
 

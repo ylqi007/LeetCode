@@ -188,6 +188,9 @@
 * [【小小福讲算法】硅谷工程师十五分钟带你深入理解 Recursion （递归）算法，及其衍生出的算法（分治算法Divide and Conquer, 回溯 Backtracking）](https://www.youtube.com/watch?v=AqGagBmFXgw)
 * [LeetCode in Go](https://github.com/halfrost/LeetCode-Go/tree/master)
 * [LeetCode 101：和你一起你轻松刷题（C++）](https://github.com/changgyhub/leetcode_101)
+* :octocat: [灵茶山艾府·高质量题解精选](https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md)
+* [分享｜如何科学刷题？](https://leetcode.cn/circle/discuss/RvFUtj/)
+
 
 一些有用的GitHub Repos:
 1. https://github.com/nalmoussa/coding-practice
