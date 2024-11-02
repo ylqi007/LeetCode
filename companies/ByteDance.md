@@ -12,13 +12,23 @@
 - [x] [539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/)
 - [x] [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [x] [924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)
-
+- [x] [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)
+- [x] [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)
+  - [x] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+- [x] [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)
+- [x] [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [x] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+- [ ] [468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/description/)
+  - 🔴String的长度判断很重要。比如empty string `str = ""`, `str.charAt(0)` 会报错
+- [x] [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+- [x] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
 - [ ] [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [ ] 2 Sum, 3 Sum
 - [ ] [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 - [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
-- [ ] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+
 
 
 
@@ -33,45 +43,45 @@ tt第二轮 一道js的  closure的题
 ~~厮药Ⅶ, 417~~
 现在您有10个桶，其中9个桶的球都是10克的正品，而1个桶的球是次品，次品的球重量是未知的整数，可能是1到9克中的某个值，而且次品桶内的所有球质量是相同的。问题要求设计一种最少次数称重的方法来找出装有次品球的桶。最少次数？
 ~~酒兒寺, 924~~
-榴旧丝
-散铃寺伞
+~~榴旧丝, 694~~
+~~散铃寺伞, 3043~~, 14
 2421
-蠡口
-衣舞弎灵
-利口1妖舞酒
-餌妖玲
-丝留吧
-
-耳午餐
-妖妖斯伞
+~~衣舞弎灵, 1530~~
+~~利口1妖舞酒, 1159~~
+~~餌妖玲, 210~~
+~~而要领, 210~~
+~~丝留吧, 468~~
+~~李叩56, 56, "物流, 56~~
+~~耳午餐, 253?~~
+妖妖斯伞, 1143
 第一题类似于一个最小生成树
 第二题是有三个排好序的array,找第k大的数，要求logn
-刷题王耀灵酒丝
+刷题王耀灵酒丝,1094
 leetcode 2850
-而要领
-李叩56
+
+
 "给定一个二维数组，每个单元格的值表示它拥有多少奶酪，每次可以移动一块奶酪，问将奶酪传播到每个单元格所需的最少步骤数。
 例如，对于数组 [[1 1 0] [1 1 1] [1 2 1]]，输出将是 3
 [[1 0 0] [1 0 0] [ 1 3 3]], 输出将是 4"
-耀司流
-利蔻琦霸戚(Bellman-Ford)
+耀司流, 146
+利蔻琦霸戚(Bellman-Ford), 787
 Given an array of integers and a target number, find the indices of all pairs of numbers in the array that sum up to the target, and output these pairs of indices
-278加强版
+278加强版, 278
 Rotting Oranges
 第一轮题目就是给了一个长字符串，然后一个listof字符串。这个list的字符串里的每一个比如 abc, 如果在长字符串里找到他的变形，就输出。变形就是abc, bac,cab...这样
-蠡口二幺凌
-义乌三菱
-"物流
-巴斯
-DAG 找最短路径
-收银"
-Candy problem
+蠡口二幺凌, 210
+义乌三菱, 1530
+
+巴斯, 84
+DAG 找最短路径?
+收银"?
+Candy problem?
 LFU
 十六进制转换为八进制
-琪琪尔
-斯物流
-"1642
-68"
+琪琪尔, 772, 
+斯物流, 456, 
+"1642, 1642
+68", 68
 
 
 ## System Design

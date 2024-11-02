@@ -8,8 +8,8 @@
 
 ![](docs/images/LeetCode_Problems_Overview.png)
 
-## 1. LC Log
-[Log](Problems.Conslusion.md)
+## 1. Problems Conslusion
+[Problems Conslusion](Problems.Conslusion.md)
 
 
 ## 2. Data Structure专题
@@ -56,6 +56,7 @@
 ## 4. Company
 * [Google_OA](companies/Google/0_Google_Online_Assessment_Questions.md)
 * [Google_LC](Problems.Conslusion.md/#Google)
+* [ByteDance, 字节](companies/ByteDance.md)
 
 
 ## 5. 经典题目系列
