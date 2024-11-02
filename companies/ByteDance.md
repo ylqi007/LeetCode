@@ -22,7 +22,14 @@
   - 🔴String的长度判断很重要。比如empty string `str = ""`, `str.charAt(0)` 会报错
 - [x] [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
 - [x] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [x] [1094. Car Pooling](https://leetcode.com/problems/car-pooling/)
 - [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+  - [x] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
+- [x] 🌟[146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+- [x] 🌟[460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
+
+
 
 - [ ] [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [ ] 2 Sum, 3 Sum
@@ -53,17 +60,11 @@ tt第二轮 一道js的  closure的题
 ~~丝留吧, 468~~
 ~~李叩56, 56, "物流, 56~~
 ~~耳午餐, 253?~~
-妖妖斯伞, 1143
-第一题类似于一个最小生成树
-第二题是有三个排好序的array,找第k大的数，要求logn
-刷题王耀灵酒丝,1094
+~~妖妖斯伞, 1143~~
+~~刷题王耀灵酒丝,1094~~
 leetcode 2850
-
-
-"给定一个二维数组，每个单元格的值表示它拥有多少奶酪，每次可以移动一块奶酪，问将奶酪传播到每个单元格所需的最少步骤数。
-例如，对于数组 [[1 1 0] [1 1 1] [1 2 1]]，输出将是 3
-[[1 0 0] [1 0 0] [ 1 3 3]], 输出将是 4"
-耀司流, 146
+~~耀司流, 146~~
+LFU
 利蔻琦霸戚(Bellman-Ford), 787
 Given an array of integers and a target number, find the indices of all pairs of numbers in the array that sum up to the target, and output these pairs of indices
 278加强版, 278
@@ -71,17 +72,26 @@ Rotting Oranges
 第一轮题目就是给了一个长字符串，然后一个listof字符串。这个list的字符串里的每一个比如 abc, 如果在长字符串里找到他的变形，就输出。变形就是abc, bac,cab...这样
 蠡口二幺凌, 210
 义乌三菱, 1530
-
 巴斯, 84
 DAG 找最短路径?
 收银"?
 Candy problem?
-LFU
+
 十六进制转换为八进制
-琪琪尔, 772, 
-斯物流, 456, 
+琪琪尔, 772,
+斯物流, 456,
 "1642, 1642
 68", 68
+
+
+第一题类似于一个最小生成树
+第二题是有三个排好序的array,找第k大的数，要求logn
+
+
+
+"给定一个二维数组，每个单元格的值表示它拥有多少奶酪，每次可以移动一块奶酪，问将奶酪传播到每个单元格所需的最少步骤数。
+例如，对于数组 [[1 1 0] [1 1 1] [1 2 1]]，输出将是 3
+[[1 0 0] [1 0 0] [ 1 3 3]], 输出将是 4"
 
 
 ## System Design
