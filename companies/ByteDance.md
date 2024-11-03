@@ -28,7 +28,8 @@
   - [x] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
 - [x] 🌟[146. LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [x] 🌟[460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
-
+- [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) [Binary Search]
+  - [ ] [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 
 - [ ] [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
@@ -64,7 +65,8 @@ tt第二轮 一道js的  closure的题
 ~~刷题王耀灵酒丝,1094~~
 leetcode 2850
 ~~耀司流, 146~~
-LFU
+~~LFU, 460~~
+~~LRU, 146~~
 利蔻琦霸戚(Bellman-Ford), 787
 Given an array of integers and a target number, find the indices of all pairs of numbers in the array that sum up to the target, and output these pairs of indices
 278加强版, 278
