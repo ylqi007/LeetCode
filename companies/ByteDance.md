@@ -15,7 +15,7 @@
 - [x] [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)
 - [x] [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/)
   - [x] [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
-- [x] [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)
+- [x] 🟨🌟[1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)
 - [x] [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [x] [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 - [ ] [468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/description/)
@@ -30,6 +30,14 @@
 - [x] 🌟[460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
 - [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) [Binary Search]
   - [ ] [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [ ] 🟥🌟[787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+- [x] [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) [BFS]
+- [ ] 🟥[84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+  - [ ] [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+- [ ] 🟥🌟Basic Calculator
+  - [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) [`+-()`]
+  - [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) [`+-*/`]
+  - [ ] [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) [`+-*/()`]
 
 
 - [ ] [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
@@ -55,9 +63,11 @@ tt第二轮 一道js的  closure的题
 ~~散铃寺伞, 3043~~, 14
 2421
 ~~衣舞弎灵, 1530~~
+~~义乌三菱, 1530~~
 ~~利口1妖舞酒, 1159~~
 ~~餌妖玲, 210~~
 ~~而要领, 210~~
+~~蠡口二幺凌, 210~~
 ~~丝留吧, 468~~
 ~~李叩56, 56, "物流, 56~~
 ~~耳午餐, 253?~~
@@ -67,20 +77,18 @@ leetcode 2850
 ~~耀司流, 146~~
 ~~LFU, 460~~
 ~~LRU, 146~~
-利蔻琦霸戚(Bellman-Ford), 787
+🟥利蔻琦霸戚(Bellman-Ford), 787
 Given an array of integers and a target number, find the indices of all pairs of numbers in the array that sum up to the target, and output these pairs of indices
-278加强版, 278
-Rotting Oranges
+~~278加强版, 278~~
+~~Rotting Oranges, 994~~
 第一轮题目就是给了一个长字符串，然后一个listof字符串。这个list的字符串里的每一个比如 abc, 如果在长字符串里找到他的变形，就输出。变形就是abc, bac,cab...这样
-蠡口二幺凌, 210
-义乌三菱, 1530
-巴斯, 84
+~~巴斯, 84~~ [以及相似的85]
 DAG 找最短路径?
 收银"?
 Candy problem?
 
 十六进制转换为八进制
-琪琪尔, 772,
+琪琪尔, 772. Basic Calculator III
 斯物流, 456,
 "1642, 1642
 68", 68

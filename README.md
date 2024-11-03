@@ -24,6 +24,9 @@
 * HashSet/HashMap(unordered)
 * Heap/PriorityQueue
 * Deque/Queue/Stack
+* Monotonic Stack (单调栈)
+  * 单调**递增**栈即栈内元素保持单调递增的栈
+  * 单调**递减**栈即栈内元素保持单调递减的栈
 * Pair/Tuple
 * Customized data structure
 * String
@@ -65,6 +68,8 @@
 2. [CNoodle [LeetCode] 227. Basic Calculator II](https://www.cnblogs.com/cnoodle/p/12903616.html)
 3. [CNoodle [LeetCode] 772. Basic Calculator III](https://www.cnblogs.com/cnoodle/p/14040192.html)
 4. [Java - Common template for Basic Calculator I, II, and III using Stack](https://leetcode.com/problems/basic-calculator-iii/discuss/344371/Java-Common-template-for-Basic-Calculator-I-II-and-III-using-Stack)
+5. https://leetcode.cn/problems/basic-calculator/solutions/646369/ji-ben-ji-suan-qi-by-leetcode-solution-jvir/
+
 
 
 ### 2. Range Sum Query
