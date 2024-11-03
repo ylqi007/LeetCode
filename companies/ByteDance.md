@@ -38,6 +38,11 @@
   - [ ] [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) [`+-()`]
   - [ ] [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) [`+-*/`]
   - [ ] [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) [`+-*/()`]
+- [ ] [456. 132 Pattern](https://leetcode.com/problems/132-pattern/)
+- [ ] [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+- [ ] [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+- [ ] [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
+
 
 
 - [ ] [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
@@ -88,9 +93,9 @@ DAG 找最短路径?
 Candy problem?
 
 十六进制转换为八进制
-琪琪尔, 772. Basic Calculator III
-斯物流, 456,
-"1642, 1642
+~~琪琪尔, 772. Basic Calculator III~~, 224, 227, 772
+~~斯物流, 456, 132pattern~~ Monotonic Stack
+~~"1642, 1642~~
 68", 68
 
 
@@ -144,8 +149,8 @@ Candy problem?
   * merge two BST into sorted list 还不让开额外空间
     那是要用morris 遍历来做吗  ....
 * [[面试经验] TT 吐槽一轮游](https://www.1point3acres.com/bbs/thread-1081981-1-1.html)
-  * 第一题， 舅儿已
-  * 第二题，伞令已
+  * 第一题，舅儿已, 921
+  * ~~第二题，伞令已~~, 304
 * 🟥 [[面试经验] 字节24后端一年经验新鲜面经 新人求大米](https://www.1point3acres.com/bbs/thread-1081884-1-1.html)
 * [[面试经验] 字节大概率挂经](https://www.1point3acres.com/bbs/thread-1081403-1-1.html)
   * 利口 斯物流
