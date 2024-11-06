@@ -2,6 +2,7 @@
 
 ## Important Concepts
 * [Subsequence Vs Substring](https://www.naukri.com/code360/library/subsequence-vs-substring)
+* Stack, Monotonic Stack
 
 
 ## 常用Java API
@@ -11,6 +12,19 @@
 * `java.lang.Integer`: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Integer.html
   * `public static int parseInt(String s) throws NumberFormatException`
 
+
+## 算法
+### 1. 求最短路径
+求解最短路一般有三种方法，floyd算法，dijkstra算法和bellman ford算法。
+* https://leetcode.cn/problems/cheapest-flights-within-k-stops/solutions/954402/k-zhan-zhong-zhuan-nei-zui-bian-yi-de-ha-abzi/
+* [【最短路/必背模板】涵盖所有的「存图方式」与「最短路算法（详尽注释）」](https://mp.weixin.qq.com/s?__biz=MzU4NDE3MTEyMA==&mid=2247488007&idx=1&sn=9d0dcfdf475168d26a5a4bd6fcd3505d&chksm=fd9cb918caeb300e1c8844583db5c5318a89e60d8d552747ff8c2256910d32acd9013c93058f&token=754098973&lang=zh_CN#rd)
+
+
+### 2. Binary Search
+* https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/solutions/1/er-fen-cha-zhao-zong-shi-xie-bu-dui-yi-g-t9l9/
+
+- [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) [Binary Search]
+- [ ] [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 
 ### Lowest Common Ancestor
@@ -53,7 +67,7 @@ class Solution {
 Refer to [692. Top K Frequent Words -- Editorial](https://leetcode.com/problems/top-k-frequent-words/editorial/)
 
 
-## Lowest Common Multiple(LCM) & Greatest Common Divisor(GCD)
+### Lowest Common Multiple(LCM) & Greatest Common Divisor(GCD)
 ```java
 // Greatest Common Divisor, 最大公因数
 private int gcd(int a, int b) {
@@ -65,7 +79,7 @@ long lcm = ((long) divisor1 * (long) divisor2) / gcd(divisor1, divisor2);   // �
 ```
 
 
-## [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
+### [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
 * **Reference equality:** In Java, `==` is used for reference equality (引用相等), which means that it checks whether two objects refer to the same memory location.
   * `==` tests for reference equality (whether they are the same object).
 * **Value equality** takes place when two separate objects happen to have the same values or state.This compares values and is closely related to the Object's equals() method.
@@ -88,6 +102,32 @@ if (s1.equals(s2)){
     System.out.println("s1 and s2 have different values");
 }
 ```
+
+## 数据结构
+### Heap (PriorityQueue)
+```java
+// PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+// PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+import java.util.PriorityQueue;
+
+public class PriorityQueueExample {
+
+    public static void main(String[] args) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();  // default, minHeap, the min number will be polled out first
+
+        pq.add(5);
+        pq.add(2);
+        pq.add(8);
+        pq.add(1);
+
+        while (!pq.isEmpty()) {
+            System.out.println(pq.poll()); // Output: 1, 2, 5, 8
+        }
+    }
+}
+```
+
 
 **Reference:**
 * [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
