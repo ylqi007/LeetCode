@@ -1,13 +1,11 @@
 [TOC]
 
 
-
 # Disjoint Set (并查集)
 
 ## 1. 用与不想交集合的数据结构 [Chap 21 of 数据导论]
 > 在某些应用中，要将 `n` 个不同的元素分成一组不想交的集合。
 > 在不相交的集合上有两个重要操作：
->
 > 1. 找出给定元素所属的集合；
 > 2. 合并两个集合。
 
@@ -25,10 +23,8 @@
 
 ### 1.2 不相交集合的链表(List)表示
 要实现不相交集合的数据结构，一种简单的方法是每个集合都用一个链表来表示。每个链表的第一个对象作为它所在集合的代表。
-
-* **合并的一个简单实现 ** 也就是合并两个链表的操作。
-
-* **一种加权合并启发式策略** 假设每个链表中包含了链表的长度，并且总是把较短的链表拼接到较长的链表上去；如果两个 List 一样长的话，则可以按任意顺序拼接。
+* **合并的一个简单实现**, 也就是合并两个链表的操作。
+* **一种加权合并启发式策略**, 假设每个链表中包含了链表的长度，并且总是把较短的链表拼接到较长的链表上去；如果两个 List 一样长的话，则可以按任意顺序拼接。
 使用这种简单的**加权合并启发式策略(weighted-union heuristic)**，如果两个集合都有 N 个成员的话，一次 `UNION` 操作然会需要 `\Theta(N)` 的时间。
 
 ### 1.3 不相交集合森林
@@ -79,13 +75,9 @@ FIND-SET(x):    // with path-compression
 ```
 
 * **启发式策略对运行时间的影响**
-
 > Disjoint set means two sets are not having anything common.
->
 > Two operation: Find & Union
->
 > Detect Cycle: 如果连接两个点，并且两个点在同一个 set 中，则说明有 cycle。
-
 
 
 # Union-Find
@@ -103,10 +95,8 @@ FIND-SET(x):    // with path-compression
 * `int count()`, 返回当前连通分量的个数。
 
 **Template**
-
 ```java
 class UF {
-    
     private int count;		// 记录连通分量个数
     private int[] parent;	// 存储若干棵树
     private int[] size;		// 记录树的“重量”，也可以用 rank，记录树的高度
@@ -161,9 +151,7 @@ class UF {
     }
 }
 ```
-
 算法关键点：
-
 1. 用 `parent` 数组记录每个节点的父节点，相当于指向父节点的指针，所以 `parent` 数组内部实际存储着一个森林 (若干颗多叉树)。
 2. 用 `size` 数组记录着每棵树的重量，目的是让 `union` 后树依然拥有平衡性，而不会退化成链表，影响操作效率。也可以使用 `rank` 记录每棵树的高度，使树保持平衡。
 3. 在 `find` 函数中进行路径压缩，保证任意树的高度保持在常数，使得 `union` 和 `connected` API 时间复杂度为 O(1)。
@@ -178,9 +166,7 @@ Union-Find 算法的关键就在于 `union` 和 `connect` 函数的效率。
 <img src="https://pic.leetcode-cn.com/1600677786-HPVMqN-file_1600677786373" style="zoom:50%;" />
 
 ### 1.2 路径压缩
-
 如何进一步压缩每棵树的高度，使树的高度保持为常数。这样 `find` 就能够以 `O(1)` 的时间找到某一个节点的根节点，相应的，`connect` 和 `union` 复杂度都下降为 `O(1)`。
-
 ```java
 private int find(int x) {
     while (parent[x] != x) {
@@ -241,6 +227,7 @@ Quick-find Java implementation: [QuickFindUF.java](https://algs4.cs.princeton.ed
 >
 > * 从上图中可以看出，当 `union(5, 9)` 的时候，`5` 的 id 为 `1`， `9` 的 id 为 `8`。将所有 id 与 `5` 相同的节点的 id 都设置为 `8`。
 > * 所有 `id = 8` 的节点都在同一个连通分量中。
+
 
 #### Quick-union
 
@@ -400,10 +387,12 @@ boolean equationsPossible(String[] equations) {
 ```
 
 
+# LeetCode题目
+- [x] 🟩🌟[959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+- [ ] 🟩🌟[721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) (UF, DFS)
+    - [ ] [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
+        - [734. Sentence Similarity](https://leetcode.com/problems/sentence-similarity/)
 
-# 经典题目
-
-经典题目：
 
 - [ ] [Friend Cycles](), 经典的 Union Find 题目
 - [ ] [Connecting Cities With Minimum Cost](), 按照 cost sort 之后，每次拿 edge，如果不相连，则 connect，totalCost += edgeCost；UF 判断是否相连。这题也可以从 Dijkstra 做，node 中存 city 和 cost，每次 poll 出来最小的 cost 连接 city，如果没有 visited 就加上，这样最后 visited 里面全部是 cities，就是最小的 cost。
@@ -419,8 +408,8 @@ boolean equationsPossible(String[] equations) {
   2. 边的数目 = 点的数目-1, i.e edges = points - 1;
 - [ ] [Maximum Association Set ](https://blog.csdn.net/u013325815/article/details/103922115)(以书为node，建立一个<string,Integer> mapping, 注意size是2*n,  用不同的index代表不同的书，如果hashmap里面有了，就不用加了，是同一本书；union完之后，扫描一遍求出最大的size和最大的index，然后根据index来收集书名；注意去重，因为我是扫描了一遍书名，书名就有重复的，必须去重复；)
 
-# Reference
 
+# Reference
 1. [算法导论-36  并查集(Disjoint Set)详解](https://blog.csdn.net/BrilliantEagle/article/details/52422188)
 2. [Disjoint set(并查集) data structure](https://blog.csdn.net/a130737/article/details/38438531)
 4. [Union Find 题型总结](https://blog.csdn.net/u013325815/article/details/103905032)
@@ -432,3 +421,6 @@ boolean equationsPossible(String[] equations) {
 9. [并查集详解 (转)](https://blog.csdn.net/dellaserss/article/details/7724401)
 10. [Union-Find总结](https://maye.space/2020/06/07/Union-Find%E6%80%BB%E7%BB%93/)
 11. [并查集](https://zh.wikipedia.org/wiki/%E5%B9%B6%E6%9F%A5%E9%9B%86)
+12. Youtube: [并查集（Disjoint-set union）第1讲](https://www.youtube.com/watch?v=YKE4Vd1ysPI&t=322s)
+13. Youtube: [并查集（Disjoint-set union）第3讲](https://www.youtube.com/watch?v=zos--xohLT0)
+    * 压缩路径
