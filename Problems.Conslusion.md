@@ -395,6 +395,11 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 - [ ] 🟩🌟[721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) (UF, DFS)
   - [ ] [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) [UF]
     - [734. Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) [Hash Table]
+- [ ] [200. Number of Islands](https://leetcode.com/problems/number-of-islands) [DFS, BFS, UnionFind]
+  - [ ] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) [DFS, BFS, UnionFind, 但UF并不是最优解]
+  - [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) [BFS]
+  - [x] 🟥🌟[305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) [典型的UF]
+  - [x] 🟨🌟[323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) [典型的UF, DFS]
 
 
 [//]: # "TODO: 20201110, common factor"
