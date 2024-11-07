@@ -128,6 +128,7 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 
 🟩🌟 [岛屿类问题的通用解法、DFS 遍历框架](https://leetcode.cn/problems/number-of-islands/solutions/211211/dao-yu-lei-wen-ti-de-tong-yong-jie-fa-dfs-bian-li-/)
 - [x] [200.Number of Islands](https://leetcode.com/problems/number-of-islands/) **DFS, BFS, Union Find**
+  - [x] [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) **DFS, BFS**
 - [x] [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island)
 - [x] [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) : Count, DFS
   - [x] [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)    : DFS, BFS
@@ -137,6 +138,10 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
   - [x] 🟩🌟 [364. Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)
   - [x] [565. Array Nesting](https://leetcode.com/problems/array-nesting/)
   - [x] [690. Employee Importance](https://leetcode.com/problems/employee-importance/)
+- [ ] 🟨🌟[694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) **DFS + Hash**
+- [ ] 🟥🌟[778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/description/) [DFS最优，UF也可做]
+- [ ] [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
+
 
 - [x] [1192.Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)    **DFS, Dijistra, *Add explanation to the post***
 
@@ -274,7 +279,7 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 - [x] [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)    **BFS + Formular**
 - [x] [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)    **DFS, BFS**
 - [x] [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)    **DFS, BFS**
-- [ ] []()
+- [ ] [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
 - [ ] []()
 - [ ] []()
 
@@ -391,7 +396,7 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 
 
 ### Union Find
-- [x] 🟩🌟[959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)
+- [x] 🟨🌟[959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) [典型的UF]
 - [ ] 🟩🌟[721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) (UF, DFS)
   - [ ] [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) [UF]
     - [734. Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) [Hash Table]
@@ -400,6 +405,7 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
   - [ ] [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/) [BFS]
   - [x] 🟥🌟[305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) [典型的UF]
   - [x] 🟨🌟[323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) [典型的UF, DFS]
+- [ ] 🟥🌟[778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/description/) [DFS最优，UF也可做]
 
 
 [//]: # "TODO: 20201110, common factor"
