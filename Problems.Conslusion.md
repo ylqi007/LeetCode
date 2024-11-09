@@ -3,11 +3,42 @@
 ---
 ## 1. Data Structure
 
-### Array-TODO
+### String
 
 
+### Array & Matrix --TODO
 
 
+### List: ArrayList, LinkedList
+
+
+### Queue & Stack
+
+#### Queue: ArrayDeque, LinkedList
+- [ ] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [ ] [767. Reorganize String](https://leetcode.com/problems/reorganize-string/)
+- [ ] [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
+- [ ] [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/)
+- [ ] [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)  **circular queue or array**
+- [ ] [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
+- [ ] [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)
+- [ ] [1670. Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)
+- [x] [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)
+- [x] [582.Kill Process](https://leetcode.com/problems/kill-process/)
+
+(20200901)
+- [x] 621.Task Schedule
+  - [x] 358.Rearrange String k Distance Apart
+  - [x] 767.Reorganize String
+- [x] 363.Max Sum of Rectangle No Larger Than K
+  [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
+
+#### Stack: ArrayDeque
+
+
+### Hash Table: HashSet & HashMap
+(20200921)
+- [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 
 ### Tree
@@ -64,30 +95,7 @@
   - [ ] [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
   - [ ] [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)
 
-
-### Queue & Stack
-
-
-
-#### Queue
-- [ ] [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-- [ ] [767. Reorganize String](https://leetcode.com/problems/reorganize-string/)
-- [ ] [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
-- [ ] [353. Design Snake Game](https://leetcode.com/problems/design-snake-game/)
-- [ ] [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)  **circular queue or array**
-- [ ] [622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
-- [ ] [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)
-- [ ] [1670. Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)
-- [x] [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)
-- [x] [582.Kill Process](https://leetcode.com/problems/kill-process/)
-
-(20200901)
-- [x] 621.Task Schedule
-  - [x] 358.Rearrange String k Distance Apart
-  - [x] 767.Reorganize String
-- [x] 363.Max Sum of Rectangle No Larger Than K
-  [71. Simplify Path](https://leetcode.com/problems/simplify-path/)
-  
+ 
 
 ### Trie
 - [ ] 692.Top K Frequent Words
@@ -110,12 +118,6 @@ Maximum XOR of Two Numbers in an Array
 Word Search II
 Word Square
 Palindrome Pairs
-
-
-### Hash Table
-
-(20200921)
-- [ ] [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
 
 
@@ -320,22 +322,12 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 - [ ] [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
 - [ ] [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
 - [x] [91. Decode Ways](https://leetcode.com/problems/decode-ways/) **DP**
+- [ ] 🟨🌟[139. Word Break](https://leetcode.com/problems/word-break/) 
+  - [ ] [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
 
-
-  
 
 ### Backtracking
-
-[//]: # "TODO: 20201007, 10.Regular Expression Matching"
-[//]: # "TODO: 20201007, 17.Letter Combinations of a Phone Number"
-[//]: # "TODO: 20201007, 140.Word Break II"
-[//]: # "TODO: 20201007, 211.Design Add and Search Words Data Structure"
-[//]: # "TODO: 20201007, 131.Palindrome Partitioning"
-[//]: # "TODO: 20201007, 78.Subsets"
-[//]: # "TODO: 20201007, 37.Sodoku Solver"
-[//]: # "FIXME: test1, test2"
-
-- [ ] Typical Problems
+**Typical Problems**
   * Subsets
   * Combinations
   * Combination Sum
@@ -387,7 +379,8 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 - [ ] Palindrome Partitioning
   - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
   - [ ] [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)
-
+- [ ] 🟨🌟[140. Word Break II](https://leetcode.com/problems/word-break-ii/)
+  - [ ] [139. Word Break](https://leetcode.com/problems/word-break/)
 
 
 - [x] 78.Subsets
@@ -509,6 +502,34 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
     - [x] [1099. Two Sum Less Than K](https://leetcode.com/problems/two-sum-less-than-k/)
 
 
+### Divide and Conquer
+- [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+  - [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+  - [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
+- [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  Wiggle Sort II
+  - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+    Third Maximum Number
+    Kth Largest Element in a Stream
+  - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+
+
+### Greedy
+- [x] [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
+  - [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] Meeting Rooms
+  - [x] [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+  - [x] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [ ] Jump Game
+  - [x] [55. Jump Game](https://leetcode.com/problems/jump-game/)
+  - [ ] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+  - [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/)
+- [ ] []()
+- [ ] []()
+- [ ] []()
+
+## ------Split line------
 
 ### Dynamic Programming -- (20200907)
 - [x] [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
@@ -613,34 +634,7 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 - [ ] - [ ] 
 
 
-### Divide and Conquer
-- [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
-  - [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-  - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-  - [x] [692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
-- [x] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-  Wiggle Sort II
-  - [x] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-    Third Maximum Number
-    Kth Largest Element in a Stream
-  - [x] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
-
-
----
-### Greedy
-- [x] [763. Partition Labels](https://leetcode.com/problems/partition-labels/)
-  - [x] [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-- [x] Meeting Rooms
-  - [x] [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
-  - [x] [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
-- [ ] Jump Game
-  - [x] [55. Jump Game](https://leetcode.com/problems/jump-game/)
-  - [ ] [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
-  - [ ] [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/)
-- [ ] []()
-- [ ] []()
-- [ ] []()
 
 
 ### --- Split ---

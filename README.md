@@ -13,26 +13,25 @@
 
 
 ## 2. Data Structure专题
-* Array -- TODO
+* Array(fixed), Dynamic Array, Matrix -- TODO
+* List, ArrayList, LinkedList
+* Hash Table
+  * TreeSet/TreeMap (ordered)
+  * HashSet/HashMap(unordered)
 * [Tree](Problems.Conslusion.md/#Tree)
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
   * [Stack](docs/Stack.md)
   * [Queue](Problems.Conslusion.md/#Queue)
-* Array(fixed), Dynamic array
-* Linked List
-* TreeSet/TreeMap (ordered)
-* HashSet/HashMap(unordered)
-* Heap/PriorityQueue
-* Deque/Queue/Stack
-* Monotonic Stack (单调栈)
-  * 单调**递增**栈即栈内元素保持单调递增的栈
-  * 单调**递减**栈即栈内元素保持单调递减的栈
+  * Heap/PriorityQueue
+  * Deque/Queue/Stack
+  * Monotonic Stack (单调栈)
+    * 单调**递增**栈即栈内元素保持单调递增的栈
+    * 单调**递减**栈即栈内元素保持单调递减的栈
+* [Graph](docs/Graph.md)
+* [Trie](Problems.Conslusion.md/#Trie)
 * Pair/Tuple
 * Customized data structure
 * String
-* Heap
-* [Graph](docs/Graph.md)
-* [Trie](Problems.Conslusion.md/#Trie)
 
 
 ## 3. Algorithm专题
@@ -40,7 +39,8 @@
 * [Recursion](docs/Recursion_递归.md)
   * Memorization
   * Divide and Conquer
-  * [Backtracking](Problems.Conslusion.md/#Backtracking)
+  * 递归中通常都会用到backtracking
+* [Backtracking](Problems.Conslusion.md/#Backtracking)
 * [Two Pointer](Problems.Conslusion.md/#Sliding-Window-+-Two Pointers)
 * [**Binary Search**](docs/Binary_Search.md)
 * [Dynamic Programming](Problems.Conslusion.md/#Dynamic-Programming)
