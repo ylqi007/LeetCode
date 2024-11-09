@@ -42,6 +42,7 @@
 - [ ] [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 - [ ] [304. Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
 - [ ] [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
+- [ ] [15. 3Sum](https://leetcode.com/problems/3sum/)
 
 
 
@@ -110,6 +111,7 @@ Candy problem?
 
 
 ## System Design
+
 
 ## BQ
 
@@ -184,3 +186,4 @@ Candy problem?
 * [[面试经验] Bytedance 第一轮面经](https://www.1point3acres.com/bbs/thread-1074202-1-1.html)
   *  lc medium binary search
 * ❇️ [[面试经验] 字节面经 经典题目深挖](https://www.1point3acres.com/bbs/thread-1074169-1-1.html)
+* [[面试经验] TikTok OA](https://www.1point3acres.com/bbs/thread-1095971-1-1.html) [NG]

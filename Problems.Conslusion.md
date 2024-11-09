@@ -337,12 +337,17 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
   - [x] [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
   - [x] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
   - [x] [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+  - [ ] [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses)
+    - [ ] [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) [Stack]
+    - [ ] 🟨🌟[1963. Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) [Stack]
 - [x] Permutations
-  - [x] [46. Permutations](https://leetcode.com/problems/permutations/)           **: Swap untill all**
-  - [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/)     **: Swap untill all, Pick and add one by one**
+  - [x] [46. Permutations](https://leetcode.com/problems/permutations/)           **Swap untill all**
+  - [x] [47. Permutations II](https://leetcode.com/problems/permutations-ii/)     **Swap untill all, Pick and add one by one**
   - [x] [77. Combinations](https://leetcode.com/problems/combinations/)
   - [x] [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
   - [x] [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
+  - [ ] [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)
+  - [ ] [267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/)
 - [x] Word Search
   - [x] [79. Word Search](https://leetcode.com/problems/word-search/)
   - [x] [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
@@ -382,10 +387,6 @@ DFS（深度优先搜索）通常是用在树或者图结构的问题上，然�
 - [ ] 🟨🌟[140. Word Break II](https://leetcode.com/problems/word-break-ii/)
   - [ ] [139. Word Break](https://leetcode.com/problems/word-break/)
 
-
-- [x] 78.Subsets
-- [x] 90.Subsets II
-- [x] 784.Letter Case Permutation
 
 
 ### Union Find
