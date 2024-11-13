@@ -9,7 +9,7 @@
 ![](docs/images/LeetCode_Problems_Overview.png)
 
 ## 1. Problems Conslusion
-[Problems Conslusion](Problems.Conslusion.md)
+[数据结构与算法题目归类](数据结构与算法题目归类.md)
 
 
 ## 2. Data Structure专题
@@ -18,17 +18,17 @@
 * Hash Table
   * TreeSet/TreeMap (ordered)
   * HashSet/HashMap(unordered)
-* [Tree](Problems.Conslusion.md/#Tree)
+* [Tree](数据结构与算法题目归类.md/#Tree)
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
   * [Stack](docs/Stack.md)
-  * [Queue](Problems.Conslusion.md/#Queue)
+  * [Queue](数据结构与算法题目归类.md/#Queue)
   * Heap/PriorityQueue
   * Deque/Queue/Stack
   * Monotonic Stack (单调栈)
     * 单调**递增**栈即栈内元素保持单调递增的栈
     * 单调**递减**栈即栈内元素保持单调递减的栈
 * [Graph](docs/Graph.md)
-* [Trie](Problems.Conslusion.md/#Trie)
+* [Trie](数据结构与算法题目归类.md/#Trie)
 * Pair/Tuple
 * Customized data structure
 * String
@@ -40,15 +40,15 @@
   * Memorization
   * Divide and Conquer
   * 递归中通常都会用到backtracking
-* [Backtracking](Problems.Conslusion.md/#Backtracking)
-* [Two Pointer](Problems.Conslusion.md/#Sliding-Window-+-Two Pointers)
+* [Backtracking](数据结构与算法题目归类.md/#Backtracking)
+* [Two Pointer](数据结构与算法题目归类.md/#Sliding-Window-+-Two Pointers)
 * [**Binary Search**](docs/Binary_Search.md)
-* [Dynamic Programming](Problems.Conslusion.md/#Dynamic-Programming)
+* [Dynamic Programming](数据结构与算法题目归类.md/#Dynamic-Programming)
 * Greedy
 * Bit Manipulation
-* [Depth-First Search](Problems.Conslusion.md/#Depth-First-Search)
-* [Breadth-First Search](Problems.Conslusion.md/#Breadth-First-Search)
-* [Union Find](Problems.Conslusion.md/#Union-Find)
+* [Depth-First Search](数据结构与算法题目归类.md/#Depth-First-Search)
+* [Breadth-First Search](数据结构与算法题目归类.md/#Breadth-First-Search)
+* [Union Find](数据结构与算法题目归类.md/#Union-Find)
 * Topological Sort
 * Sliding Window
 * Sampling
@@ -58,7 +58,7 @@
 
 ## 4. Company
 * [Google_OA](companies/Google/0_Google_Online_Assessment_Questions.md)
-* [Google_LC](Problems.Conslusion.md/#Google)
+* [Google_LC](数据结构与算法题目归类.md/#Google)
 * [ByteDance, 字节](companies/ByteDance.md)
 
 
