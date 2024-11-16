@@ -14,7 +14,7 @@
     * [Java中的栈Stack、Deque、ArrayDeque、LinkedList](https://blog.csdn.net/linysuccess/article/details/109038453)
 
 
-## PriorityQueue: `java.util.PriorityQueue<E>`
+## PriorityQueue: `java.util.PriorityQueue<E>` (i.e. Heap)
 * https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/PriorityQueue.html
     * An unbounded priority queue based on a priority heap. The elements of the priority queue are ordered according to their natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
         * 基于queue，自然排序(即从小到大)
@@ -24,3 +24,26 @@
     * `boolean remove(Object o) 	Removes a single instance of the specified element from this queue, if it is present.`
 * `PriorityQueue`和`Queue`的区别在于，它的出队顺序与元素的优先级有关，对`PriorityQueue`调用`remove()`或`poll()`方法，返回的总是优先级最高的元素。
 * [10 张手绘图详解Java 优先级队列PriorityQueue](https://javabetter.cn/collection/PriorityQueue.html)
+
+```java
+// PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+// PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+import java.util.PriorityQueue;
+
+public class PriorityQueueExample {
+
+    public static void main(String[] args) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();  // default, minHeap, the min number will be polled out first
+
+        pq.add(5);
+        pq.add(2);
+        pq.add(8);
+        pq.add(1);
+
+        while (!pq.isEmpty()) {
+            System.out.println(pq.poll()); // Output: 1, 2, 5, 8
+        }
+    }
+}
+```

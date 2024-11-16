@@ -26,6 +26,9 @@
 * https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html
 * `static double random() 	Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.`
 
+### Comparator: `interface  java.util.Comparator<T>`
+* https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Comparator.html
+
 
 **Reference:**
 * [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
