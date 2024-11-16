@@ -26,30 +26,6 @@
 * https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html
 * `static double random() 	Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.`
 
-### ArrayDeque
-* Java11: https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ArrayDeque.html
-    > * Array deques have no capacity restrictions; they grow as necessary to support usage.
-    > *  They are not thread-safe; in the absence of external synchronization, they do not support concurrent access by multiple threads
-    > * Null elements are prohibited. 不能添加`null` object
-    > * This class is likely to be faster than Stack when used as a stack, and faster than LinkedList when used as a queue.
-  * Stack: push/pop/peek, 可以用`push
-* ArrayDeque (Stack, Queue)
-  * 🟩🌟二哥的Java进阶之路: [Java集合框架全面解析](https://javabetter.cn/collection/gailan.html)
-  * [ArrayDeque介绍&&不推荐使用Stack类](https://blog.csdn.net/weixin_45713992/article/details/127574159)
-  * [为什么JDK建议使用ArrayDeque而不是Stack和LinkedList实现栈和队列](https://www.cnblogs.com/jiading/articles/12452830.html)
-  * [详解 Java 中的双端队列（ArrayDeque附源码分析）](https://javabetter.cn/collection/arraydeque.html)
-  * [Java中的栈Stack、Deque、ArrayDeque、LinkedList](https://blog.csdn.net/linysuccess/article/details/109038453)
-
-### `java.util.PriorityQueue<E>`
-* https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/PriorityQueue.html
-  * An unbounded priority queue based on a priority heap. The elements of the priority queue are ordered according to their natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
-    * 基于queue，自然排序(即从小到大)
-  * A priority queue does not permit null elements.
-    * 不能存放null
-  * `boolean add(E e) 	Inserts the specified element into this priority queue.`
-  * `boolean remove(Object o) 	Removes a single instance of the specified element from this queue, if it is present.`
-* `PriorityQueue`和`Queue`的区别在于，它的出队顺序与元素的优先级有关，对`PriorityQueue`调用`remove()`或`poll()`方法，返回的总是优先级最高的元素。
-* [10 张手绘图详解Java 优先级队列PriorityQueue](https://javabetter.cn/collection/PriorityQueue.html)
 
 **Reference:**
 * [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
@@ -89,30 +65,3 @@
 * [Convert Integer List to an int array in Java](https://www.techiedelight.com/convert-list-integer-array-int/)
 * [How can I convert List<Integer> to int[] in Java? [duplicate]](https://stackoverflow.com/questions/960431/how-can-i-convert-listinteger-to-int-in-java)
 * [How to convert an ArrayList containing Integers to primitive int array?](https://stackoverflow.com/questions/718554/how-to-convert-an-arraylist-containing-integers-to-primitive-int-array?noredirect=1&lq=1)
-
-
-## 常见错误
-### `error: no suitable method found for toArray(int[]::new)`
-```java
-List<Integer> res = new ArrayList<>();
-res.toArray(int[]::new);
-
-error: no suitable method found for toArray(int[]::new)
-```
-**Case 1: If you're using a Stream<Integer>:**
-* If the stream contains Integer objects (autoboxed integers), you can use toArray(int[]::new) like this:
-* ```java
-  Stream<Integer> integerStream = Stream.of(1, 2, 3, 4, 5);
-  int[] array = integerStream.mapToInt(Integer::intValue).toArray();
-  ```
-
-**Case 2: If you're using a Stream<int> (primitive int values):**
-* For a stream of primitive int values, you don’t need the `int[]::new` reference at all because toArray() can handle primitive ints directly. Just do:
-* ```java
-  IntStream intStream = IntStream.of(1, 2, 3, 4, 5);
-  int[] array = intStream.toArray();
-  ```
-
-**In summary:**
-* Use `mapToInt(Integer::intValue)` if you're starting with a `Stream<Integer>`.
-* Directly use `toArray()` for a `Stream<int>`.
