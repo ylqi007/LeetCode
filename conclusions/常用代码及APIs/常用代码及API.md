@@ -64,6 +64,14 @@ public class Pair<K, V> {
 ```
 
 **Reference:**
+* [Java的Pair类的用法以及替代方案](https://blog.csdn.net/Mr19Yin/article/details/130267287)
+* [Java Pair的使用](https://juejin.cn/post/7195471798106849338)
+* [介绍java中Pair](https://blog.csdn.net/neweastsun/article/details/80294811)
+
+
+## ----- Split -----
+
+**Reference:**
 * [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
 * [String.equals versus == [duplicate]](https://stackoverflow.com/questions/767372/string-equals-versus)
 * [How do I compare strings in Java?](https://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java)
