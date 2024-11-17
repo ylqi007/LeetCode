@@ -29,6 +29,39 @@
 ### Comparator: `interface  java.util.Comparator<T>`
 * https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Comparator.html
 
+### Pair (JDK8之后并不包含在 core collection中)
+In JDK 11, Java does not natively include a Pair class in the standard library, as it is not part of the core Java collections.
+* JDK 8
+  * `javafx.util.Pair`
+* JDK 11: 使用`AbstractMap.SimpleEntry`
+  * JDK 11 已经没有内嵌 javafx。
+  * https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/AbstractMap.SimpleEntry.html
+
+You could also create your own simple Pair class if you need more control over its design. Here’s a basic implementation:
+```java
+public class Pair<K, V> {
+    private final K key;
+    private final V value;
+
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue() {
+        return value;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + key + ", " + value + ")";
+    }
+}
+```
 
 **Reference:**
 * [Difference Between == and equals() in Java](https://www.linkedin.com/pulse/difference-between-equals-java-babar-shahzad/)
