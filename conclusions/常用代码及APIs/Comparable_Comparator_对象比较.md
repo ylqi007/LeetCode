@@ -111,6 +111,7 @@ public class ComparatorTest {
 }
 ```
 
+
 ## 对比
 1. 角度一
     1. 自然排序是单一的，唯一的
@@ -121,6 +122,10 @@ public class ComparatorTest {
 3. 角度三
     1. 自然排序: Comparable接口，compareTo(Object obj)
     2. 定制排序: Comparator接口， compare(Object o1, Object o2)
+
+ 
+## LeetCode
+- [ ] [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/)
 
 
 ## Reference
