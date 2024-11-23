@@ -53,7 +53,7 @@
 * Sliding Window
 * Sampling
 * [Math(数学)](docs/Math.md)
-* [Quick Search & Quick Sort](docs/Quick.Select_Quick.Sort.md)
+* [Quick Search & Quick Sort](conclusions/Quick.Select_Quick.Sort.md)
 
 
 ## ✅ 4. Company
