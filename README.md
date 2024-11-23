@@ -56,20 +56,16 @@
 * [Quick Search & Quick Sort](docs/Quick.Select_Quick.Sort.md)
 
 
-## 4. Company
+## ✅ 4. Company
 * [Google_OA](companies/Google/0_Google_Online_Assessment_Questions.md)
 * [Google_LC](数据结构与算法题目归类.md/#Google)
 * [ByteDance, 字节](companies/ByteDance.md)
+* [Meta](companies/Meta.md)
 
 
 ## 5. 经典题目系列
 ### ✅ 1.Basic Calculators
-1. [CNoodle [LeetCode] 224. Basic Calculator](https://www.cnblogs.com/cnoodle/p/12903414.html)
-2. [CNoodle [LeetCode] 227. Basic Calculator II](https://www.cnblogs.com/cnoodle/p/12903616.html)
-3. [CNoodle [LeetCode] 772. Basic Calculator III](https://www.cnblogs.com/cnoodle/p/14040192.html)
-4. [Java - Common template for Basic Calculator I, II, and III using Stack](https://leetcode.com/problems/basic-calculator-iii/discuss/344371/Java-Common-template-for-Basic-Calculator-I-II-and-III-using-Stack)
-5. https://leetcode.cn/problems/basic-calculator/solutions/646369/ji-ben-ji-suan-qi-by-leetcode-solution-jvir/
-
+Moved to 数据结构与算法题目归类.md
 
 
 ### 2. Range Sum Query
