@@ -9,7 +9,7 @@
 ![](docs/images/LeetCode_Problems_Overview.png)
 
 ## 1. Problems Conclusion
-[数据结构与算法题目归类](数据结构与算法题目归类.md)
+[数据结构与算法题目归类](数据结构与算法.md)
 <code style="color : Red">Problems Conclusion</code>
 
 ## 2. Data Structure专题
@@ -18,17 +18,17 @@
 * Hash Table
   * TreeSet/TreeMap (ordered)
   * HashSet/HashMap(unordered)
-* [Tree](数据结构与算法题目归类.md/#Tree)
+* [Tree](数据结构与算法.md/#Tree)
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
   * [Stack](docs/Stack.md)
-  * [Queue](数据结构与算法题目归类.md/#Queue)
+  * [Queue](数据结构与算法.md/#Queue)
   * Heap/PriorityQueue
   * Deque/Queue/Stack
   * Monotonic Stack (单调栈)
     * 单调**递增**栈即栈内元素保持单调递增的栈
     * 单调**递减**栈即栈内元素保持单调递减的栈
 * [Graph](docs/Graph.md)
-* [Trie](数据结构与算法题目归类.md/#Trie)
+* [Trie](数据结构与算法.md/#Trie)
 * Pair/Tuple
 * Customized data structure
 * String
@@ -40,15 +40,15 @@
   * Memorization
   * Divide and Conquer
   * 递归中通常都会用到backtracking
-* [Backtracking](数据结构与算法题目归类.md/#Backtracking)
-* [Two Pointer](数据结构与算法题目归类.md/#Sliding-Window-+-Two Pointers)
+* [Backtracking](数据结构与算法.md/#Backtracking)
+* [Two Pointer](数据结构与算法.md/#Sliding-Window-+-Two Pointers)
 * [**Binary Search**](docs/Binary_Search.md)
-* [Dynamic Programming](数据结构与算法题目归类.md/#Dynamic-Programming)
+* [Dynamic Programming](数据结构与算法.md/#Dynamic-Programming)
 * Greedy
 * Bit Manipulation
-* [Depth-First Search](数据结构与算法题目归类.md/#Depth-First-Search)
-* [Breadth-First Search](数据结构与算法题目归类.md/#Breadth-First-Search)
-* [Union Find](数据结构与算法题目归类.md/#Union-Find)
+* [Depth-First Search](数据结构与算法.md/#Depth-First-Search)
+* [Breadth-First Search](数据结构与算法.md/#Breadth-First-Search)
+* [Union Find](数据结构与算法.md/#Union-Find)
 * Topological Sort
 * Sliding Window
 * Sampling
@@ -58,7 +58,7 @@
 
 ## ✅ 4. Company
 * [Google_OA](companies/Google/0_Google_Online_Assessment_Questions.md)
-* [Google_LC](数据结构与算法题目归类.md/#Google)
+* [Google_LC](数据结构与算法.md/#Google)
 * [ByteDance, 字节](companies/ByteDance.md)
 * [Meta](companies/Meta.md)
 
@@ -66,66 +66,6 @@
 ## 5. 经典题目系列
 ### ✅ 1.Basic Calculators
 Moved to 数据结构与算法题目归类.md
-
-
-### 2. Range Sum Query
-1. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
-2. [307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/)
-3. [304.Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
-4. [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)
-
-
-### 3. K-th Smallest/Largest Element
-* [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)
-
-
-### 4. Word Search
-* [79. Word Search](https://leetcode.com/problems/word-search/description/)
-  * [489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner/description/)
-* [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/)
-
-
-### 5. Trie 字典树
-* [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)
-  * [CNoodle: [LeetCode] 208. Implement Trie (Prefix Tree)](https://www.cnblogs.com/cnoodle/p/12460150.html)
-* [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)
-  * [CNoodle: [LeetCode] 211. Design Add and Search Words Data Structure](https://www.cnblogs.com/cnoodle/p/12460148.html)
-
-
-### 6. Sliding Window
-* 248 Count Number of Nice Subarrays
-* 234 Replace the Substring for Balanced String
-* 004 Max Consecutive Ones III
-* 930 Binary Subarrays With Sum
-* 992 Subarrays with K Different Integers
-* 904 Fruit Into Baskets
-* 862 Shortest Subarray with Sum at Least K
-* 209 Minimum Size Subarray Sum
-*  76 Minimum Window Substring
-
-
-### 7. Balanced Search Tree
-* [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
-* [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
-* [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description/)
-
-
-### 8. Word Break
-* ✅ [139. Word Break](https://leetcode.com/problems/word-break/)
-* [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
-  * [Java Common template - Word Break I, Word Break II, Concatenated Words](https://leetcode.com/problems/concatenated-words/discuss/348972/Java-Common-template-Word-Break-I-Word-Break-II-Concatenated-Words)
-
-
-### 9. Serialize and Deserialize
-* [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)
-* [428. Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/description/)
-* [449. Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)
-* [431. Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/description/)
-
-
-### 10. Lowest Common Ancestor
-* [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)
-* [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)
 
 
 ### 11. Union Find

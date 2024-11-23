@@ -3,7 +3,7 @@
 ## `java.lang.String`
 * https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html
 
-## 常用 methods
+### 常用 methods
 * `char     charAt(int index)                   Returns the char value at the specified index.`
 * `int 	    compareTo(String anotherString) 	Compares two strings lexicographically.`
 * `int 	    compareToIgnoreCase(String str) 	Compares two strings lexicographically, ignoring case differences.`
@@ -19,5 +19,17 @@
 * `int 	lastIndexOf(String str, int fromIndex)  Returns the index within this string of the last occurrence of the specified substring, searching backward starting at the specified index.`
 
 
+## `java.lang.Character`
+* https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html
 
-
+### 常用 methods
+* `static int		compare(char x, char y)     			Compares two char values numerically.`
+* `int				compareTo(Character anotherCharacter)  	Compares two Character objects numerically.`
+* `static boolean	isAlphabetic(int codePoint) 			Determines if the specified character (Unicode code point) is an alphabet.`
+* `static boolean	isDigit(char ch)  						Determines if the specified character is a digit.`
+* `static boolean	isLetter(char ch)  						Determines if the specified character is a letter.`
+* `static boolean	isLetterOrDigit(char ch)  				Determines if the specified character is a letter or digit.`
+* `static boolean	isLowerCase(char ch)  					Determines if the specified character is a lowercase character.`
+* `static boolean	isUpperCase(char ch)  					Determines if the specified character is an uppercase character.`
+* `static char		toLowerCase(char ch)  					Converts the character argument to lowercase using case mapping information from the UnicodeData file.`
+* `static char		toUpperCase(char ch)  					Converts the character argument to uppercase using case mapping information from the UnicodeData file.`
