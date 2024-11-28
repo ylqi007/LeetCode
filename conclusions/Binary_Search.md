@@ -730,3 +730,9 @@ mid = (first + last) / 2
 3. 搜索范围 `[first last)` 右侧，即 `[last, last0)` 内所有元素(若存在)，都大于等于 `value`，其中 `last0` 是 `last` 的初始值。
 
 [example](https://www.zhihu.com/question/36132386/answer/530313852)
+
+
+## 🟩⭐ Reference
+* [二分查找、二分边界查找算法的模板代码总结](https://segmentfault.com/a/1190000016825704)
+* [二分查找算法模板](https://www.acwing.com/blog/content/31/)
+* [📝【LeetCode】一个模板通杀所有「二分查找」问题](https://imageslr.com/2020/03/15/binary-search)
