@@ -1,5 +1,17 @@
 
 
+## Quick Select
+Quick Select 可以选择前 k 个元素，但是并不能保证这前 k 个元素是有序的。
+
+适用情况：对于一个无序数组，
+* 求第 k 大、小的元素
+* 求前 k 大、小的元素集合
+* 求满足某种条件的前 k 或者第 k 个元素
+
+- [ ] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [QuickSelect]
+- [ ] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) [QuickSelect, Bucket Sort]
+- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) [QuickSelect, Bucket Sort]
+
 
 
 

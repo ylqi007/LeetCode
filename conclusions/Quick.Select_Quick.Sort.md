@@ -25,13 +25,13 @@ Quick Select主要用于在未排序的数组中寻找k-th数字的问题。
     * 不稳定排序：相等元素的顺序可能会改变。
 
 ## Quick Select 🆚 Quick Sort
-
+LeetCode 215, 347 and 973，我都用了自己的模板。要记住！！！
 
 ## Quick Sort
 
 
 ## LeetCode Problems
-* ✅⭐ [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)的讲解不错，其中提到的实现简单易理解。
+* ✅⭐ [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) 的讲解不错，其中提到的实现简单易理解。
 * ✅⭐ [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 * ✅⭐ [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
