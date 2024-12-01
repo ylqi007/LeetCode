@@ -18,6 +18,14 @@
 * `int 	lastIndexOf(String str) 	            Returns the index within this string of the last occurrence of the specified substring.`
 * `int 	lastIndexOf(String str, int fromIndex)  Returns the index within this string of the last occurrence of the specified substring, searching backward starting at the specified index.`
 
+### `public String[] split(String regex, int limit)`
+* `split()` 方法根据匹配给定的正则表达式来拆分字符串。
+* 注意： `* ^ .  $ | \` 这六个转义字符，必须得加 `\\`。
+* 注意：多个分隔符，可以用 | 作为连字符。
+
+**Reference:**
+* [Java split() 方法](https://www.runoob.com/java/java-string-split.html)
+
 
 ## `java.lang.Character`
 * https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Character.html

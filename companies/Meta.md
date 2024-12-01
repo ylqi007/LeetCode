@@ -13,8 +13,14 @@ Quick Select 可以选择前 k 个元素，但是并不能保证这前 k 个元�
 - [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) [QuickSelect, Bucket Sort]
 
 
+## Prefix Sum
+* [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+* [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
+* [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 
 
+## Two Pointers
+* [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 
 
