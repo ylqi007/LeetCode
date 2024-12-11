@@ -69,6 +69,7 @@ def f(n):
 ## LeetCode题目
 * [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 * [139. Word Break](https://leetcode.com/problems/word-break/)
+  * [教你一步步思考 DP：从记忆化搜索到递推，附题单！（Python/Java/C++/Go/JS/Rust）](https://leetcode.cn/problems/word-break/solutions/2968135/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-chrs/)
 * [140. Word Break II](https://leetcode.com/problems/word-break-ii/)
 * [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)   
   * **题目**: 给出两个字符串 str1 和 str2, 返回同时以 str1 和 str2 作为子序列的最短的字符串。    
@@ -103,4 +104,5 @@ References:
 6. [代码随想录: 动态规划最强总结篇！](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93%E7%AF%87.md)
 7. [告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我（万字长文）](https://zhuanlan.zhihu.com/p/91582909)
 8. [Leetcode 题解 - 动态规划](https://gitcode.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92.md#0-1-%E8%83%8C%E5%8C%85?utm_source=csdn_github_accelerator)
-9. 
+9. Bilibili: [动态规划入门：从记忆化搜索到递推](https://www.bilibili.com/video/BV1Xj411K7oF/)
+10. [教你一步步思考 DP：从记忆化搜索到递推，附题单！（Python/Java/C++/Go/JS/Rust）](https://leetcode.cn/problems/word-break/solutions/2968135/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-chrs/)

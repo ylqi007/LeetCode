@@ -1,4 +1,35 @@
 
+## Binary Search: K-th problem
+* [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+* [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
+
+
+## Backtracking
+**Subsets:**
+* [78. Subsets](https://leetcode.com/problems/subsets/)
+* [90. Subsets II](https://leetcode.com/problems/subsets-ii/) [Remove duplicates]
+* [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
+
+## Design (设计相关)
+* [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+
+## Dynamic Programming
+* [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) [DP + DFS]
+
+
+
+## String Operation, Digit 处理
+* [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/)
+
+## LinkedList Operation
+* [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+  * [415. Add Strings](https://leetcode.com/problems/add-strings/) [与上题类似]
+* [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+* [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
+* [708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
+
+## Queue, PriorityQueue
+* [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ## Quick Select
 Quick Select 可以选择前 k 个元素，但是并不能保证这前 k 个元素是有序的。
@@ -8,21 +39,45 @@ Quick Select 可以选择前 k 个元素，但是并不能保证这前 k 个元�
 * 求前 k 大、小的元素集合
 * 求满足某种条件的前 k 或者第 k 个元素
 
-- [ ] [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [QuickSelect]
-- [ ] [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) [QuickSelect, Bucket Sort]
-- [ ] [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) [QuickSelect, Bucket Sort]
+* [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [QuickSelect]
+* [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) [QuickSelect, Bucket Sort]
+* [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) [QuickSelect, Bucket Sort]
 
+## Permutation
+* [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
 
 ## Prefix Sum
 * [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 * [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
 * [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 
+## Sliding Window
+* [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+* [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) [Sliding Window + Two Pointers]
 
-## Two Pointers
+## Sorting
+* [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/)
+* [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+
+## String 处理
+* [65. Valid Number](https://leetcode.com/problems/valid-number/description/)
+
+## Tree
+* [987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+* [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+* [426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
+* [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) [DFS, Morris]
+
+## Two Pointers, Intervals
 * [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+* [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 
+## Deep Clone
+* [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
+* [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/)
 
+## Valid Palindrome
+* [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/) [DP]
 
 
 ## Reference
