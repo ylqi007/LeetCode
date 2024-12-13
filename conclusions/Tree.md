@@ -1,3 +1,7 @@
+## 分析
+✅⭐ 对 Tree 有关类型的题目，考虑访问到每个节点时，应该返回什么值。
+* [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+
 ## Tree 的遍历
 ### 1. **Preorder**: `root -> left -> right`
 * Recursion: Classical + Straightforward
