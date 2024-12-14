@@ -1,3 +1,8 @@
+* [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+  * Binary Tree
+  * 考虑访问每个节点时，应该返回什么。
+  * [112. Path Sum](https://leetcode.com/problems/path-sum/)
+    * 
 * [286. Walls and Gates](https://leetcode.com/problems/walls-and-gates/)
   * BFS: we initiate breadth-first search (BFS) from all gates at the same time. Since BFS guarantees that we search all rooms of distance d before searching rooms of distance d + 1, the distance to an empty room must be the shortest.
   * BFS, `Deque<int[]> queue = new ArrayDeque<>()`
