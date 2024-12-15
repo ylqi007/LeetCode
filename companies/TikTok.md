@@ -4,6 +4,8 @@
   * Backtracking, DFS
 * [139. Word Break](https://leetcode.com/problems/word-break/)
 * [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+  * Doubly Linked List
+  * LinkedHashMap
 * [198. House Robber](https://leetcode.com/problems/house-robber/)
 * [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 * [1802. Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
