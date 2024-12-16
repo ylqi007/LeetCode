@@ -59,7 +59,7 @@
 ## ✅ 4. Company
 * [Google_OA](companies/Google/0_Google_Online_Assessment_Questions.md)
 * [Google_LC](数据结构与算法.md/#Google)
-* [ByteDance, 字节](companies/ByteDance.md)
+* [TikTok, ByteDance, 字节](companies/TikTok)
 * [Meta](companies/Meta.md)
 
 
