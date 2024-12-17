@@ -732,7 +732,17 @@ mid = (first + last) / 2
 [example](https://www.zhihu.com/question/36132386/answer/530313852)
 
 
+## LeetCode 题目
+- [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+
+
 ## 🟩⭐ Reference
 * [二分查找、二分边界查找算法的模板代码总结](https://segmentfault.com/a/1190000016825704)
 * [二分查找算法模板](https://www.acwing.com/blog/content/31/)
 * [📝【LeetCode】一个模板通杀所有「二分查找」问题](https://imageslr.com/2020/03/15/binary-search)
+* 灵茶山艾府: [二分查找 红蓝染色法](https://www.bilibili.com/video/BV1AP41137w7?spm_id_from=333.788.videopod.sections&vd_source=bd5e1cdd20d83feef8e77a781b33f083)
+* 灵茶山艾府: [搜索旋转排序数组【基础算法精讲 05】](https://www.bilibili.com/video/BV1QK411d76w?spm_id_from=333.788.videopod.sections&vd_source=bd5e1cdd20d83feef8e77a781b33f083)
