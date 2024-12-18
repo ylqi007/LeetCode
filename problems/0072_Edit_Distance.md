@@ -14,6 +14,7 @@
 
 
 ## Method 1. Dynamic Programming
+`dp[i][j]` represents the edit distance of `word1[0,...,i-1]` to `word2[0,...,j-1]`
 ```java
 class Solution {
     public int minDistance(String word1, String word2) {
