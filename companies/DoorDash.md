@@ -1,3 +1,7 @@
+## 技术电面 -- 面经
+* [[面试经验] 刀大师 电面过经](https://www.1point3acres.com/bbs/thread-1103788-1-1.html)
+* 
+
 * [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
   * Binary Tree
   * 考虑访问每个节点时，应该返回什么。
@@ -23,3 +27,27 @@
 * [1664. Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array/)
   * DP
   * 删除 nums[i] 之后，index i 之后的 oddSum 就变成 evenSum，evenSum 就变成了 oddSum
+
+
+## Onsite 面经
+* [[面试经验] DD 昂赛 面经](https://www.1point3acres.com/bbs/thread-1099442-1-1.html)
+* [[面试经验] Doordash EM phone screen](https://www.1point3acres.com/bbs/thread-1103790-1-1.html)
+
+
+
+
+## 1. System Design
+* System design： 问了design slack，说两个重要的点要实现，一是很快的可以load history，二是可以看到real time message
+  * 第一个是cache，第二个是long pulling+db/cache store recent history吗？每个message有message ID，ID是用hash来计算
+
+## 2. HM Chat: 问过往经历和一些behavior的问题
+* HM：基础的BQ。具体问题忘了，但是比较standard，像tell me about a time you disagreed。
+* 
+
+## 3. Coding
+* 编程1：基本就是貮毋伞。很快写完了。
+* 编程2：散饵酒。会者不难，难者不会。
+* [Doordash PhoneScreen](https://leetcode.com/discuss/interview-question/1265810/doordash-phonescreen)
+* 
+
+## 4. Incident Study
