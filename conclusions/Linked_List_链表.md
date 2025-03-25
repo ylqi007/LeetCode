@@ -1,3 +1,7 @@
+1. 链表知识：数据结构，复杂度
+2. 链表题目
+3. 总结
+
 # Java List
 
 ## 1. `ArrayList`
@@ -70,6 +74,78 @@ The `LinkedList` stores its items in "containers." The list has a link to the fi
 3. [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 
+# 链表题目
+带着问题去做下面的题目：
+
+    在什么情况下，要用到哨兵节点（dummy node）？
+    在什么情况下，循环条件要写 while (node != null)？什么情况下要写 while (node.next != null)？
+
+
+
+## 1. 遍历链表
+
+
+## 2. 删除节点
+* [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)
+* [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description)
+* [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
+* [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description)
+* [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
+
+
+### 3. 插入节点
+* [2807. Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)
+* [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/)
+* [708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/description/)
+* [2046. Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/description/)
+
+
+### 4. 反转链表
+* ✅[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+  * Iterative(空间上更优)
+  * Recursive
+* ✅[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
+* ✅[25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
+* [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+* [2074. Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/description/)
+
+
+### 5. 前后指针
+* [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+* [61. Rotate List](https://leetcode.com/problems/rotate-list/description/)
+* [1721. Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)
+* [1474. Delete N Nodes After M Nodes of a Linked List](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/description/)
+
+
+### 6. 快慢指针
+* [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+* [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
+* [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+* [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
+* [143. Reorder List](https://leetcode.com/problems/reorder-list/description/)
+* [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+* [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+* ❌✅[457. Circular Array Loop](https://leetcode.com/problems/circular-array-loop/description/)
+* ❌[2674. Split a Circular Linked List](https://leetcode.com/problems/split-a-circular-linked-list/description/)
+
+
+## 7.双指针
+* 328. 奇偶链表
+* [86. Partition List](https://leetcode.com/problems/partition-list/description/)
+* 160. 相交链表
+
+
+## 10. 综合应用
+1019. 链表中的下一个更大节点
+1171. 从链表中删去总和值为零的连续节点
+707. 设计链表
+* [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+460. LFU 缓存
+432. 全 O(1) 的数据结构
+1206. 设计跳表
+
+
 ## Reference
 * [【链表】Leetcode前400链表题目总结](https://blog.nowcoder.net/n/bcabe8d160ee4eefb394f2774de9bcfc)
 * [【算法面试通关40讲】05 - 理论讲解：数组&链表](https://blog.nowcoder.net/n/1011b661e6374557b48f0b0550f51bb9)
+* ✅灵茶山艾府: [分享丨【题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）](https://leetcode.cn/discuss/post/K0n2gO/)
