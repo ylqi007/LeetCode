@@ -129,10 +129,19 @@ The `LinkedList` stores its items in "containers." The list has a link to the fi
 * ❌[2674. Split a Circular Linked List](https://leetcode.com/problems/split-a-circular-linked-list/description/)
 
 
-## 7.双指针
-* 328. 奇偶链表
+### 7.双指针
+* [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
 * [86. Partition List](https://leetcode.com/problems/partition-list/description/)
-* 160. 相交链表
+* [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
+
+
+### 8. 合并链表
+* [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+* [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/description/)
+* [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)
+* [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+* [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/)
+* [1634. Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/description/)
 
 
 ## 10. 综合应用
