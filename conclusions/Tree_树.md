@@ -37,7 +37,27 @@
 - [x] 701.Insert into a Binary Search Tree  : recursion + iteration
 
 
+## ✅二叉树 (from 灵茶山艾府)
+![](images/Tree_DFS_BFS.png)
+✅**学习递归，从二叉树开始。**
+
+带着问题去做下面的题目(Tree 相关的问题)：
+1. 一般来说，DFS 的递归边界是空节点。在什么情况下，要额外把叶子节点作为递归边界？
+2. 在什么情况下，DFS 需要有返回值？什么情况下不需要有返回值？
+3. 在什么情况下，题目更适合用自顶向下的方法解决？什么情况下更适合用自底向上的方法解决？
+
+
 ### 1. 遍历二叉树
+* [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+* [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+* [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+* [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)
+* [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)
+* [671. Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/)
+* [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/description/)
+* [1214. Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)
+
 ### 2. 自顶向下 DFS
 * [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 * 111
@@ -61,5 +81,6 @@
 * 426
 
 ## Reference
+* ✅灵茶山艾府: [分享丨【题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）](https://leetcode.cn/discuss/post/3142882/fen-xiang-gun-ti-dan-lian-biao-er-cha-sh-6srp/)
 * ✅灵茶山艾府: [深入理解递归【基础算法精讲 09】](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/solutions/2647794/tu-jie-cong-on2-dao-onpythonjavacgojsrus-w8ny/)
 * ✅灵茶山艾府: [二叉树 DFS【基础算法精讲 09】](https://www.bilibili.com/video/BV1UD4y1Y769/)
