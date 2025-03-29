@@ -144,6 +144,11 @@ The `LinkedList` stores its items in "containers." The list has a link to the fi
 * [1634. Add Two Polynomials Represented as Linked Lists](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/description/)
 
 
+### 9. 分治
+* [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+* [148. Sort List](https://leetcode.com/problems/sort-list/description/)
+
+
 ## 10. 综合应用
 1019. 链表中的下一个更大节点
 1171. 从链表中删去总和值为零的连续节点

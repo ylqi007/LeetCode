@@ -58,11 +58,14 @@
 * [1469. Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/description/)
 * [1214. Two Sum BSTs](https://leetcode.com/problems/two-sum-bsts/)
 
+
 ### 2. 自顶向下 DFS
+在「递」的过程中维护值。
 * [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-* 111
-* 112
-* ...
+* [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+* [112. Path Sum](https://leetcode.com/problems/path-sum/)
+* [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+* [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 
 ### 10. 创建二叉树
