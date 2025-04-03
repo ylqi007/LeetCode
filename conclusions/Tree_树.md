@@ -66,6 +66,12 @@
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)
 * [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 * [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+* [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)
+* [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/description/)
+* [1315. Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/description/)
+* [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
+* [1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/)
+* [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/description/)
 
 
 ### 10. 创建二叉树
