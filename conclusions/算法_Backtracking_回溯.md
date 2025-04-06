@@ -77,6 +77,13 @@
 
 
 ### 2. 组合型回溯
+可以优化的点
+1. 剪枝, pruning
+
+* [77. Combinations](https://leetcode.com/problems/combinations/)
+* [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+* [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+
 
 ### 3. 排列型回溯
 
@@ -112,3 +119,5 @@
 * [6 Introduction to Backtracking - Brute Force Approach](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63)
 * [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
 * ✅灵茶山艾府: [回溯算法套路①子集型回溯【基础算法精讲 14】](https://www.bilibili.com/video/BV1mG4y1A7Gu)
+* ✅灵茶山艾府: [回溯算法套路②组合型回溯+剪枝【基础算法精讲 15】](https://www.bilibili.com/video/BV1xG4y1F7nC)
+* ✅灵茶山艾府: []()
