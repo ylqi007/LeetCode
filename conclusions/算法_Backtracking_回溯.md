@@ -63,6 +63,9 @@
 
 ## [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
 
+## Permutation (排列) & Combination (组合)
+![](images/Permutations-and-Combinations.webp)
+
 
 ## 回溯分类
 ### 1. 子集型回溯
@@ -86,11 +89,9 @@
 
 
 ### 3. 排列型回溯
-
-
-
-
-
+* [46. Permutations](https://leetcode.com/problems/permutations/)
+* [51. N-Queens](https://leetcode.com/problems/n-queens/)
+* [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
 
 
 ## Top Interview 150
@@ -120,4 +121,4 @@
 * [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
 * ✅灵茶山艾府: [回溯算法套路①子集型回溯【基础算法精讲 14】](https://www.bilibili.com/video/BV1mG4y1A7Gu)
 * ✅灵茶山艾府: [回溯算法套路②组合型回溯+剪枝【基础算法精讲 15】](https://www.bilibili.com/video/BV1xG4y1F7nC)
-* ✅灵茶山艾府: []()
+* ✅灵茶山艾府: [回溯算法套路③排列型回溯+N皇后【基础算法精讲 16】](https://www.bilibili.com/video/BV1mY411D7f6)
