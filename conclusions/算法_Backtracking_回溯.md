@@ -22,6 +22,17 @@
 > * 而回溯法在用来求问题的任一解时，只要搜索到问题的一个解就可以结束。
     > 这种**以深度优先的方式**系统地搜索问题的解的算法称为回溯法，它适用于解一些组合数较大的问题。
 
+
+回溯算法（backtracking algorithm）是一种通过**穷举**来解决问题的方法，它的核心思想是从一个初始状态出发，暴力搜索所有可能的解决方案，当遇到正确的解则将其记录，直到找到解或者尝试了所有可能的选择都无法找到解为止。
+
+回溯算法通常采用“深度优先搜索”来遍历解空间。
+
+✅ **回溯三步曲：**
+1. 明确「路径」和「选择列表」
+2. 递归 + 回退（恢复现场）
+3. 剪枝优化，防止重复 / 超时
+
+
 1. [51. N-Queens](https://leetcode.com/problems/n-queens/)
 2. [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
 3. [78. Subsets](https://leetcode.com/problems/subsets/)
@@ -53,17 +64,32 @@
 ## [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
 
 
-## References:
-* [leetcode解题笔记：backtracking类型解题思路](https://blog.csdn.net/crystal6918/article/details/51924665)
-* [算法漫游指北（第十篇）:泛型递归、递归代码模板、递归思维要点、分治算法、回溯算法](https://www.cnblogs.com/Nicholas0707/p/13138193.html#_label2)
-* [6 Introduction to Backtracking - Brute Force Approach](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63)
-* [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
+## 回溯分类
+### 1. 子集型回溯
+**两种思路:**
+1. 对于当前元素，选 or 不选
+2. 站在答案角度，每次必须选一个。但是为了避免 `[1,2], [2,1]`这种重复，只能增量去选，即，这次选了 `i`，下次只能从 `i+1` 开始选。
+
+**子集型回溯题目:**
+* [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+* [78. Subsets](https://leetcode.com/problems/subsets/)
+* [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+
+
+### 2. 组合型回溯
+
+### 3. 排列型回溯
 
 
 
-## Reference
-* [带你学透回溯算法（理论篇）| 回溯法精讲！](https://www.bilibili.com/video/BV1cy4y167mM/?spm_id_from=333.337.search-card.all.click&vd_source=bd5e1cdd20d83feef8e77a781b33f083)
 
+
+
+
+## Top Interview 150
+* [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+* [77. Combinations](https://leetcode.com/problems/combinations/)
+* 
 
 
 
@@ -78,4 +104,11 @@
 
 
 ## Reference
+* Hello 算法: [13.1   回溯算法](https://www.hello-algo.com/chapter_backtracking/backtracking_algorithm/)
 * ✅ [力扣: 回溯算法（Java）](https://leetcode.cn/problems/word-search/solutions/12096/zai-er-wei-ping-mian-shang-shi-yong-hui-su-fa-pyth/)
+* [带你学透回溯算法（理论篇）| 回溯法精讲！](https://www.bilibili.com/video/BV1cy4y167mM/?spm_id_from=333.337.search-card.all.click&vd_source=bd5e1cdd20d83feef8e77a781b33f083)
+* [leetcode解题笔记：backtracking类型解题思路](https://blog.csdn.net/crystal6918/article/details/51924665)
+* [算法漫游指北（第十篇）:泛型递归、递归代码模板、递归思维要点、分治算法、回溯算法](https://www.cnblogs.com/Nicholas0707/p/13138193.html#_label2)
+* [6 Introduction to Backtracking - Brute Force Approach](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63)
+* [[树/链表/图] 谈一谈backtracking算法](https://www.1point3acres.com/bbs/thread-583166-1-1.html)
+* ✅灵茶山艾府: [回溯算法套路①子集型回溯【基础算法精讲 14】](https://www.bilibili.com/video/BV1mG4y1A7Gu)

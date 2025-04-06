@@ -41,6 +41,7 @@
   * Divide and Conquer
   * 递归中通常都会用到backtracking
 * [Backtracking](数据结构与算法.md/#Backtracking)
+* [Backtracking, 回溯](./conclusions/算法_Backtracking_回溯.md)
 * [Two Pointer](数据结构与算法.md/#Sliding-Window-+-Two Pointers)
 * [**Binary Search**](docs/Binary_Search.md)
 * [Dynamic Programming](数据结构与算法.md/#Dynamic-Programming)
@@ -53,7 +54,7 @@
 * Sliding Window
 * Sampling
 * [Math(数学)](docs/Math.md)
-* [Quick Search & Quick Sort](conclusions/Quick.Select_Quick.Sort.md)
+* [Quick Search & Quick Sort](conclusions/算法_Quick.Select_Quick.Sort_快排_快选)
 
 
 ## ✅ 4. Company
@@ -133,6 +134,8 @@ Moved to 数据结构与算法题目归类.md
 10. 贪心与思维（基本贪心策略/反悔/区间/字典序/数学/思维/脑筋急转弯/构造） 
 11. [分享丨【题单】链表、二叉树与回溯（前后指针/快慢指针/DFS/BFS/直径/LCA/一般树）](https://leetcode.cn/discuss/post/3142882/fen-xiang-gun-ti-dan-lian-biao-er-cha-sh-6srp/)
 12. 字符串（KMP/Z函数/Manacher/字符串哈希/AC自动机/后缀数组/子序列自动机）
+
+* [分享｜从集合论到位运算，常见位运算技巧分类总结！](https://leetcode.cn/discuss/post/3571304/cong-ji-he-lun-dao-wei-yun-suan-chang-ji-enve/)
 
 * 作者：灵茶山艾府, 链接：https://leetcode.cn/discuss/post/3142882/fen-xiang-gun-ti-dan-lian-biao-er-cha-sh-6srp/
 * [灵茶山艾府·高质量题解精选](https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md)
