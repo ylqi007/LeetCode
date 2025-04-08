@@ -1,3 +1,34 @@
+# 回溯算法 (backtracking algorithm)
+解决一个回溯问题，实际上就是一个**决策树的遍历过程**。在此过程中，我们需要考虑3个问题：
+1. 路径：依旧是已经做出的选择。
+2. 选择列表：当前可以做的选择。
+3. 结束条件：到达决策层底层，无法再做选择的条件。
+
+```
+result = []
+def backtrack(路径, 选择列表):
+    if 满足结束条件:
+        result.add(路径)
+        return
+    
+    for 选择 in 选择列表:
+        做选择
+        backtrack(路径, 选择列表)
+        撤销选择
+```
+其核心就是 for 循环里面的递归，在递归调用之前**「做选择」**，在递归调用之后**「撤销选择」**。
+
+
+回溯算法（backtracking algorithm）是一种通过**穷举**来解决问题的方法，它的核心思想是从一个初始状态出发，暴力搜索所有可能的解决方案，当遇到正确的解则将其记录，直到找到解或者尝试了所有可能的选择都无法找到解为止。
+
+回溯算法通常采用“深度优先搜索”来遍历解空间。
+
+✅ **回溯三步曲：**
+1. 明确「路径」和「选择列表」
+2. 递归 + 回退（恢复现场）
+3. 剪枝优化，防止重复 / 超时
+
+
 # [6 Introduction to Backtracking - Brute Force Approach](https://www.youtube.com/watch?v=DKCbsiDBN6c&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&index=63)
 * Backtracking uses brute force strategy.
 * Brute force is the strategy that you try up all possible solutions and pick up desired solutions.
@@ -23,14 +54,7 @@
     > 这种**以深度优先的方式**系统地搜索问题的解的算法称为回溯法，它适用于解一些组合数较大的问题。
 
 
-回溯算法（backtracking algorithm）是一种通过**穷举**来解决问题的方法，它的核心思想是从一个初始状态出发，暴力搜索所有可能的解决方案，当遇到正确的解则将其记录，直到找到解或者尝试了所有可能的选择都无法找到解为止。
 
-回溯算法通常采用“深度优先搜索”来遍历解空间。
-
-✅ **回溯三步曲：**
-1. 明确「路径」和「选择列表」
-2. 递归 + 回退（恢复现场）
-3. 剪枝优化，防止重复 / 超时
 
 
 1. [51. N-Queens](https://leetcode.com/problems/n-queens/)
@@ -122,3 +146,4 @@
 * ✅灵茶山艾府: [回溯算法套路①子集型回溯【基础算法精讲 14】](https://www.bilibili.com/video/BV1mG4y1A7Gu)
 * ✅灵茶山艾府: [回溯算法套路②组合型回溯+剪枝【基础算法精讲 15】](https://www.bilibili.com/video/BV1xG4y1F7nC)
 * ✅灵茶山艾府: [回溯算法套路③排列型回溯+N皇后【基础算法精讲 16】](https://www.bilibili.com/video/BV1mY411D7f6)
+* [回溯算法详解](https://github.com/jiajunhua/labuladong-fucking-algorithm/blob/master/%E7%AE%97%E6%B3%95%E6%80%9D%E7%BB%B4%E7%B3%BB%E5%88%97/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95%E8%AF%A6%E8%A7%A3%E4%BF%AE%E8%AE%A2%E7%89%88.md)
