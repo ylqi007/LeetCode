@@ -27,6 +27,7 @@
   * Monotonic Stack (单调栈)
     * 单调**递增**栈即栈内元素保持单调递增的栈
     * 单调**递减**栈即栈内元素保持单调递减的栈
+* Heap/PriorityQueue (minHeap, maxHeap)
 * [Graph](docs/Graph.md)
 * [Trie](数据结构与算法.md/#Trie)
 * Pair/Tuple
@@ -47,7 +48,7 @@
 * [**Binary Search**](docs/Binary_Search.md)
 * [Dynamic Programming](数据结构与算法.md/#Dynamic-Programming)
 * Greedy
-* Bit Manipulation
+* [Bit Manipulation](./conclusions/算法_Bit_Manipulation_二进制操作.md)
 * [Depth-First Search](数据结构与算法.md/#Depth-First-Search)
 * [Breadth-First Search](数据结构与算法.md/#Breadth-First-Search)
 * [Union Find](数据结构与算法.md/#Union-Find)
