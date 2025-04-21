@@ -55,7 +55,7 @@
 * Topological Sort
 * Sliding Window
 * Sampling
-* [Math(数学)](docs/Math.md)
+* [Math(数学)](conclusions/Math_数学)
 * [Quick Search & Quick Sort](conclusions/算法_Quick.Select_Quick.Sort_快排_快选)
 
 

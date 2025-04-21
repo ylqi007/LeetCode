@@ -25,8 +25,16 @@ private int gcd(int a, int b) {
 
 
 ## Permutations & Combinations
-![](images/Permutations_Combinations_Subsets.png)
+![](../docs/images/Permutations_Combinations_Subsets.png)
 
+
+## Top Interview 150
+* [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+* [66. Plus One](https://leetcode.com/problems/plus-one/)
+* [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
+* [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+* [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+* [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
 
 
 ## Reference
