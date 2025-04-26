@@ -183,8 +183,14 @@ public static int uniquePaths(int[][] arr) {
 ## 5. 总结
 
 
+## Top Interview 150
+* [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+* [198. House Robber](https://leetcode.com/problems/house-robber/)
+* [139. Word Break](https://leetcode.com/problems/word-break/)
+* [322. Coin Change](https://leetcode.com/problems/coin-change/)
+* [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
+
 ## Reference:
-1. [告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我（万字长文）](https://zhuanlan.zhihu.com/p/91582909)
-
-
-
+* [告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我（万字长文）](https://zhuanlan.zhihu.com/p/91582909)
+* 灵茶山艾府: [分享丨【算法题单】动态规划（入门/背包/划分/状态机/区间/状压/数位/树形/优化）](https://leetcode.cn/discuss/post/3581838/fen-xiang-gun-ti-dan-dong-tai-gui-hua-ru-007o/)
