@@ -1,5 +1,6 @@
 ## 1. 动态规划的三大步骤
-动态规划，无非就是**利用历史记录，来避免我们的重复计算**。而这些历史记录，我们得需要一些**变量**来保存，一般是用**一维数组**或者**二维数组**来保存。
+动态规划，无非就是**利用历史记录，来避免我们的重复计算**。
+而这些历史记录，我们得需要一些**变量**来保存，一般是用**一维数组**或者**二维数组**来保存。
 
 ### 1.1 定义数组元素的含义
 比如当我们用一个数组(`int[] dp`)保存历史数据的时候，要规定这个数组元素的含义，比如 `dp[i]` 代表的意义。
@@ -8,8 +9,8 @@
 根据历史数据(`dp[n-1], dp[n-2], ..., dp[1]`)推导 `dp[n]`。
 
 ### 1.3 找出初始值
-就像 Top to Bottom 的 Recursion 一样，Dynamic Programming 也需要终止条件。因为将一个问题不断分解成子问题的时候，直到最基本的子问题的时候，
-就需要直接返回需要的值。
+就像 Top to Bottom 的 Recursion 一样，Dynamic Programming 也需要终止条件。
+因为将一个问题不断分解成子问题的时候，直到最基本的子问题的时候，就需要直接返回需要的值。
 
 
 ## 2. 案例详解
@@ -183,12 +184,21 @@ public static int uniquePaths(int[][] arr) {
 ## 5. 总结
 
 
-## Top Interview 150
+## Top Interview 150 (1D DP)
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [198. House Robber](https://leetcode.com/problems/house-robber/)
 * [139. Word Break](https://leetcode.com/problems/word-break/)
 * [322. Coin Change](https://leetcode.com/problems/coin-change/)
 * [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
+
+## Top Interview 150 (Multidimensional DP)
+* [120. Triangle](https://leetcode.com/problems/triangle/description/)
+* [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+* [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+* [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+* [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+* [97. Interleaving String](https://leetcode.com/problems/interleaving-string/)
 
 
 ## Reference:
