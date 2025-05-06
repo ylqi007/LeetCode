@@ -140,6 +140,10 @@ def backtrack(路径, 选择列表):
 * [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 * [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 * [46. Permutations](https://leetcode.com/problems/permutations/)
+* [51. N-Queens](https://leetcode.com/problems/n-queens/)
+* [78. Subsets](https://leetcode.com/problems/subsets/)
+* [79. Word Search](https://leetcode.com/problems/word-search/)
+* [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 
 ## Reference
