@@ -135,6 +135,13 @@ def backtrack(路径, 选择列表):
 * [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
 
 
+## Top 100 Liked
+* [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+* [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+* [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+* [46. Permutations](https://leetcode.com/problems/permutations/)
+
+
 ## Reference
 * Hello 算法: [13.1   回溯算法](https://www.hello-algo.com/chapter_backtracking/backtracking_algorithm/)
 * ✅ [力扣: 回溯算法（Java）](https://leetcode.cn/problems/word-search/solutions/12096/zai-er-wei-ping-mian-shang-shi-yong-hui-su-fa-pyth/)
