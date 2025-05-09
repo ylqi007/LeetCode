@@ -282,6 +282,14 @@ class Solution {
 * 1011 Capacity To Ship Within D Days 
 * 1292 Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 
+## Top 100
+* [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+* [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+* [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+* [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+* [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+* [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+* [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 
 ## 高频题目(截自2024/03/19)
