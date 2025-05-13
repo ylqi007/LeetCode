@@ -45,7 +45,7 @@
 * [Backtracking, 回溯](./conclusions/算法_Backtracking_回溯.md)
 * [Divide and Conquer, 分治算法](./conclusions/算法_Divide&Conquer_分而治之.md)
 * [Two Pointer](数据结构与算法.md/#Sliding-Window-+-Two Pointers)
-* [**Binary Search**](docs/Binary_Search.md)
+* [**Binary Search**](conclusions/算法_Binary_Search.md)
 * [Dynamic Programming](数据结构与算法.md/#Dynamic-Programming)
 * Greedy
 * [Bit Manipulation](./conclusions/算法_Bit_Manipulation_二进制操作.md)

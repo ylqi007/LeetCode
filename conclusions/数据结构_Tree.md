@@ -1,6 +1,7 @@
 The common strategies to traverse a Tree data structure are Breadth-First Search (a.k.a BFS) and Depth-First Search (a.k.a. DFS). The DFS strategy can be further distinguished as preorder DFS, inorder DFS and postorder DFS, depending on the relative order of visit among the node itself and its child nodes.
 
 ![](../docs/images/Tree_Conclusion.jpg)
+![](images/Binary_Tree_XMind.png)
 
 ✅⭐ 对 Tree 有关类型的题目，考虑访问到每个节点时，应该返回什么值。
 * [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
@@ -99,6 +100,8 @@ Reference: https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/th
 
 ### 4. Morris
 * Inorder: [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* Preorder: [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+* Postorder: [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) Morris 写法并不简单
 
 #### Reference
 * Bilibili: [【Manim】Morris中序遍历可视化](https://www.bilibili.com/video/BV17H4y1p7DD/)
