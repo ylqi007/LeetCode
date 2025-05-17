@@ -1,6 +1,6 @@
 
 ## LeetCode Explore Card提供的三种模板
-### 1. Template 1: The most basic and elementary form of Binary Search
+### 1. Template 1: The most basic and elementary form of Binary Search: Find a target number
 ```java
 class Solution {
    public int binarySearch(int[] nums, int target) {
@@ -33,10 +33,11 @@ class Solution {
 * No post-processing required because at each step, you are checking to see if the element has been found. If you reach the end, then you know the element is not found
 
 **✅ Distinguishing Syntax(区分的语法要点):**
-1. Initial Condition: `left = 0, right = length-1`
+1. Initial Condition: `left = 0, right = length-1`, 即搜索区间为 `[left, right]`，两端都闭合。
 2. Termination: `left > right`
-3. Searching Left: `right = mid-1`
-4. Searching Right: `left = mid+1`
+3. Find the target: `nums[mid] == target`, return directly.
+4. Searching Left: `right = mid-1`, because `nums[mid]` cannot be the answer.
+5. Searching Right: `left = mid+1`, because `nums[mid]` cannot be the answer.
 
 **典型LeetCode题目:**
 * ✅ [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
@@ -332,3 +333,9 @@ class Solution {
 * [二分查找Binary Search套路和解题模板【LeetCode刷题套路教程3】](https://www.youtube.com/watch?v=j2_JW3In9PE&list=PLV5qT67glKSErHD66rKTfqerMYz9OaTOs&index=3)
 * ✅ [力扣: 排除法（双指针）+ 二分法（Java、Python）](https://leetcode.cn/problems/find-k-closest-elements/solutions/12476/pai-chu-fa-shuang-zhi-zhen-er-fen-fa-python-dai-ma/)
 * ✅ [力扣: 通过二分法确定左边界](https://leetcode.cn/problems/find-k-closest-elements/solutions/376097/tong-guo-er-fen-fa-que-ding-zuo-bian-jie-by-hao-ha/)
+* ✅ [二分查找细节详解，顺便赋诗一首](https://leetcode.cn/problems/binary-search/solutions/8337/er-fen-cha-zhao-xiang-jie-by-labuladong/)
+  * 详细讲解了如何更新左右指针的情况。
+
+## 技巧
+* 分析二分查找的一个技巧是：不要出现 else，而是把所有情况用 else if 写清楚，这样可以清楚地展现所有细节。
+* 

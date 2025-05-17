@@ -112,6 +112,9 @@ Moved to 数据结构与算法题目归类.md
 ## Others
 * [Working with Java Empty String: A Detailed Guide](https://ioflood.com/blog/empty-string-java/)
 
+## Grand 75
+* ✅ https://www.techinterviewhandbook.org/grind75/
+
 
 ## 有用信息
 * [Leetcode 总结](http://joshuablog.herokuapp.com/Leetcode-%E6%80%BB%E7%BB%93.html)
