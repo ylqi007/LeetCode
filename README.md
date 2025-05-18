@@ -12,7 +12,7 @@
 [数据结构与算法题目归类](数据结构与算法.md)
 <code style="color : Red">Problems Conclusion</code>
 
-## 2. Data Structure专题
+## 2. Data Structure 专题
 * Array(fixed), Dynamic Array, Matrix -- TODO
 * List, ArrayList, LinkedList
 * Hash Table
@@ -35,7 +35,7 @@
 * String
 
 
-## 3. Algorithm专题
+## 3. Algorithm 专题
 * [排序, Sort](docs/排序.md)
 * [Recursion](docs/Recursion_递归.md)
   * Memorization
@@ -56,7 +56,7 @@
 * Sliding Window
 * Sampling
 * [Math(数学)](conclusions/Math_数学)
-* [Quick Search & Quick Sort](conclusions/算法_Quick.Select_Quick.Sort_快排_快选)
+* [Quick Search & Quick Sort](conclusions/算法_Quick.Select_Quick.Sort_快排_快选.md)
 
 
 ## ✅ 4. Company

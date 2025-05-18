@@ -87,6 +87,68 @@ Let `M` be the length of string `word1` and `N` be the length of string `word2`.
 2. Space Complexity: `O(K)`. The recursion uses an internal call stack equal to the depth of the recursion tree. The recursive process will terminate when either word1 or word2 is empty.
 
 
+## Method 2. Recursion + Memoization
+```java
+class Solution {
+    public int minDistance(String word1, String word2) {
+        int[][] memo = new int[word1.length()][word2.length()];
+        for(int[] row: memo) {
+            Arrays.fill(row, -1);
+        }
+        return dfs(word1.toCharArray(), word2.toCharArray(), memo, word1.length()-1, word2.length()-1);
+    }
+
+    private int dfs(char[] s, char[] t, int[][] memo, int i, int j) {
+        if(i < 0) {
+            return j + 1;   // j is the index, j+1 is the length
+        }
+        if(j < 0) {
+            return i + 1;
+        }
+        if(memo[i][j] != -1) {
+            return memo[i][j];
+        }
+        if(s[i] == t[j]) {
+            memo[i][j] = dfs(s, t, memo, i-1, j-1);
+            return memo[i][j];
+        }
+        memo[i][j] = Math.min(Math.min(dfs(s, t, memo, i-1, j), dfs(s, t, memo, i, j-1)),
+            dfs(s, t, memo, i-1, j-1)) + 1;
+        return memo[i][j];
+    }
+}
+```
+
+
+## Method 3. 递推
+```java
+class Solution {
+    public int minDistance(String word1, String word2) {
+        char[] s = word1.toCharArray();
+        char[] t = word2.toCharArray();
+        int m = s.length;
+        int n = t.length;
+        int[][] dp = new int[m + 1][n + 1];
+        for(int j=0; j<n; j++) {
+            dp[0][j+1] = j + 1;
+        }
+        for(int i=0; i<m; i++) {
+            dp[i+1][0] = i + 1;
+            for(int j=0; j<n; j++) {
+                if(s[i] == t[j]) {
+                    dp[i+1][j+1] = dp[i][j];
+                } else {
+                    dp[i+1][j+1] = Math.min(Math.min(dp[i][j+1], dp[i+1][j]), dp[i][j]) + 1;
+                }
+            }
+        }
+        return dp[m][n];
+    }
+}
+```
+
+
+
 ## Method 3. Memoization: Top-Down Dynamic Programming (3ms, beat 97%) [Recursive]
 ```Java
 class Solution {
@@ -178,3 +240,4 @@ Thus, the time complexity is O(M⋅N)\mathcal{O}(M \cdot N)O(M⋅N).
 * https://leetcode.com/problems/edit-distance/editorial/
 * [花花酱 LeetCode 72. Edit Distance - 刷题找工作 EP87](https://www.youtube.com/watch?v=Q4i_rqON2-E)
 * [贾考博 LeetCode 72. Edit Distance](https://www.youtube.com/watch?v=lCkIPGlP6Mc)
+* 灵茶山艾府: [【视频】教你一步步思考动态规划，从记忆化搜索到递推到空间优化！（Python/Java/C++/Go）](https://leetcode.cn/problems/edit-distance/solutions/2133222/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-uo5q/)
