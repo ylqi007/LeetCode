@@ -6,7 +6,7 @@
 ![](https://img.shields.io/github/stars/ylqi007/LeetCode)	![](https://img.shields.io/github/forks/ylqi007/LeetCode)	![](https://img.shields.io/github/issues/ylqi007/LeetCode)	
 
 
-![](docs/images/LeetCode_Problems_Overview.png)
+![](conclusions/images/LeetCode_Problems_Overview.png)
 
 ## 1. Problems Conclusion
 [数据结构与算法题目归类](数据结构与算法.md)
@@ -20,7 +20,7 @@
   * HashSet/HashMap(unordered)
 * [Tree](数据结构与算法.md/#Tree)
 * [Stack & Queue](conclusions/LeetCode_Queue_&_Stack.md)
-  * [Stack](docs/Stack.md)
+  * [Stack](conclusions/数据结构_Stack.md)
   * [Queue](数据结构与算法.md/#Queue)
   * Heap/PriorityQueue
   * Deque/Queue/Stack
@@ -28,7 +28,7 @@
     * 单调**递增**栈即栈内元素保持单调递增的栈
     * 单调**递减**栈即栈内元素保持单调递减的栈
 * Heap/PriorityQueue (minHeap, maxHeap)
-* [Graph](docs/Graph.md)
+* [Graph](conclusions/数据结构_Graph.md)
 * [Trie](数据结构与算法.md/#Trie)
 * Pair/Tuple
 * Customized data structure
@@ -37,7 +37,7 @@
 
 ## 3. Algorithm 专题
 * [排序, Sort](docs/排序.md)
-* [Recursion](docs/Recursion_递归.md)
+* [Recursion](conclusions/算法_Recursion.md)
   * Memorization
   * Divide and Conquer
   * 递归中通常都会用到backtracking

@@ -25,7 +25,7 @@ private int gcd(int a, int b) {
 
 
 ## Permutations & Combinations
-![](../docs/images/Permutations_Combinations_Subsets.png)
+![](images/Permutations_Combinations_Subsets.png)
 
 
 ## Top Interview 150

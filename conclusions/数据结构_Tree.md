@@ -1,6 +1,6 @@
 The common strategies to traverse a Tree data structure are Breadth-First Search (a.k.a BFS) and Depth-First Search (a.k.a. DFS). The DFS strategy can be further distinguished as preorder DFS, inorder DFS and postorder DFS, depending on the relative order of visit among the node itself and its child nodes.
 
-![](../docs/images/Tree_Conclusion.jpg)
+![](images/Tree_Conclusion.jpg)
 ![](images/Binary_Tree_XMind.png)
 
 ✅⭐ 对 Tree 有关类型的题目，考虑访问到每个节点时，应该返回什么值。
@@ -79,7 +79,7 @@ The DFS strategy can be further distinguished as **preorder DFS**, **inorder DFS
 * Inorder traversal
 * Postorder traversal
 
-![](../docs/images/Tree_Iteration.jpg)
+![](images/Tree_Iteration.jpg)
 * 根节点在中间，因此是中序遍历
 * 根节点先出，因此是前序遍历
 * 根节点后出栈，因此是后序遍历
@@ -259,7 +259,7 @@ private TreeNode LCA(TreeNode node, TreeNode p, TreeNode q) {
 
 
 ## Time and Space Complexity
-![](../docs/images/Tree_Time.Space.Complexity.png)
+![](images/Tree_Time.Space.Complexity.png)
 
 ## Reference
 * [Stack and DFS](https://leetcode.com/explore/learn/card/queue-stack/232/practical-application-stack/)
